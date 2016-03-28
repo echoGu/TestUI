@@ -35,7 +35,14 @@ public class ExampleTest {
 			System.out.println("getLocation: " + e.getLocation()); // (218, 426)
 			System.out.println("getSize: " + e.getSize()); // (180, 50)
 			
-			WebElement el = driver.findElement(By.id("idBtn_pgReportsLanding_r3c3"));
+			/**
+			 * <div class="button_text text_wrap v_align" id="idLbl_pgReportsLanding_r3c3">Log Sheet</div>
+			 * #idLbl_pgReportsLanding_r3c3
+			 * //*[@id='idLbl_pgReportsLanding_r3c3']
+			 */
+            Thread.sleep(3000);
+//			WebElement el = driver.findElement(By.xpath("//*[@id='idLbl_pgReportsLanding_r3c3']"));
+            WebElement el = driver.findElement(By.id("idLbl_pgReportsLanding_r3c3"));
 			el.click();
 
 			driver.close();
