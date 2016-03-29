@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [LogSheet Demo]">
-  <test name="NavToLogSheet">
+  <test name="LogSheetBaseConfigDataLayout">
     <classes>
       <class name="com.trane.display.test.TestLogSheet">
         <methods>
@@ -13,5 +13,5 @@
         </methods>
       </class> <!-- com.trane.display.test.TestLogSheet -->
     </classes>
-  </test> <!-- NavToLogSheet -->
+  </test> <!-- LogSheetBaseConfigDataLayout -->
 </suite> <!-- Failed suite [LogSheet Demo] -->

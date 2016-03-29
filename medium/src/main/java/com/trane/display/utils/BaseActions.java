@@ -2,7 +2,6 @@ package com.trane.display.utils;
 
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +27,10 @@ public class BaseActions {
         this.openHomePage();
     
     }
-	
+	/**
+	 * read xml to inital UI locator map
+	 * @throws Exception
+	 */
 	public void InitLocatorMap() throws Exception {
 		log.debug(this.getClass().getCanonicalName());
 		log.info(System.getProperty("user.dir"));
@@ -42,14 +44,21 @@ public class BaseActions {
 	public WebDriver getDriver() {
 		return driver;
 	}
-    
+    /**
+     * load home page
+     */
     public void openHomePage() {
     	driver.get("http://192.168.1.3/FS/root/UI_Medium/index.html");  
     	WebDriverWait wait = new WebDriverWait(driver,20); 
     	wait.until(ExpectedConditions.textToBePresentInElementLocated(By.id("idLbl_pgHomePage_Title"), "Home"));
         log.info("Home Page is loaded successfully");
     }
-    
+    /**
+     * 
+     * @param locatorName
+     * @return
+     * @throws Exception
+     */
     public boolean isElementPresent(String locatorName) throws Exception {
     	Locator locator = getLocator(locatorName);
     	boolean isPresent = false;
@@ -59,30 +68,46 @@ public class BaseActions {
     	
     }
     
-	
+	/**
+	 * 
+	 * @param locatorName
+	 * @return
+	 * @throws IOException
+	 */
 	public Locator getLocator(String locatorName) throws IOException {
 		Locator locator = locatorMap.get(locatorName);
 		return locator;
 
 	}
-	
+	/**
+	 * 
+	 * @param locatorName
+	 * @return
+	 * @throws Exception
+	 */
 	public WebElement getElement(String locatorName) throws Exception {
 		Locator locator = getLocator(locatorName);
 		By by = getByLocator(locator);
-//		WebDriverWait wait = new WebDriverWait(driver, 10);
-//    	wait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(locator))).isDisplayed();
 		WebElement element = driver.findElement(by);
 		return element;
 	}
-	
+	/**
+	 * click and find a WebElement by locatorName
+	 * @param locatorName
+	 * @throws Exception
+	 */
 	public void click(String locatorName) throws Exception {
 		WebElement e = getElement(locatorName);
 		log.info("click "+locatorName);
 		e.click();
-//		driver.manage().timeouts().setScriptTimeout(5, TimeUnit.SECONDS);
 		Thread.sleep(3000);
 	}
-	
+	/**
+	 * 
+	 * @param locator
+	 * @return By
+	 * @throws IOException
+	 */
 	public By getByLocator(Locator locator) throws IOException {
 		By by = null;
 		String selector = locator.getSelector();
@@ -122,27 +147,46 @@ public class BaseActions {
 		}
 		return by;
 	}
-	
+	/**
+	 * 
+	 * @param locatorName
+	 * @param num
+	 * @throws Exception
+	 */
 	public void verifyText(String locatorName, Integer num) throws Exception {
 		Thread.sleep(3000);
 		Assert.assertEquals(getElement(locatorName).getText(), num+"");
 		
 	}
-	
+	/**
+	 * 
+	 * @param locatorName
+	 * @param text
+	 * @throws Exception
+	 */
 	public void verifyText(String locatorName, String text) throws Exception {
 		Thread.sleep(3000);
 		Assert.assertEquals(getElement(locatorName).getText(), text);
 		
 	}
-	
+	/**
+	 * 
+	 * @param locatorName
+	 * @param attribute
+	 * @param content
+	 * @throws Exception
+	 */
 	public void verifyAttribute(String locatorName, String attribute, String content) throws Exception {
 		Thread.sleep(3000);
 		Assert.assertEquals(getElement(locatorName).getAttribute(attribute), content);
 	}
 	
+	/**
+	 * find and click a WebElemnt by Text 
+	 * @param WebElemnt's Text
+	 */
 	public void clickVisibleDiv(String text) {
 		driver.findElement(By.xpath("//*[text()='"+text+"']")).click();
-//		driver.manage().timeouts().setScriptTimeout(5, TimeUnit.SECONDS);
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {

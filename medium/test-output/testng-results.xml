@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="LogSheet Demo" duration-ms="39703" started-at="2016-03-29T03:10:29Z" finished-at="2016-03-29T03:11:09Z">
+  <suite name="LogSheet Demo" duration-ms="27535" started-at="2016-03-29T08:32:18Z" finished-at="2016-03-29T08:32:46Z">
     <groups>
     </groups>
-    <test name="NavToLogSheet" duration-ms="39703" started-at="2016-03-29T03:10:29Z" finished-at="2016-03-29T03:11:09Z">
+    <test name="LogSheetBaseConfigDataLayout" duration-ms="27535" started-at="2016-03-29T08:32:18Z" finished-at="2016-03-29T08:32:46Z">
       <class name="com.trane.display.test.TestLogSheet">
-        <test-method status="PASS" signature="clickReports()[pri:0, instance:com.trane.display.test.TestLogSheet@160afa0d]" name="clickReports" duration-ms="6160" started-at="2016-03-29T11:10:29Z" finished-at="2016-03-29T11:10:35Z">
+        <test-method status="PASS" signature="clickReports()[pri:0, instance:com.trane.display.test.TestLogSheet@64a63b21]" name="clickReports" duration-ms="6149" started-at="2016-03-29T16:32:18Z" finished-at="2016-03-29T16:32:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickReports -->
-        <test-method status="PASS" signature="verifyBtnReportsClicked()[pri:0, instance:com.trane.display.test.TestLogSheet@160afa0d]" name="verifyBtnReportsClicked" duration-ms="6086" started-at="2016-03-29T11:10:35Z" finished-at="2016-03-29T11:10:41Z">
+        <test-method status="PASS" signature="verifyBtnReportsClicked()[pri:0, instance:com.trane.display.test.TestLogSheet@64a63b21]" name="verifyBtnReportsClicked" duration-ms="6087" started-at="2016-03-29T16:32:24Z" finished-at="2016-03-29T16:32:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBtnReportsClicked -->
-        <test-method status="PASS" signature="clickLogSheet()[pri:0, instance:com.trane.display.test.TestLogSheet@160afa0d]" name="clickLogSheet" duration-ms="15245" started-at="2016-03-29T11:10:41Z" finished-at="2016-03-29T11:10:57Z">
+        <test-method status="PASS" signature="clickLogSheet()[pri:0, instance:com.trane.display.test.TestLogSheet@64a63b21]" name="clickLogSheet" duration-ms="3092" started-at="2016-03-29T16:32:30Z" finished-at="2016-03-29T16:32:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickLogSheet -->
-        <test-method status="PASS" signature="verifyBtnLogSheetClicked()[pri:0, instance:com.trane.display.test.TestLogSheet@160afa0d]" name="verifyBtnLogSheetClicked" duration-ms="12164" started-at="2016-03-29T11:10:57Z" finished-at="2016-03-29T11:11:09Z">
+        <test-method status="PASS" signature="verifyBtnLogSheetClicked()[pri:0, instance:com.trane.display.test.TestLogSheet@64a63b21]" name="verifyBtnLogSheetClicked" duration-ms="12166" started-at="2016-03-29T16:32:33Z" finished-at="2016-03-29T16:32:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBtnLogSheetClicked -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.trane.display.test.TestLogSheet@160afa0d]" name="tearDown" duration-ms="17" started-at="2016-03-29T11:11:09Z" finished-at="2016-03-29T11:11:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.trane.display.test.TestLogSheet@64a63b21]" name="tearDown" duration-ms="12" started-at="2016-03-29T16:32:46Z" finished-at="2016-03-29T16:32:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.trane.display.test.TestLogSheet -->
-    </test> <!-- NavToLogSheet -->
+    </test> <!-- LogSheetBaseConfigDataLayout -->
   </suite> <!-- LogSheet Demo -->
 </testng-results>

@@ -18,7 +18,13 @@ import com.trane.display.utils.Locator.ByType;
 
 
 public class xmlUtils {
-
+    /**
+     * read xml to initialize locatorMap
+     * @param path
+     * @param pageName
+     * @return HashMap<String, Locator>
+     * @throws Exception
+     */
 	public static HashMap<String, Locator> readXMLDocument(String path, String pageName) throws Exception {
 
 		Log log = new Log(xmlUtils.class);
@@ -104,10 +110,8 @@ public class xmlUtils {
 		root.addComment("locator of page map info");
 		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.pageActions");
 		page.addComment("Locator lists");
-		page.addElement("locator").addAttribute("type", "ById")
-				.addAttribute("value", "id").addText("loginButton");
-		page.addElement("locator").addAttribute("type", "ById")
-				.addAttribute("value", "id").addText("InputButton");
+		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("loginButton");
+		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("InputButton");
 		writer.write(document);
 		writer.close();
 	}

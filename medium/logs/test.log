@@ -1,38 +1,40 @@
-"2016-03-29 11:10:16.966 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: com.trane.display.pageActions.ReportsPage
-"2016-03-29 11:10:16.967 INFO  com.trane.display.utils.Log 18 info - com.trane.display.pageActions.ReportsPage: D:\Git\medium
-"2016-03-29 11:10:16.967 INFO  com.trane.display.utils.Log 18 info - com.trane.display.pageActions.ReportsPage: D:\Git\medium\src\main\java\com\trane\display\pageActions\ReportsPage.xml
-"2016-03-29 11:10:16.968 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: com.trane.display.pageActions.ReportsPage
-"2016-03-29 11:10:16.996 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: page Info is:com.trane.display.pageActions.ReportsPage
-"2016-03-29 11:10:16.996 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.996 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgMain_navfooterBtnReports
-"2016-03-29 11:10:16.997 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Reports
-"2016-03-29 11:10:16.997 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.997 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgReportsLanding_PageTitle
-"2016-03-29 11:10:16.997 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is title_Reports
-"2016-03-29 11:10:16.997 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.997 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_Title
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_Title
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_SubTitle
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_SubTitle
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgReportsLanding_r3c3
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_LogSheet
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_PageNum
-"2016-03-29 11:10:16.998 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is page_num
-"2016-03-29 11:10:16.999 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-29 11:10:16.999 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_TotalPageNum
-"2016-03-29 11:10:16.999 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is total_page_num
-"2016-03-29 11:10:29.507 INFO  com.trane.display.utils.Log 18 info - com.trane.display.pageActions.ReportsPage: Home Page is loaded successfully
-"2016-03-29 11:10:32.584 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idBtn_pgMain_navfooterBtnReports
-"2016-03-29 11:10:38.740 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idBtn_pgMain_navfooterBtnReports
-"2016-03-29 11:10:41.782 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgReportsLanding_PageTitle
-"2016-03-29 11:10:47.917 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgStandardReport_Title
-"2016-03-29 11:10:50.952 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgStandardReport_SubTitle
-"2016-03-29 11:10:53.988 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idVal_pgStandardReport_PageNum
-"2016-03-29 11:10:57.033 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idVal_pgStandardReport_TotalPageNum
-"2016-03-29 11:11:00.077 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgStandardReport_Title
-"2016-03-29 11:11:03.119 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgStandardReport_SubTitle
-"2016-03-29 11:11:06.162 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idVal_pgStandardReport_PageNum
-"2016-03-29 11:11:09.201 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idVal_pgStandardReport_TotalPageNum
+"2016-03-29 16:32:05.646 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: com.trane.display.pageActions.ReportsPage
+"2016-03-29 16:32:05.647 INFO  com.trane.display.utils.Log 18 info - com.trane.display.pageActions.ReportsPage: D:\Git\medium
+"2016-03-29 16:32:05.648 INFO  com.trane.display.utils.Log 18 info - com.trane.display.pageActions.ReportsPage: D:\Git\medium\src\main\java\com\trane\display\pageActions\ReportsPage.xml
+"2016-03-29 16:32:05.649 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: com.trane.display.pageActions.ReportsPage
+"2016-03-29 16:32:05.682 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: page Info is:com.trane.display.pageActions.ReportsPage
+"2016-03-29 16:32:05.682 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.682 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgMain_navfooterBtnReports
+"2016-03-29 16:32:05.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Reports
+"2016-03-29 16:32:05.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgReportsLanding_PageTitle
+"2016-03-29 16:32:05.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is title_Reports
+"2016-03-29 16:32:05.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_Title
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_Title
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_SubTitle
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_SubTitle
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgReportsLanding_r3c3
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_LogSheet
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_PageNum
+"2016-03-29 16:32:05.684 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is page_num
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_TotalPageNum
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is total_page_num
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value moveDown
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Down
+"2016-03-29 16:32:05.685 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+"2016-03-29 16:32:05.686 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value moveUp
+"2016-03-29 16:32:05.686 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Up
+"2016-03-29 16:32:18.440 INFO  com.trane.display.utils.Log 18 info - com.trane.display.pageActions.ReportsPage: Home Page is loaded successfully
+"2016-03-29 16:32:21.509 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idBtn_pgMain_navfooterBtnReports
+"2016-03-29 16:32:27.654 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idBtn_pgMain_navfooterBtnReports
+"2016-03-29 16:32:30.694 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgReportsLanding_PageTitle
+"2016-03-29 16:32:36.837 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgStandardReport_Title
+"2016-03-29 16:32:39.881 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idLbl_pgStandardReport_SubTitle
+"2016-03-29 16:32:42.924 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idVal_pgStandardReport_PageNum
+"2016-03-29 16:32:45.970 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.pageActions.ReportsPage: find element By id:idVal_pgStandardReport_TotalPageNum

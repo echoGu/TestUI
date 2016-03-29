@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.trane.display.utils;
 
 import java.io.File;
@@ -51,14 +48,12 @@ public class UITest {
 
 
 	public void takeScreenShot(TakesScreenshot drivername, String path) {
-		// this method will take screen shot ,require two parameters ,one is
-		// driver name, another is file name
 		String currentPath = System.getProperty("user.dir"); // get current work
 		log.info(currentPath);
 		File scrFile = drivername.getScreenshotAs(OutputType.FILE);
-		// Now you can do whatever you need to do with it, for example copy
+		
 		try {
-			log.info("save snapshot path is:" + currentPath + path);
+			log.info("saved screenshot path is:" + currentPath + path);
 			FileUtils.copyFile(scrFile, new File(currentPath + "\\" + path));
 		} catch (Exception e) {
 			log.error("Can't save screenshot");

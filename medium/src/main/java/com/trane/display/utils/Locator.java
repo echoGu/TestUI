@@ -2,8 +2,6 @@ package com.trane.display.utils;
 
 public class Locator {
 	private String selector;
-
-
 	/**
 	 * create a enum variable for By
 	 */
@@ -18,7 +16,7 @@ public class Locator {
 	}
 
 	/**
-	 * default Locator ,use id
+	 * default Locator - id
 	 */
 	public Locator(String selector) {
 		this.selector = selector;

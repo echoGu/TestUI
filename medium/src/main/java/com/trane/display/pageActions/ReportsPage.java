@@ -1,8 +1,6 @@
 package com.trane.display.pageActions;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import com.trane.display.utils.BaseActions;
 import com.trane.display.utils.Log;
@@ -30,46 +28,74 @@ public class ReportsPage extends BaseActions {
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
 	}
-		
+	/**
+	 * Click "Reports"	
+	 * @throws Exception
+	 */
 	public void clickBtnReports() throws Exception {
 //		click(btn_Reports);
 		clickVisibleDiv("Reports");
 
 	}
-	
+	/**
+	 * Click "Log Sheet"
+	 * @throws Exception
+	 */
 	public void clickBtnLogSheet() throws Exception {
 //		click(btn_LogSheet);
-//		Thread.sleep(3000);
 		clickVisibleDiv("Log Sheet");
-//		driver.findElement(By.xpath("//*[text()='Log Sheet']")).click();
-//        driver.findElement(By.id("idLbl_pgReportsLanding_r3c3")).click();;
 	}
-
+	/**
+	 * FooterBtn is pressed in
+	 * @throws Exception
+	 */
 	public void verifyFooterBtnOn() throws Exception {
 		verifyAttribute(btn_Reports, "class", "navfooter_btn_on");
 	}
-	
+	/**
+	 * FooterBtn is Not pressed in
+	 * @throws Exception
+	 */
 	public void verifyFooterBtnOff() throws Exception {
 		verifyAttribute(btn_Reports, "class", "navfooter_btn_off");
 	}
-
+    /**
+     * verify ReportsTitle is Reports
+     * @throws Exception
+     */
 	public void verifyReportsTitle() throws Exception {
 		verifyText(title_Reports, "Reports");
 	}
-	
+	/**
+	 * 
+	 * @param Title
+	 * @throws Exception
+	 */
 	public void verifyStandardReportTitle(String Title) throws Exception {
 		verifyText(StandardReport_Title, Title);
 	}
-	
+	/**
+	 * 
+	 * @param subTitle
+	 * @throws Exception
+	 */
 	public void verifyStandardReportSubTitle(String subTitle) throws Exception {
 		verifyText(StandardReport_SubTitle, subTitle);
 	}
-	
+	/**
+	 * 
+	 * @param num
+	 * @throws Exception
+	 */
 	public void verifyPageNum(Integer num) throws Exception {
 		verifyText(page_num, num);
 		
 	}
-	
+	/**
+	 * 
+	 * @param num
+	 * @throws Exception
+	 */
 	public void verifyTotalPageNum(Integer num) throws Exception {
 		verifyText(total_page_num, num);
 		
