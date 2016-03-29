@@ -19,12 +19,12 @@ public class TestLogSheet {
 	
 	@Test
 	public void verifyBtnReportsClicked() throws Exception {
-//		repo.verifyFooterBtnOn();
+		repo.verifyFooterBtnOn();
 		repo.verifyReportsTitle();
 	}
 
 	@Test
-	public void clickBLogSheet() throws Exception {
+	public void clickLogSheet() throws Exception {
 		repo.clickBtnLogSheet();
 		repo.verifyStandardReportTitle("Log Sheet");
 		repo.verifyStandardReportSubTitle("Evaporator");
@@ -41,10 +41,10 @@ public class TestLogSheet {
 		repo.verifyTotalPageNum(10);
 	}
 	
-//	@Test
-//	public void tearDown() {
-//		driver.close();
-//	}
+	@Test
+	public void tearDown() {
+		driver.close();
+	}
 	
 
 }

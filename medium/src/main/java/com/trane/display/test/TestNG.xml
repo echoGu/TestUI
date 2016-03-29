@@ -4,11 +4,12 @@
 		<classes>
 			<class name="com.trane.display.test.TestLogSheet">
 				<methods>
-					<include name="loadHomePage" />
-					<include name="clickBtnReports" />
+					<include name="clickReports" />
 					<include name="verifyBtnReportsClicked" />
-					<include name="clickBtnLogSheet" />
+					<include name="clickLogSheet" />
 					<include name="verifyBtnLogSheetClicked" />
+					<include name="tearDown" />
+					
 				</methods>
 			</class>
 		</classes>

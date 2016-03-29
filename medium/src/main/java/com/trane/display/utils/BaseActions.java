@@ -2,6 +2,7 @@ package com.trane.display.utils;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -60,8 +61,7 @@ public class BaseActions {
     
 	
 	public Locator getLocator(String locatorName) throws IOException {
-		Locator locator = null;
-		locator = locatorMap.get(locatorName);
+		Locator locator = locatorMap.get(locatorName);
 		return locator;
 
 	}
@@ -69,8 +69,8 @@ public class BaseActions {
 	public WebElement getElement(String locatorName) throws Exception {
 		Locator locator = getLocator(locatorName);
 		By by = getByLocator(locator);
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-    	wait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(locator))).isDisplayed();
+//		WebDriverWait wait = new WebDriverWait(driver, 10);
+//    	wait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(locator))).isDisplayed();
 		WebElement element = driver.findElement(by);
 		return element;
 	}
@@ -79,6 +79,8 @@ public class BaseActions {
 		WebElement e = getElement(locatorName);
 		log.info("click "+locatorName);
 		e.click();
+//		driver.manage().timeouts().setScriptTimeout(5, TimeUnit.SECONDS);
+		Thread.sleep(3000);
 	}
 	
 	public By getByLocator(Locator locator) throws IOException {
@@ -122,18 +124,32 @@ public class BaseActions {
 	}
 	
 	public void verifyText(String locatorName, Integer num) throws Exception {
-		Assert.assertEquals(getElement(locatorName).getText(), num);
+		Thread.sleep(3000);
+		Assert.assertEquals(getElement(locatorName).getText(), num+"");
 		
 	}
 	
 	public void verifyText(String locatorName, String text) throws Exception {
+		Thread.sleep(3000);
 		Assert.assertEquals(getElement(locatorName).getText(), text);
 		
 	}
 	
 	public void verifyAttribute(String locatorName, String attribute, String content) throws Exception {
+		Thread.sleep(3000);
 		Assert.assertEquals(getElement(locatorName).getAttribute(attribute), content);
 	}
+	
+	public void clickVisibleDiv(String text) {
+		driver.findElement(By.xpath("//*[text()='"+text+"']")).click();
+//		driver.manage().timeouts().setScriptTimeout(5, TimeUnit.SECONDS);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
 
 
 }

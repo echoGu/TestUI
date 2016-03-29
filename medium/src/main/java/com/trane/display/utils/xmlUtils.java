@@ -73,28 +73,6 @@ public class xmlUtils {
 		return locatorMap;
 
 	}
-
-//	public static ByType getByType(String type) {
-//		ByType byType = ByType.xpath;
-//		if (type == null || type.equalsIgnoreCase("xpath")) {
-//			byType = ByType.xpath;
-//		} else if (type.equalsIgnoreCase("id")) {
-//			byType = ByType.id;
-//		} else if (type.equalsIgnoreCase("linkText")) {
-//			byType = ByType.linkText;
-//		} else if (type.equalsIgnoreCase("name")) {
-//			byType = ByType.name;
-//		} else if (type.equalsIgnoreCase("className")) {
-//			byType = ByType.className;
-//		} else if (type.equalsIgnoreCase("cssSelector")) {
-//			byType = ByType.cssSelector;
-//		} else if (type.equalsIgnoreCase("partialLinkText")) {
-//			byType = ByType.partialLinkText;
-//		} else if (type.equalsIgnoreCase("tagName")) {
-//			byType = ByType.tagName;
-//		}
-//		return byType;
-//	}
 	
 	public static ByType getByType(String type) {
 		ByType byType = ByType.id;
@@ -127,10 +105,8 @@ public class xmlUtils {
 		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.pageActions");
 		page.addComment("Locator lists");
 		page.addElement("locator").addAttribute("type", "ById")
-				.addAttribute("timeOut", "3")
 				.addAttribute("value", "id").addText("loginButton");
 		page.addElement("locator").addAttribute("type", "ById")
-				.addAttribute("timeOut", "3")
 				.addAttribute("value", "id").addText("InputButton");
 		writer.write(document);
 		writer.close();
