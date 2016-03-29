@@ -2,11 +2,13 @@ package com.trane.display.test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.trane.display.pageActions.ReportsPage;
+import com.trane.display.utils.TestNGListener;
 
-
+@Listeners({TestNGListener.class })
 public class TestLogSheet {
 	WebDriver driver = new FirefoxDriver();
 	ReportsPage repo = new ReportsPage(driver);
