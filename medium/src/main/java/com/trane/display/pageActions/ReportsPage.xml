@@ -11,5 +11,7 @@
 		<locator type="ById" value="idBtn_pgReportsLanding_r3c3">btn_LogSheet</locator>
 		<locator type="ById" value="idVal_pgStandardReport_PageNum">page_num</locator>
 		<locator type="ById" value="idVal_pgStandardReport_TotalPageNum">total_page_num</locator>
+		<locator type="ById" value="moveDown">btn_Down</locator>
+		<locator type="ById" value="moveUp">btn_Up</locator>
 	</page>
 </map>

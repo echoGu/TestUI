@@ -26,11 +26,6 @@ public class TestLogSheet {
 	@Test
 	public void clickLogSheet() throws Exception {
 		repo.clickBtnLogSheet();
-		repo.verifyStandardReportTitle("Log Sheet");
-		repo.verifyStandardReportSubTitle("Evaporator");
-		repo.verifyPageNum(1);
-		repo.verifyTotalPageNum(10);
-
 	}
 	
 	@Test

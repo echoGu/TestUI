@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="LogSheet Demo" verbose="10">
-	<test name = "NavToLogSheet" preserve-order = "true">
+	<test name = "LogSheetBaseConfigDataLayout" preserve-order = "true">
 		<classes>
 			<class name="com.trane.display.test.TestLogSheet">
 				<methods>
