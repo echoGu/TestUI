@@ -21,24 +21,24 @@ public class TestLogSheet {
 	private String page_num = "page_num";
 	private String total_page_num = "total_page_num";
 	
-	@Test
+	@Test(description = "Click Reports button on the navigate footer")
 	public void clickReports() throws Exception {
 		instance.verifyAttribute(btn_Reports, "class", "navfooter_btn_off");
 		instance.clickVisibleDiv("Reports");
 	}
 	
-	@Test
+	@Test(description = "Verify Reports button pressed in and navigated to Reports page")
 	public void verifyBtnReportsClicked() throws Exception {
 		instance.verifyAttribute(btn_Reports, "class", "navfooter_btn_on");
 		instance.verifyText(title_Reports, "Reports");
 	}
 
-	@Test
+	@Test(description = "Click Log Sheet button on the Reports page")
 	public void clickLogSheet() throws Exception {
 		instance.clickVisibleDiv("Log Sheet");
 	}
 	
-	@Test
+	@Test(description = "Verify on Log Sheet page 1")
 	public void verifyBtnLogSheetClicked() throws Exception {
 		instance.verifyText(StandardReport_Title, "Log Sheet");
 		instance.verifyText(StandardReport_SubTitle, "Evaporator");
@@ -46,10 +46,11 @@ public class TestLogSheet {
 		instance.verifyText(total_page_num, 10);
 	}
 	
-	@Test
+	@Test(description = "Close FireFox")
 	public void tearDown() {
 		driver.close();
 	}
+	
 	
 
 }

@@ -1,55 +1,55 @@
-"2016-03-30 10:19:22.037 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: com.trane.display.utils.BaseActions
-"2016-03-30 10:19:22.039 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.BaseActions: D:\Git\medium
-"2016-03-30 10:19:22.039 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.BaseActions: D:\Git\medium\src\main\java\com\trane\display\UIMaps\UIMap.xml
-"2016-03-30 10:19:22.106 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.107 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgMain_navfooterBtnReports
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Reports
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgReportsLanding_PageTitle
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is title_Reports
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_Title
-"2016-03-30 10:19:22.108 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_Title
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_SubTitle
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_SubTitle
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgReportsLanding_r3c3
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_LogSheet
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.109 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_PageNum
-"2016-03-30 10:19:22.110 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is page_num
-"2016-03-30 10:19:22.110 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.110 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_TotalPageNum
-"2016-03-30 10:19:22.111 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is total_page_num
-"2016-03-30 10:19:22.111 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.111 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value moveDown
-"2016-03-30 10:19:22.111 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Down
-"2016-03-30 10:19:22.111 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
-"2016-03-30 10:19:22.111 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value moveUp
-"2016-03-30 10:19:22.112 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Up
-"2016-03-30 10:19:34.580 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.BaseActions: Home Page is loaded successfully
-"2016-03-30 10:19:34.613 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Start
-"2016-03-30 10:19:34.622 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
-"2016-03-30 10:19:37.629 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-"2016-03-30 10:19:40.756 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
-"2016-03-30 10:19:40.760 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
-"2016-03-30 10:19:43.762 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-"2016-03-30 10:19:46.796 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
-"2016-03-30 10:19:46.843 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
-"2016-03-30 10:19:46.845 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
-"2016-03-30 10:19:49.931 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
-"2016-03-30 10:19:49.935 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
-"2016-03-30 10:19:52.936 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
-"2016-03-30 10:19:55.976 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_SubTitle
-"2016-03-30 10:19:59.017 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-"2016-03-30 10:20:02.058 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-"2016-03-30 10:20:02.084 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
-"2016-03-30 10:20:02.085 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
-"2016-03-30 10:20:02.093 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
-"2016-03-30 10:20:02.095 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
-"2016-03-30 10:20:02.095 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnLogSheetClicked
-"2016-03-30 10:20:02.095 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
-"2016-03-30 10:20:02.095 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
-"2016-03-30 10:20:02.096 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = clickLogSheet
-"2016-03-30 10:20:02.096 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown
+2016-03-30 15:55:58.181 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: com.trane.display.utils.BaseActions
+2016-03-30 15:55:58.182 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.BaseActions: D:\Git\medium
+2016-03-30 15:55:58.182 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.BaseActions: D:\Git\medium\src\main\java\com\trane\display\UIMaps\UIMap.xml
+2016-03-30 15:55:58.208 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.209 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgMain_navfooterBtnReports
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Reports
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgReportsLanding_PageTitle
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is title_Reports
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_Title
+2016-03-30 15:55:58.210 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_Title
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idLbl_pgStandardReport_SubTitle
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is StandardReport_SubTitle
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idBtn_pgReportsLanding_r3c3
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_LogSheet
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_PageNum
+2016-03-30 15:55:58.211 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is page_num
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value idVal_pgStandardReport_TotalPageNum
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is total_page_num
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value moveDown
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Down
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator type ById
+2016-03-30 15:55:58.212 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: get locator value moveUp
+2016-03-30 15:55:58.213 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.xmlUtils: locator Name is btn_Up
+2016-03-30 15:56:11.125 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-03-30 15:56:11.151 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Start
+2016-03-30 15:56:11.163 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-03-30 15:56:14.167 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-03-30 15:56:17.305 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
+2016-03-30 15:56:17.308 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-03-30 15:56:20.309 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-03-30 15:56:23.353 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-03-30 15:56:23.401 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
+2016-03-30 15:56:23.403 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-03-30 15:56:26.501 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
+2016-03-30 15:56:26.503 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-03-30 15:56:29.504 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
+2016-03-30 15:56:32.549 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_SubTitle
+2016-03-30 15:56:35.584 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-03-30 15:56:38.632 DEBUG com.trane.display.utils.Log 22 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-03-30 15:56:38.669 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
+2016-03-30 15:56:38.671 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-03-30 15:56:38.683 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Success
+2016-03-30 15:56:38.686 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-03-30 15:56:38.687 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnLogSheetClicked
+2016-03-30 15:56:38.687 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = clickLogSheet
+2016-03-30 15:56:38.688 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown
+2016-03-30 15:56:38.688 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
+2016-03-30 15:56:38.688 INFO  com.trane.display.utils.Log 18 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
