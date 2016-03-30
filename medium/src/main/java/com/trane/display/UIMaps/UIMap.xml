@@ -2,7 +2,7 @@
 
 <map>
 	<!--locator of page map info -->
-	<page pageName="com.trane.display.pageActions.ReportsPage">
+	<page pageName="com.trane.display.UIMaps.UIMap">
 		<!--Locator lists -->
 		<locator type="ById" value="idBtn_pgMain_navfooterBtnReports">btn_Reports</locator>
 		<locator type="ById" value="idLbl_pgReportsLanding_PageTitle">title_Reports</locator>

@@ -25,10 +25,9 @@ public class xmlUtils {
      * @return HashMap<String, Locator>
      * @throws Exception
      */
-	public static HashMap<String, Locator> readXMLDocument(String path, String pageName) throws Exception {
+	public static HashMap<String, Locator> readXMLDocument(String path) throws Exception {
 
 		Log log = new Log(xmlUtils.class);
-		log.info(pageName);
 		
 		HashMap<String, Locator> locatorMap = new HashMap<String, Locator>();
 		locatorMap.clear();
@@ -44,9 +43,6 @@ public class xmlUtils {
 		
 		for (Iterator<?> it = root.elementIterator(); it.hasNext();) {
 			Element page = (Element) it.next();
-			
-			if (page.attribute(0).getValue().equalsIgnoreCase(pageName)) {
-				log.info("page Info is:" + pageName);
 				
 				for (Iterator<?> l = page.elementIterator(); l.hasNext();) {
 					String type = null;
@@ -73,7 +69,6 @@ public class xmlUtils {
 					locatorMap.put(locatorName, temp);
 				}
 				continue;
-			}
 
 		}
 		return locatorMap;
@@ -102,18 +97,18 @@ public class xmlUtils {
 		return byType;
 	}
 
-	public static void writeXMLDocument() throws IOException {
-		OutputFormat format = OutputFormat.createPrettyPrint();
-		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
-		Document document = DocumentHelper.createDocument();
-		Element root = document.addElement("map");
-		root.addComment("locator of page map info");
-		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.pageActions");
-		page.addComment("Locator lists");
-		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("loginButton");
-		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("InputButton");
-		writer.write(document);
-		writer.close();
-	}
+//	public static void writeXMLDocument() throws IOException {
+//		OutputFormat format = OutputFormat.createPrettyPrint();
+//		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
+//		Document document = DocumentHelper.createDocument();
+//		Element root = document.addElement("map");
+//		root.addComment("locator of page map info");
+//		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.UIMaps");
+//		page.addComment("Locator lists");
+//		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("loginButton");
+//		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("InputButton");
+//		writer.write(document);
+//		writer.close();
+//	}
 
 }

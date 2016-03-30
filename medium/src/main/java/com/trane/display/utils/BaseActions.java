@@ -17,7 +17,7 @@ public class BaseActions {
 	protected Log log = new Log(this.getClass());
 	protected String path;
 	
-	protected BaseActions(WebDriver driver) {
+	public BaseActions(WebDriver driver) {
         this.driver = driver;
         try {
 			this.InitLocatorMap();
@@ -34,11 +34,9 @@ public class BaseActions {
 	public void InitLocatorMap() throws Exception {
 		log.debug(this.getClass().getCanonicalName());
 		log.info(System.getProperty("user.dir"));
-		path = System.getProperty("user.dir")
-				+ "\\src\\main\\java\\com\\trane\\display\\pageActions\\"
-				+ this.getClass().getSimpleName() + ".xml";
+		path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\trane\\display\\UIMaps\\" + "UIMap.xml";
 		log.info(path);
-		locatorMap = xmlUtils.readXMLDocument(path, this.getClass().getCanonicalName());    
+		locatorMap = xmlUtils.readXMLDocument(path);
 	}
 	
 	public WebDriver getDriver() {
