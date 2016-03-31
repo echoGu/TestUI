@@ -2,7 +2,7 @@
 <suite name="LogSheet Demo" verbose="10">
 	<test name = "LogSheetBaseConfigDataLayout" preserve-order = "true">
 		<classes>
-			<class name="com.trane.display.test.TestLogSheet">
+			<class name="com.trane.display.cases.TestLogSheet">
 				<methods>
 					<include name="clickReports" />
 					<include name="verifyBtnReportsClicked" />

@@ -1,4 +1,4 @@
-package com.trane.display.test;
+package com.trane.display.cases;
 
 
 import org.openqa.selenium.By;
