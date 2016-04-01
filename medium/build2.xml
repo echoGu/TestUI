@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <project name="medium" default="compile" basedir=".">
+	<property name="bin" value="bin"/>
 	<property name="src.dir" value="src/main/java" />
 	<property name="build.dir" value="build"/>
 	<property name="classes.dir" value="${build.dir}/classes" />
@@ -37,5 +38,10 @@
 		 <pathelement location="${classes.dir}"/> 
 	</path> 
 	
+	<target name="jar" depends="compile">
+		<jar basedir="${bin}" destfile="${jar-file-name}">
+			<zipfileset excludes="META-INF/*.SF"  />
+		</jar>
+	</target>
 
 </project>
