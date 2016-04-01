@@ -1,18 +1,23 @@
 package com.trane.display.utils;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
 
 import org.dom4j.Attribute;
 import org.dom4j.Document;
+import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
+import org.dom4j.io.OutputFormat;
 import org.dom4j.io.SAXReader;
+import org.dom4j.io.XMLWriter;
+
 import com.trane.display.utils.Locator.ByType;
 
 
-public class xmlUtils {
+public class XMLutils {
     /**
      * read xml to initialize locatorMap
      * @param path
@@ -22,7 +27,7 @@ public class xmlUtils {
      */
 	public static HashMap<String, Locator> readXMLDocument(String path) throws Exception {
 
-		Log log = new Log(xmlUtils.class);
+		Log log = new Log(XMLutils.class);
 		
 		HashMap<String, Locator> locatorMap = new HashMap<String, Locator>();
 		locatorMap.clear();
@@ -92,18 +97,18 @@ public class xmlUtils {
 		return byType;
 	}
 
-//	public static void writeXMLDocument() throws IOException {
-//		OutputFormat format = OutputFormat.createPrettyPrint();
-//		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
-//		Document document = DocumentHelper.createDocument();
-//		Element root = document.addElement("map");
-//		root.addComment("locator of page map info");
-//		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.UIMaps");
-//		page.addComment("Locator lists");
-//		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("loginButton");
-//		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("InputButton");
-//		writer.write(document);
-//		writer.close();
-//	}
+	public static void writeXMLDocument() throws IOException {
+		OutputFormat format = OutputFormat.createPrettyPrint();
+		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
+		Document document = DocumentHelper.createDocument();
+		Element root = document.addElement("map");
+		root.addComment("locator of page map info");
+		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.UIMaps");
+		page.addComment("Locator lists");
+		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("loginButton");
+		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("InputButton");
+		writer.write(document);
+		writer.close();
+	}
 
 }

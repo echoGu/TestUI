@@ -36,7 +36,7 @@ public class BaseActions {
 		log.info(System.getProperty("user.dir"));
 		path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\trane\\display\\UIMaps\\" + "UIMap.xml";
 		log.info(path);
-		locatorMap = xmlUtils.readXMLDocument(path);
+		locatorMap = XMLutils.readXMLDocument(path);
 	}
 	
 	public WebDriver getDriver() {
