@@ -2,6 +2,8 @@ package com.trane.display.utils;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +18,7 @@ public class BaseActions {
 	protected HashMap<String, Locator> locatorMap;
 	protected Log log = new Log(this.getClass());
 	protected String path;
+	private HashMap<String, String> dataMap;
 	
 	public BaseActions(WebDriver driver) {
         this.driver = driver;
@@ -32,11 +35,45 @@ public class BaseActions {
 	 * @throws Exception
 	 */
 	public void InitLocatorMap() throws Exception {
-		log.debug(this.getClass().getCanonicalName());
-		log.info(System.getProperty("user.dir"));
-		path = System.getProperty("user.dir") + "\\src\\main\\java\\com\\trane\\display\\UIMaps\\" + "UIMap.xml";
+		path = System.getProperty("user.dir") 
+				+ "\\src\\main\\java\\com\\trane\\display\\UIMaps\\" 
+				+ "UIMap.xml";
 		log.info(path);
 		locatorMap = XMLutils.readXMLDocument(path);
+	}
+	
+	public void VerifyData(String filename, Integer pageIndex) throws Exception {
+		path = System.getProperty("user.dir") 
+				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
+				+ filename
+				+ ".csv";
+		dataMap = CSVutils.readCSV(path, pageIndex);
+		log.info(path);
+		  
+		  if(!dataMap.isEmpty()) {
+				Set<String> keys = dataMap.keySet();
+				
+				Iterator<String> iter = keys.iterator();
+				  
+				  while(iter.hasNext()) {
+				      String key = (String)iter.next();
+				      String value = (String)dataMap.get(key);
+				      
+				      WebElement e = driver.findElement(By.id(key));
+				      String actualValue = e.getText();
+				      
+				      Assert.assertEquals(actualValue, value);
+				      
+				      if(actualValue.equalsIgnoreCase(value)) {
+				    	  log.info("Pass!");
+				      } else {
+				    	  log.error("Fail!");
+				    	  log.info("Actual value: " + actualValue + " Expected value: " + value);
+				      }
+				  }
+		  } else {
+			  log.error("dataMap is empty!!!");
+		  }
 	}
 	
 	public WebDriver getDriver() {

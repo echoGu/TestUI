@@ -14,7 +14,6 @@ public class ExampleTest {
 		WebDriver driver = new FirefoxDriver();
 
 		driver.get("http://192.168.1.3/FS/root/UI_Medium/index.html");
-//    	driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.textToBePresentInElementLocated(By.id("idLbl_pgHomePage_Title"), "Home"));

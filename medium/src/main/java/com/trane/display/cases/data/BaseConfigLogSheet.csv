@@ -1,2 +1,19 @@
-
-三枪拍案惊奇,2009,1212
+pageIndex,id,varName
+1,idLbl_pgStandardReport_R1C1,Active Chilled Water Setpoint
+1,idLbl_pgStandardReport_R1C2,Evaporator Entering Water Temperature
+1,idLbl_pgStandardReport_R1C3,Evaporator Leaving Water Temperature
+1,idLbl_pgStandardReport_R2C1,Evaporator Refrigerant Pressure Ckt1
+1,idLbl_pgStandardReport_R2C2,Evaporator Saturated Rfgt Temp Ckt1
+1,idLbl_pgStandardReport_R2C3,Evaporator Approach Temperature Ckt1
+1,idLbl_pgStandardReport_R3C1,Evaporator Refrigerant Pressure Ckt2
+1,idLbl_pgStandardReport_R3C2,Evaporator Saturated Rfgt Temp Ckt2
+1,idLbl_pgStandardReport_R3C3,Evaporator Approach Temperature Ckt2
+2,idLbl_pgStandardReport_R1C1,Evaporator Water Flow Status
+2,idLbl_pgStandardReport_R1C2,Evaporator Water Pump Override
+2,idLbl_pgStandardReport_R1C3,null
+2,idLbl_pgStandardReport_R2C1,Oil Return Solenoid Valve Cprsr1A
+2,idLbl_pgStandardReport_R2C2,Oil Return Solenoid Valve Cprsr1B
+2,idLbl_pgStandardReport_R2C3,EXV Percent Open Ckt1
+2,idLbl_pgStandardReport_R3C1,Oil Return Solenoid Valve Cprsr2A
+2,idLbl_pgStandardReport_R3C2,Oil Return Solenoid Valve Cprsr2B
+2,idLbl_pgStandardReport_R3C3,EXV Percent Open Ckt2

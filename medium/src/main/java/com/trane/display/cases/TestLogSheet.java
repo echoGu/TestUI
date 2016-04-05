@@ -46,6 +46,13 @@ public class TestLogSheet {
 		instance.verifyText(total_page_num, 10);
 	}
 	
+	@Test(description = "Verify Log Sheet Data")
+	public void verifyLogSheetData() throws Exception {
+		instance.VerifyData("BaseConfigLogSheet", 1);
+		instance.click("btn_Down");
+		instance.VerifyData("BaseConfigLogSheet", 2);
+	}
+	
 	@Test(description = "Close FireFox")
 	public void tearDown() {
 		driver.close();

@@ -18,5 +18,6 @@
 			<attribute name="source_encoding" value="UTF-8"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/mavenPool/maven01/javacsv2.1/javacsv.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
