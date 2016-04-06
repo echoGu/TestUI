@@ -7,13 +7,13 @@ import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
 
 public class CSVutils {
-	public static HashMap<String, String> readCSV(String path, Integer pageIndex) throws Exception {
+	public static HashMap<String, String> readCSV(String localDirAndFileName, Integer pageIndex) throws Exception {
 		Log log = new Log(CSVutils.class);
 		
 		HashMap<String, String> dataMap = new HashMap<String, String>();
 		dataMap.clear();
 		
-        CsvReader reader = new CsvReader(path, ',',Charset.forName("UTF-8"));
+        CsvReader reader = new CsvReader(localDirAndFileName, ',',Charset.forName("UTF-8"));
         reader.readHeaders();
         while (reader.readRecord()) {
 

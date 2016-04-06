@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="C:/mavenPool/maven01/reportng-1.1.4/guice-3.0.jar"/>
 	<classpathentry kind="lib" path="C:/mavenPool/maven01/javacsv2.1/javacsv.jar"/>
 	<classpathentry kind="lib" path="C:/mavenPool/maven01/reportng-1.1.5/reportng-1.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/commons-net-1.4.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
