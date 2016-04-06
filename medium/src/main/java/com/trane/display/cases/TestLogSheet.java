@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import com.trane.display.utils.BaseActions;
 import com.trane.display.utils.TestNGListener;
 
-@Listeners({TestNGListener.class })
+//@Listeners({TestNGListener.class })
 public class TestLogSheet {
 
 	private WebDriver driver = new FirefoxDriver();
@@ -43,7 +43,7 @@ public class TestLogSheet {
 		instance.verifyText(StandardReport_Title, "Log Sheet");
 		instance.verifyText(StandardReport_SubTitle, "Evaporator");
 		instance.verifyText(page_num, 1);
-		instance.verifyText(total_page_num, 10);
+		instance.verifyText(total_page_num, 13);
 	}
 	
 	@Test(description = "Verify Log Sheet Data")

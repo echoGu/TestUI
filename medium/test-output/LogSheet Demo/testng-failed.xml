@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [LogSheet Demo]">
+  <test name="LogSheetBaseConfigDataLayout(failed)">
+    <classes>
+      <class name="com.trane.display.cases.TestLogSheet">
+        <methods>
+          <include name="verifyBtnLogSheetClicked"/>
+          <include name="verifyLogSheetData"/>
+        </methods>
+      </class> <!-- com.trane.display.cases.TestLogSheet -->
+    </classes>
+  </test> <!-- LogSheetBaseConfigDataLayout(failed) -->
+</suite> <!-- Failed suite [LogSheet Demo] -->

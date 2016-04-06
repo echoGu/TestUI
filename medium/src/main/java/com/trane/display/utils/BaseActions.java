@@ -59,19 +59,38 @@ public class BaseActions {
 				      String key = (String)iter.next();
 				      String value = (String)dataMap.get(key);
 				      
-				      WebElement e = driver.findElement(By.id(key));
-				      String actualValue = e.getText();
-				      
-				      Assert.assertEquals(actualValue, value);
-				      
-				      if(actualValue.equalsIgnoreCase(value)) {
-				    	  log.info("Pass!");
-				      } else {
-				    	  log.error("Fail!");
-				    	  log.info("Actual value: " + actualValue + " Expected value: " + value);
+				      if(!ElementExist(By.id(key))) {
+				    	  log.info("This WebElement doesn't exist!" );
+				    	  Assert.assertEquals("Blank", value);
+				    	  
+				    	  if(value.equalsIgnoreCase("Blank")) {
+					    	  log.info("Pass! ");
+					    	  log.info("Expected value: " + value);
+				    	  } else
+				    		  if(!value.equalsIgnoreCase("Blank")) {
+						    	  log.error("Fail! ");
+						    	  log.info("Expected value: " + value);
+				    		  }
+
+				      } else 
+				    	  if (ElementExist(By.id(key))) {
+				    		  WebElement e = driver.findElement(By.id(key));
+				    		  String actualValue = e.getText();
+
+				    		   Assert.assertEquals(actualValue, value);
+
+				    		  if (actualValue.equalsIgnoreCase(value)) {
+				    			  log.info("Pass! ");
+				    			  log.info("Actual value: " + actualValue);
+				    			  log.info("Expected value: " + value);
+				    		  } else if (!actualValue.equalsIgnoreCase(value)) {
+				    			  log.error("Fail! ");
+				    			  log.info("Actual value: " + actualValue);
+				    			  log.info("Expected value: " + value);
+				    			  }
+				    		  }
 				      }
-				  }
-		  } else {
+				  } else {
 			  log.error("dataMap is empty!!!");
 		  }
 	}
@@ -102,6 +121,15 @@ public class BaseActions {
     	return isPresent;
     	
     }
+    
+	boolean ElementExist(By Locator) {
+		try {
+			driver.findElement(Locator);
+			return true;
+		} catch (org.openqa.selenium.NoSuchElementException ex) {
+			return false;
+		}
+	}
     
 	/**
 	 * 

@@ -13,11 +13,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/mavenPool/maven01/dom4j-1.6.1/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/mavenPool/maven01/reportng-1.1.4/guice-3.0.jar"/>
-	<classpathentry kind="lib" path="lib/reportng-1.1.5.jar" sourcepath="D:/reportng-master/reportng">
-		<attributes>
-			<attribute name="source_encoding" value="UTF-8"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/mavenPool/maven01/javacsv2.1/javacsv.jar"/>
+	<classpathentry kind="lib" path="C:/mavenPool/maven01/reportng-1.1.5/reportng-1.1.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
