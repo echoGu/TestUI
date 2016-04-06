@@ -17,7 +17,7 @@ public class BaseActions {
 	protected WebDriver driver;
 	protected HashMap<String, Locator> locatorMap;
 	protected Log log = new Log(this.getClass());
-	protected String path;
+	protected String localDirAndFileName;
 	private HashMap<String, String> dataMap;
 	
 	public BaseActions(WebDriver driver) {
@@ -35,20 +35,20 @@ public class BaseActions {
 	 * @throws Exception
 	 */
 	public void InitLocatorMap() throws Exception {
-		path = System.getProperty("user.dir") 
+		localDirAndFileName = System.getProperty("user.dir") 
 				+ "\\src\\main\\java\\com\\trane\\display\\UIMaps\\" 
 				+ "UIMap.xml";
-		log.info(path);
-		locatorMap = XMLutils.readXMLDocument(path);
+		log.info(localDirAndFileName);
+		locatorMap = XMLutils.readXMLDocument(localDirAndFileName);
 	}
 	
 	public void VerifyData(String filename, Integer pageIndex) throws Exception {
-		path = System.getProperty("user.dir") 
+		localDirAndFileName = System.getProperty("user.dir") 
 				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
 				+ filename
 				+ ".csv";
-		dataMap = CSVutils.readCSV(path, pageIndex);
-		log.info(path);
+		dataMap = CSVutils.readCSV(localDirAndFileName, pageIndex);
+		log.info(localDirAndFileName);
 		  
 		  if(!dataMap.isEmpty()) {
 				Set<String> keys = dataMap.keySet();
@@ -93,6 +93,37 @@ public class BaseActions {
 				  } else {
 			  log.error("dataMap is empty!!!");
 		  }
+	}
+	
+	public void replaceFTPfile(String localfilename, String ftpfilename) {
+		localDirAndFileName = System.getProperty("user.dir") 
+				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\UC Configs" 
+				+ localfilename
+				+ ".xml";
+		ftpfilename = ftpfilename + ".xml";
+		
+		FTPutils.connectFTP();
+		FTPutils.deleteFile(ftpfilename);
+		FTPutils.uploadFile(localDirAndFileName, ftpfilename);
+		
+		FTPutils.closeFTP();
+		
+	}
+	
+	public void rebootMP() {
+		String path = System.getProperty("user.dir") 
+				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
+				+ "UC800_reset.py";
+		 try{  
+             System.out.println("start"); 
+             log.info("start to reboot MP.........");
+             Process pr = Runtime.getRuntime().exec("python " + path);  
+             pr.waitFor();
+             Thread.sleep(90000); // wait 90 seconds
+             log.info("reboot MP successfully");
+     } catch (Exception e){  
+                 e.printStackTrace();  
+             }  
 	}
 	
 	public WebDriver getDriver() {
