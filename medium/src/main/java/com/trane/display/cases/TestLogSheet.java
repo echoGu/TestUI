@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import com.trane.display.utils.BaseActions;
 import com.trane.display.utils.TestNGListener;
 
-//@Listeners({TestNGListener.class })
+@Listeners({TestNGListener.class })
 public class TestLogSheet {
 
 	private WebDriver driver = new FirefoxDriver();
@@ -22,19 +22,15 @@ public class TestLogSheet {
 	private String page_num = "page_num";
 	private String total_page_num = "total_page_num";
 	
-	private String localRequiredDevices = "UC800 - RTAF - Comp2 - BASE - RequiredDevices";
-	private String localConfigurationRecord = "UC800 - RTAF - Comp2 - BASE - ConfigurationRecord";
-	private String localNameplateRecord = "UC800 - RTAF - Comp2 - BASE - NameplateRecord";
-	private String localQuestionRecord = "UC800 - RTAF - Comp2 - BASE - QuestionRecord";
+	private String localRequiredDevices = "UC800 - RTAF - Comp4 - BASE - RequiredDevices";
+	private String localConfigurationRecord = "UC800 - RTAF - Comp4 - BASE - ConfigurationRecord";
+	private String localNameplateRecord = "UC800 - RTAF - Comp4 - BASE - NameplateRecord";
+	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
 	
 	@BeforeClass
 	public void configure() throws Exception {
 		instance.configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
-		try {
-			instance.InitLocatorMap();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		instance.InitLocatorMap();
 		instance.openHomePage();
 	}
 	

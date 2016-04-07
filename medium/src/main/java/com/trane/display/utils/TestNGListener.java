@@ -24,15 +24,6 @@ public class TestNGListener extends TestListenerAdapter {
 	public void onTestFailure(ITestResult tr) {
 		super.onTestFailure(tr);
 		log.error("Test Failure");
-		takeScreenShot(tr);
-	}
-
-	private void takeScreenShot(ITestResult tr) {
-		UITest b = (UITest) tr.getInstance();
-		WebDriver currentDriver = b.getDriver();
-		System.out.println(currentDriver.getTitle());
-		b.takeScreenShot();
-
 	}
 
 	@Override

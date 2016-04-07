@@ -1,11 +1,18 @@
 package com.trane.display.utils;
 
+import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -148,6 +155,32 @@ public class BaseActions {
     	wait.until(ExpectedConditions.textToBePresentInElementLocated(By.id("idLbl_pgHomePage_Title"), "Home"));
         log.info("Home Page is loaded successfully");
     }
+    
+    public void takeScreenShot() {
+		
+		SimpleDateFormat sf = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss");
+		Calendar cal = Calendar.getInstance();
+		Date date = cal.getTime();
+		String dateStr = sf.format(date);
+		
+		String localDirAndFileName = System.getProperty("user.dir") 
+				+ "\\screenshots\\" 
+				+ dateStr
+				+ ".png";
+		
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		
+		try {
+			log.info("saved screenshot is:" + localDirAndFileName);
+			FileUtils.copyFile(scrFile, new File(localDirAndFileName));
+		} catch (Exception e) {
+			log.error("Can't save screenshot");
+			e.printStackTrace();
+		} finally {
+			log.info("screen shot finished");
+		}
+	}
+    
     /**
      * 
      * @param locatorName
