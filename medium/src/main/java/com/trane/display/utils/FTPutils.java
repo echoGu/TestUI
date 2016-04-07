@@ -14,14 +14,12 @@ import org.apache.logging.log4j.Logger;
 public class FTPutils {
 	
 	 private static FTPClient ftpClient = new FTPClient();
-	 private static Logger logger = LogManager.getLogger(FTPutils.class);
-	 private static String encoding = System.getProperty("file.encoding");
-	 private static String ftpDir = "Configuration";
+	 private static Log log = new Log(FTPutils.class);
 	 
 	 public static boolean connectFTP() {
 		 boolean result = false;
 		 String ip = "192.168.1.3";
-		 String username = "user";
+		 String username = "root";
 		 String password = "p21onLUC";
 
          try {
@@ -32,12 +30,13 @@ public class FTPutils {
 
 			reply = ftpClient.getReplyCode();
 			if (!FTPReply.isPositiveCompletion(reply)) {
-				logger.error("Connect failed");
+				log.error("Connect failed");
 				ftpClient.disconnect();
 				return result;
 			}
 			
 	         result = true;
+	         log.info("Connect to the Server successfully");
 		         
 		} catch (SocketException e) {
 			e.printStackTrace();
@@ -49,58 +48,66 @@ public class FTPutils {
 		 
 	 }
 
-	 public static boolean uploadFile(String localDirAndFileName, String ftpfilename) {
+	 public static boolean uploadFile(String localDirAndFileName, String ftpDirAndFileName) throws Exception {
 	        boolean result = false;
-         	File srcFile = new File(localDirAndFileName);
-         	FileInputStream fis = null;
+	        
+         	int separator = ftpDirAndFileName.lastIndexOf("/");
+         	String ftpDir = ftpDirAndFileName.substring(0, separator+1);
+         	String ftpfilename = ftpDirAndFileName.substring(separator+1);
+         	log.info("uploadFile method: ftpDirectory: " + ftpDir);
+         	log.info("uploadFile method: ftpfilename: " + ftpfilename);
 	        
 	        if(!ftpClient.isConnected()) {
+	        	log.info("uploadFile method: the connection is lost!");
 	        	return false;
 	        }
 	
-	        try {
         		 boolean changeDir = ftpClient.changeWorkingDirectory(ftpDir);
+        		 log.info("changeDir: "+changeDir);
+        		 FileInputStream fis = new FileInputStream(new File(localDirAndFileName));
 
  	            if (changeDir) {
- 	            	fis = new FileInputStream(srcFile);
 
-// 	            	ftpClient.setBufferSize(1024);
- 	            	ftpClient.setControlEncoding(encoding);
- 	            	ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
- 	                result = ftpClient.storeFile(new String(ftpfilename.getBytes(),"iso-8859-1"), fis);
+ 	            	ftpClient.setControlEncoding("utf-8");
+ 	            	ftpClient.setBufferSize(1024);
+ 	            	ftpClient.setFileType(FTPClient.BINARY_FILE_TYPE);
+ 	            	ftpClient.enterLocalPassiveMode();
+ 	            	
+ 	                result = ftpClient.storeFile(new String(ftpfilename.getBytes()), fis);
+ 	            	
  	                if (result) {
- 	                    logger.info("upload " + ftpfilename +" Successfully!");
- 	                }
- 	            }
+ 	                    log.info("upload " + localDirAndFileName +" Successfully to "+ ftpDir + ftpfilename);
+ 	                } else
+ 	                	if(!result) {
+ 	                		log.error("fail to upload " + localDirAndFileName +" to "+ ftpDir + ftpfilename);
+ 	                	}
+ 	            } else
+ 	            	if(!changeDir) {
+ 	            		log.error("fail to change Directory.");
+ 	            	}
  	            fis.close();
- 	            ftpClient.logout();
-
 	           
-	        } catch (IOException e) {
-	            e.printStackTrace();
-	        }
+	        
 	        return result;
 	    }
 	 
-	 public static boolean deleteFile(String ftpfilename) {
+	 public static boolean deleteFile(String ftpDirAndFileName) {
 	        boolean result = false;
+         	log.info("deleteFile method: ftpDirAndFileName: " + ftpDirAndFileName);
 	        
 	        if(!ftpClient.isConnected()) {
+	        	log.info("deleteFile method: the connection is lost!");
 	        	return false;
 	        }
 	
 	        try {
-	        	boolean changeDir = ftpClient.changeWorkingDirectory(ftpDir);
-
-	            if (changeDir) {
-	            	result = ftpClient.deleteFile(ftpfilename);
-	                if (result) {
-	                    logger.info("upload File Successfully");
-	                }
-	            }
-	            ftpClient.logout();
-
-	           
+	        		result = ftpClient.deleteFile(ftpDirAndFileName);
+	        		if (result) {
+	        			log.info("delete " + ftpDirAndFileName + " Successfully");
+	        		} else 
+	        			if(!result) {
+	        				log.info("deleteFile method: do nothing here. Maybe " + ftpDirAndFileName + " doesn't exist.");
+	        			}
 	        } catch (IOException e) {
 	            e.printStackTrace();
 	        }
@@ -116,7 +123,7 @@ public class FTPutils {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			 logger.info("Close Server Successfully!");
+			 log.info("Close Server Successfully!");
 
          }
 	 }

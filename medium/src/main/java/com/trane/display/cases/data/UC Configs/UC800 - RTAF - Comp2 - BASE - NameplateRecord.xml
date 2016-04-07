@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NameplateFileDataSet>
+  <xs:schema id="NameplateFileDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NameplateFileDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="QuestionHeader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="AssemblyPartNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="SWPartNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="SWMajorRev" type="xs:string" minOccurs="0" />
+                <xs:element name="BuildNumber" type="xs:string" minOccurs="0" />
+                <xs:element name="ConfigurationRevision" type="xs:string" minOccurs="0" />
+                <xs:element name="GUID" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Questions">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NameplateID" type="xs:int" minOccurs="0" />
+                <xs:element name="Value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <QuestionHeader>
+    <AssemblyPartNumber>62000619</AssemblyPartNumber>
+    <SWPartNumber>62000620</SWPartNumber>
+    <SWMajorRev>4</SWMajorRev>
+    <BuildNumber>00</BuildNumber>
+    <ConfigurationRevision>1</ConfigurationRevision>
+    <GUID>5b67e37b-406e-46db-af9e-f3742673ca4d</GUID>
+  </QuestionHeader>
+  <Questions>
+    <NameplateID>10000</NameplateID>
+    <Value>UC800 - RTAF - Comp2 - BASE - </Value>
+  </Questions>
+  <Questions>
+    <NameplateID>10001</NameplateID>
+    <Value>UC800 - RTAF - Comp2 - BASE - </Value>
+  </Questions>
+  <Questions>
+    <NameplateID>10002</NameplateID>
+    <Value>UC800 - RTAF - Comp2 - BASE - </Value>
+  </Questions>
+</NameplateFileDataSet>

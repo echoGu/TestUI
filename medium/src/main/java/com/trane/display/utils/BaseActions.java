@@ -22,13 +22,6 @@ public class BaseActions {
 	
 	public BaseActions(WebDriver driver) {
         this.driver = driver;
-        try {
-			this.InitLocatorMap();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-        this.openHomePage();
-    
     }
 	/**
 	 * read xml to inital UI locator map
@@ -95,18 +88,34 @@ public class BaseActions {
 		  }
 	}
 	
-	public void replaceFTPfile(String localfilename, String ftpfilename) {
+	public void replaceFTPfile(String localfilename, String ftpDirAndFileName) throws Exception {
 		localDirAndFileName = System.getProperty("user.dir") 
-				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\UC Configs" 
+				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\UC Configs\\" 
 				+ localfilename
 				+ ".xml";
-		ftpfilename = ftpfilename + ".xml";
-		
+
+		FTPutils.deleteFile(ftpDirAndFileName);
+		FTPutils.uploadFile(localDirAndFileName, ftpDirAndFileName);
+	
+	}
+	
+	public void configFTPfiles(String localRequiredDevices, String localConfigurationRecord, String localNameplateRecord, String localQuestionRecord) throws Exception {
 		FTPutils.connectFTP();
-		FTPutils.deleteFile(ftpfilename);
-		FTPutils.uploadFile(localDirAndFileName, ftpfilename);
 		
+		log.info("configure RequiredDevices......");
+		replaceFTPfile(localRequiredDevices, "/FW_IPC3DeviceBinding/RequiredDevices.xml");
+		
+		log.info("configure ConfigurationRecord......");
+		replaceFTPfile(localConfigurationRecord, "/Configuration/ConfigurationRecord.xml");
+		
+		log.info("configure NameplateRecord......");
+		replaceFTPfile(localNameplateRecord, "/Configuration/NameplateRecord.xml");
+		
+		log.info("configure QuestionRecord......");
+		replaceFTPfile(localQuestionRecord, "/Configuration/QuestionRecord.xml");
+
 		FTPutils.closeFTP();
+		rebootMP();
 		
 	}
 	
@@ -119,7 +128,8 @@ public class BaseActions {
              log.info("start to reboot MP.........");
              Process pr = Runtime.getRuntime().exec("python " + path);  
              pr.waitFor();
-             Thread.sleep(90000); // wait 90 seconds
+             log.info("wait 90 seconds to wait for reboot successfully......");
+             Thread.sleep(90000);
              log.info("reboot MP successfully");
      } catch (Exception e){  
                  e.printStackTrace();  

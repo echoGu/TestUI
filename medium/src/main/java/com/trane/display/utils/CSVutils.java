@@ -32,16 +32,20 @@ public class CSVutils {
         reader.close();
         return dataMap;
 	}
-	
-//	public static void writeCSV(String filename) throws Exception {
-//		String path = System.getProperty("user.dir") 
-//				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
-//				+ filename;
-//		
-//		CsvWriter writer = new CsvWriter(path, ',', Charset.forName("UTF-8"));
-//		String[] contents = {"Liy","wang","12"};
-//		writer.writeRecord(contents);
-//		writer.close();
-//	}
+	/**
+	 * create a CSV template
+	 * @param filename
+	 * @throws Exception
+	 */
+	public static void writeCSV(String filename) throws Exception {
+		String path = System.getProperty("user.dir") 
+				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
+				+ filename;
+		
+		CsvWriter writer = new CsvWriter(path, ',', Charset.forName("UTF-8"));
+		String[] contents = {"pageIndex","id","varName"};
+		writer.writeRecord(contents);
+		writer.close();
+	}
 
 }

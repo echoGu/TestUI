@@ -2,6 +2,7 @@ package com.trane.display.cases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -20,6 +21,22 @@ public class TestLogSheet {
 	private String StandardReport_SubTitle = "StandardReport_SubTitle";
 	private String page_num = "page_num";
 	private String total_page_num = "total_page_num";
+	
+	private String localRequiredDevices = "UC800 - RTAF - Comp2 - BASE - RequiredDevices";
+	private String localConfigurationRecord = "UC800 - RTAF - Comp2 - BASE - ConfigurationRecord";
+	private String localNameplateRecord = "UC800 - RTAF - Comp2 - BASE - NameplateRecord";
+	private String localQuestionRecord = "UC800 - RTAF - Comp2 - BASE - QuestionRecord";
+	
+	@BeforeClass
+	public void configure() throws Exception {
+		instance.configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
+		try {
+			instance.InitLocatorMap();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		instance.openHomePage();
+	}
 	
 	@Test(description = "Click Reports button on the navigate footer")
 	public void clickReports() throws Exception {

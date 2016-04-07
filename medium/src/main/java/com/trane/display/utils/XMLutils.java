@@ -96,19 +96,24 @@ public class XMLutils {
 		}
 		return byType;
 	}
+	
+	/**
+	 * create a UIMap template
+	 * @throws IOException
+	 */
 
-//	public static void writeXMLDocument() throws IOException {
-//		OutputFormat format = OutputFormat.createPrettyPrint();
-//		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
-//		Document document = DocumentHelper.createDocument();
-//		Element root = document.addElement("map");
-//		root.addComment("locator of page map info");
-//		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.UIMaps");
-//		page.addComment("Locator lists");
-//		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("loginButton");
-//		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "id").addText("InputButton");
-//		writer.write(document);
-//		writer.close();
-//	}
+	public static void writeXMLDocument() throws IOException {
+		OutputFormat format = OutputFormat.createPrettyPrint();
+		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
+		Document document = DocumentHelper.createDocument();
+		Element root = document.addElement("map");
+		root.addComment("locator of page map info");
+		Element page = root.addElement("page").addAttribute("pageName","com.trane.display.UIMaps.UIMap");
+		page.addComment("Locator lists");
+		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "idBtn_pgMain_navfooterBtnReports").addText("btn_Reports");
+		page.addElement("locator").addAttribute("type", "ById").addAttribute("value", "idLbl_pgReportsLanding_PageTitle").addText("title_Reports");
+		writer.write(document);
+		writer.close();
+	}
 
 }
