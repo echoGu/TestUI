@@ -2,13 +2,10 @@
 <Configuration status="WARN">
 
 <Appenders>
-	<Console name="STDOUT" target="SYSTEM_OUT">
-		<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
-    </Console>
 	<File name="Myfile" fileName="logs/test.log" append="false">
-		<PatternLayout>
-			<pattern>"%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n</pattern>
-		</PatternLayout>
+		<patternLayout>
+			<pattern>%d{YYYY-MM-dd HH:mm:ss.SSS} - %msg %n</pattern>
+		</patternLayout>
 	</File>
 </Appenders> 
    
