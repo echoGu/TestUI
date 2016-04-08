@@ -25,14 +25,16 @@ public class XMLutils {
      * @return HashMap<String, Locator>
      * @throws Exception
      */
-	public static HashMap<String, Locator> readXMLDocument(String path) throws Exception {
+	public static HashMap<String, Locator> readXMLDocument(String path) throws Exception 
+	{
 
 		Log log = new Log(XMLutils.class);
 		
 		HashMap<String, Locator> locatorMap = new HashMap<String, Locator>();
 		locatorMap.clear();
 		File file = new File(path);
-		if (!file.exists()) {
+		if (!file.exists()) 
+		{
 			log.error("Can't find " + path);
 			throw new IOException("Can't find " + path);
 		}
@@ -41,22 +43,27 @@ public class XMLutils {
 		Document document = reader.read(file);
 		Element root = document.getRootElement();
 		
-		for (Iterator<?> it = root.elementIterator(); it.hasNext();) {
+		for (Iterator<?> it = root.elementIterator(); it.hasNext();) 
+		{
 			Element page = (Element) it.next();
 				
-				for (Iterator<?> l = page.elementIterator(); l.hasNext();) {
+				for (Iterator<?> l = page.elementIterator(); l.hasNext();) 
+				{
 					String type = null;
 					String value = null;
 					String locatorName = null;
 					Element locator = (Element) l.next();
 					
-					for (Iterator<?> j = locator.attributeIterator(); j.hasNext();) {
+					for (Iterator<?> j = locator.attributeIterator(); j.hasNext();) 
+					{
 						Attribute attribute = (Attribute) j.next();
 						
-						if (attribute.getName().equals("type")) {
+						if (attribute.getName().equals("type")) 
+						{
 							type = attribute.getValue();
 							log.info("get locator type " + type);
-						} else {
+						} else 
+						{
 							value = attribute.getValue();
 							log.info("get locator value " + value);
 						}
@@ -75,23 +82,32 @@ public class XMLutils {
 
 	}
 	
-	public static ByType getByType(String type) {
+	public static ByType getByType(String type) 
+	{
 		ByType byType = ByType.id;
-		if (type == null || type.equalsIgnoreCase("id")) {
+		if (type == null || type.equalsIgnoreCase("id")) 
+		{
 			byType = ByType.id;
-		} else if (type.equalsIgnoreCase("xpath")) {
+		} else if (type.equalsIgnoreCase("xpath")) 
+		{
 			byType = ByType.xpath;
-		} else if (type.equalsIgnoreCase("linkText")) {
+		} else if (type.equalsIgnoreCase("linkText")) 
+		{
 			byType = ByType.linkText;
-		} else if (type.equalsIgnoreCase("name")) {
+		} else if (type.equalsIgnoreCase("name")) 
+		{
 			byType = ByType.name;
-		} else if (type.equalsIgnoreCase("className")) {
+		} else if (type.equalsIgnoreCase("className")) 
+		{
 			byType = ByType.className;
-		} else if (type.equalsIgnoreCase("cssSelector")) {
+		} else if (type.equalsIgnoreCase("cssSelector")) 
+		{
 			byType = ByType.cssSelector;
-		} else if (type.equalsIgnoreCase("partialLinkText")) {
+		} else if (type.equalsIgnoreCase("partialLinkText")) 
+		{
 			byType = ByType.partialLinkText;
-		} else if (type.equalsIgnoreCase("tagName")) {
+		} else if (type.equalsIgnoreCase("tagName")) 
+		{
 			byType = ByType.tagName;
 		}
 		return byType;
@@ -102,7 +118,8 @@ public class XMLutils {
 	 * @throws IOException
 	 */
 
-	public static void writeXMLDocument() throws IOException {
+	public static void writeXMLDocument() throws IOException 
+	{
 		OutputFormat format = OutputFormat.createPrettyPrint();
 		XMLWriter writer = new XMLWriter(new FileWriter("output.xml"), format);
 		Document document = DocumentHelper.createDocument();

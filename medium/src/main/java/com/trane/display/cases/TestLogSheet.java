@@ -10,7 +10,8 @@ import com.trane.display.utils.BaseActions;
 import com.trane.display.utils.TestNGListener;
 
 @Listeners({TestNGListener.class })
-public class TestLogSheet {
+public class TestLogSheet 
+{
 
 	private WebDriver driver = new FirefoxDriver();
 	BaseActions instance = new BaseActions(driver);
@@ -28,31 +29,36 @@ public class TestLogSheet {
 	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
 	
 	@BeforeClass
-	public void configure() throws Exception {
+	public void configure() throws Exception 
+	{
 		instance.configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
 		instance.InitLocatorMap();
 		instance.openHomePage();
 	}
 	
 	@Test(description = "Click Reports button on the navigate footer")
-	public void clickReports() throws Exception {
+	public void clickReports() throws Exception 
+	{
 		instance.verifyAttribute(btn_Reports, "class", "navfooter_btn_off");
 		instance.clickVisibleDiv("Reports");
 	}
 	
 	@Test(description = "Verify Reports button pressed in and navigated to Reports page")
-	public void verifyBtnReportsClicked() throws Exception {
+	public void verifyBtnReportsClicked() throws Exception 
+	{
 		instance.verifyAttribute(btn_Reports, "class", "navfooter_btn_on");
 		instance.verifyText(title_Reports, "Reports");
 	}
 
 	@Test(description = "Click Log Sheet button on the Reports page")
-	public void clickLogSheet() throws Exception {
+	public void clickLogSheet() throws Exception 
+	{
 		instance.clickVisibleDiv("Log Sheet");
 	}
 	
 	@Test(description = "Verify on Log Sheet page 1")
-	public void verifyBtnLogSheetClicked() throws Exception {
+	public void verifyBtnLogSheetClicked() throws Exception 
+	{
 		instance.verifyText(StandardReport_Title, "Log Sheet");
 		instance.verifyText(StandardReport_SubTitle, "Evaporator");
 		instance.verifyText(page_num, 1);
@@ -60,14 +66,16 @@ public class TestLogSheet {
 	}
 	
 	@Test(description = "Verify Log Sheet Data")
-	public void verifyLogSheetData() throws Exception {
+	public void verifyLogSheetData() throws Exception 
+	{
 		instance.VerifyData("BaseConfigLogSheet", 1);
 		instance.click("btn_Down");
 		instance.VerifyData("BaseConfigLogSheet", 2);
 	}
 	
 	@Test(description = "Close FireFox")
-	public void tearDown() {
+	public void tearDown() 
+	{
 		driver.close();
 	}
 	
