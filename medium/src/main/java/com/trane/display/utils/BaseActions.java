@@ -15,6 +15,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -22,16 +23,12 @@ import org.testng.Assert;
 public class BaseActions 
 {
 	
-	protected WebDriver driver;
-	protected HashMap<String, Locator> locatorMap;
-	protected Log log = new Log(this.getClass());
-	protected String localDirAndFileName;
-	private HashMap<String, String> dataMap;
+	public WebDriver driver = new FirefoxDriver();
+	public HashMap<String, Locator> locatorMap;
+	public Log log = new Log(this.getClass());
+	public String localDirAndFileName;
+	public HashMap<String, String> dataMap;
 	
-	public BaseActions(WebDriver driver) 
-	{
-        this.driver = driver;
-    }
 	/**
 	 * read xml to inital UI locator map
 	 * @throws Exception
@@ -365,6 +362,11 @@ public class BaseActions
 		{
 			e.printStackTrace();
 		}
+	}
+	
+	public void closeFirefox()
+	{
+		driver.close();
 	}
 	
 
