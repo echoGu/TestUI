@@ -1,7 +1,5 @@
 package com.trane.display.utils;
 
-import java.io.BufferedInputStream;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -13,8 +11,8 @@ import org.apache.logging.log4j.core.config.Configurator;
 
 public class Log {
 	private final Class<?> clazz;
-	private static Logger logger;
-	String configfile = System.getProperty("user.dir")
+	private Logger logger;
+    private String configfile = System.getProperty("user.dir")
 			+ "\\config"
 			+"\\log4j2.xml";
 
@@ -22,8 +20,20 @@ public class Log {
     {
 		this.clazz = clazz;
 		logger = LogManager.getLogger(this.clazz);
-//		System.setProperty("log4j.configuration", configPath);
 		config();
+	}
+    
+	public void config()
+	{
+        ConfigurationSource source = null;
+		try {
+			source = new ConfigurationSource(new FileInputStream(configfile));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+        Configurator.initialize(null, source);
 	}
 	
 //	trace < debug < info < warn < error < fatal
@@ -62,25 +72,6 @@ public class Log {
 		logger.fatal(clazz.getCanonicalName() + ": " + message);
 	}
 	
-	public void config()
-	{
-		File file = new File(configfile);  
-        BufferedInputStream in = null;  
-        try 
-        {  
-            in = new BufferedInputStream(new FileInputStream(file));
-            ConfigurationSource source = null;
-			try 
-			{
-				source = new ConfigurationSource(in);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-            Configurator.initialize(null, source);  
-        } catch (FileNotFoundException e) 
-        {  
-            e.printStackTrace();  
-        }
-	}
+
 	
 }

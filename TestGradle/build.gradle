@@ -1,7 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'project-report'
 
-sourceCompatibility = 1.5
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 version = '1.0'
 jar {
     manifest {
@@ -23,40 +25,30 @@ dependencies {
         ['org.apache.commons:commons-csv:1.2'],
         ['commons-net:commons-net:1.4.1'],
         ['com.google.inject:guice:4.0'],
-        [files('libs/javacsv.jar', 'libs/reportng-1.1.5.jar', 'libs/velocity-dep-1.4.jar')]
+        [files('libs/javacsv.jar', 'libs/reportng-1.1.5.jar', 'libs/velocity-dep-1.4.jar')],
+        ['junit:junit:4.+'],
+    	['org.testng:testng:6.9.10']
     )
 
-    testCompile(
-    	['junit:junit:4.+'],
-    	['org.testng:testng:6.9.10']
-    ) 
 }
 
 defaultTasks 'test'
 
 test {
      useTestNG(){
-     	suites(file('configs/TestNG_configs/TestLogSheet.xml'));  
+     	options.suites(file('config/TestNG_configs/TestLogSheet.xml'));
+     	useDefaultListeners = false
+
      }
 }
 
 task copyJars(type:Copy){  
     from configurations.runtime 
     into 'libs'
-} 
+}
 
-subprojects {
-	apply plugin: 'java'
-	// Disable the test report for the individual test task
-	test {
-		reports.html.enabled = false
-	}
-} 
-
-task testReport(type: TestReport) {
-	destinationDir = file("build/reports")
-	// Include the results from the 'test' task in all subprojects
-	reportOn subprojects*.test
+compileJava {
+	fileTree(dir: 'libs', include: ['*.jar']) 
 }
 
 uploadArchives {
