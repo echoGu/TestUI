@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<project name="medium" default="run" basedir=".">
+	<property name="bin" value="bin"/>
+	<property name="src.dir" value="src/main/java" />
+	<property name="src-test.dir" value="src/test/java" />
+	<property name="build.dir" value="build"/>
+	<property name="classes.dir" value="${build.dir}/classes" />
+	<property name="test-results.dir" value="test-output" />
+	<property name="testNG-xmls.dir" value="${basedir}/config/TestNG_configs" />
+	
+	<path id="run.classpath">
+		<fileset dir="${basedir}">
+			<include name="libs/*.jar" />
+		</fileset>
+	</path>
+	
+	<taskdef name="testng" classpath="${basedir}/libs/testng-6.9.10.jar" classname="org.testng.TestNGAntTask" />
+	
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+	</target>
+	
+	<target name="compile" depends="clean">
+		<mkdir dir="${classes.dir}"/>
+		<javac srcdir="${src.dir}" destdir="${classes.dir}" debug="on" encoding="UTF-8" includeantruntime = "false">
+			<classpath refid="run.classpath"/>
+		</javac>
+		<javac srcdir="${src-test.dir}" destdir="${classes.dir}" debug="on" encoding="UTF-8" includeantruntime = "false">
+			<classpath refid="run.classpath"/>
+		</javac>
+	</target>
+	
+	<path id="runpath"> 
+		 <path refid="run.classpath"/> 
+		 <pathelement location="${classes.dir}"/> 
+	</path> 
+	
+	<target name="run" depends="compile">
+		<testng classpathref="runpath"  
+				outputDir="${test-results.dir}" 
+			    haltonfailure="true"
+			    useDefaultListeners="false"   
+			    listeners="org.uncommons.reportng.HTMLReporter,org.testng.reporters.FailedReporter" >  
+			<xmlfileset dir="${testNG-xmls.dir}" includes="TestLogSheet.xml"/>
+			<jvmarg value="-Dfile.encoding=UTF-8" />
+			<sysproperty key="org.uncommons.reportng.title" value="Automation TestReport" /> 
+		</testng>
+	</target>
+	
+</project>

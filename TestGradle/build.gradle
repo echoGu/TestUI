@@ -1,0 +1,68 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.5
+version = '1.0'
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart',
+                   'Implementation-Version': version
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+        ['commons-collections:commons-collections:3.2'],
+        ['org.seleniumhq.selenium:selenium-java:2.53.0'],
+        ['org.apache.logging.log4j:log4j-core:2.1'],
+        ['dom4j:dom4j:1.6.1'],
+        ['org.apache.commons:commons-csv:1.2'],
+        ['commons-net:commons-net:1.4.1'],
+        ['com.google.inject:guice:4.0'],
+        [files('libs/javacsv.jar', 'libs/reportng-1.1.5.jar', 'libs/velocity-dep-1.4.jar')]
+    )
+
+    testCompile(
+    	['junit:junit:4.+'],
+    	['org.testng:testng:6.9.10']
+    ) 
+}
+
+defaultTasks 'test'
+
+test {
+     useTestNG(){
+     	suites(file('configs/TestNG_configs/TestLogSheet.xml'));  
+     }
+}
+
+task copyJars(type:Copy){  
+    from configurations.runtime 
+    into 'libs'
+} 
+
+subprojects {
+	apply plugin: 'java'
+	// Disable the test report for the individual test task
+	test {
+		reports.html.enabled = false
+	}
+} 
+
+task testReport(type: TestReport) {
+	destinationDir = file("build/reports")
+	// Include the results from the 'test' task in all subprojects
+	reportOn subprojects*.test
+}
+
+uploadArchives {
+    repositories {
+       flatDir {
+           dirs 'repos'
+       }
+    }
+}

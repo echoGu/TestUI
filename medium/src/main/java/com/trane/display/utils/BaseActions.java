@@ -142,7 +142,6 @@ public class BaseActions
 				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
 				+ "UC800_reset.py";
 		 try {  
-	             System.out.println("start"); 
 	             log.info("start to reboot MP.........");
 	             Process pr = Runtime.getRuntime().exec("python " + path);  
 	             pr.waitFor();

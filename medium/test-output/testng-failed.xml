@@ -5,12 +5,9 @@
     <classes>
       <class name="com.trane.display.cases.TestLogSheet">
         <methods>
-          <include name="verifyBtnReportsClicked"/>
+          <include name="configure"/>
           <include name="verifyBtnLogSheetClicked"/>
-          <include name="clickLogSheet"/>
           <include name="verifyLogSheetData"/>
-          <include name="tearDown"/>
-          <include name="clickReports"/>
         </methods>
       </class> <!-- com.trane.display.cases.TestLogSheet -->
     </classes>
