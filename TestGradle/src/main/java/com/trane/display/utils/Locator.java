@@ -47,8 +47,4 @@ public class Locator {
 		this.byType = byType;
 	}
 
-	public void setReplace(String rep, String rex)
-	{
-		StringTools.replaceAll(selector, rex, rep);
-	}
 }
