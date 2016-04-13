@@ -6,7 +6,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
@@ -19,42 +18,35 @@ public class TestNGListener extends TestListenerAdapter
 	public void onTestSuccess(ITestResult tr) 
 	{
 		super.onTestSuccess(tr);
-		log.info("Test Success");
+		log.info(tr.getName()+ "--Test method success\n");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult tr) 
 	{
 		super.onTestFailure(tr);
-		log.error("Test Failure");
+		log.info(tr.getName()+ "--Test method Failure\n");
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult tr) 
 	{
 		super.onTestSkipped(tr);
-		log.error("Test Skipped");
-	}
-
-	@Override
-	public void onTestStart(ITestResult result) 
-	{
-		super.onTestStart(result);
-		log.info("Test Finish");
+		log.info(tr.getName()+ "--Test method Skipped\n");
 	}
 
 	@Override
 	public void onStart(ITestContext testContext) 
 	{
 		super.onStart(testContext);
-		log.info("Test Start");
+		log.info("Test Start\n");
 	}
 
 	@Override
 	public void onFinish(ITestContext testContext) 
 	{
 		super.onFinish(testContext);
-		log.info("Test Finish");
+		log.info("Test Finish\n");
 
 		ArrayList<ITestResult> testsToBeRemoved = new ArrayList<ITestResult>();
 		
@@ -69,11 +61,6 @@ public class TestNGListener extends TestListenerAdapter
 		for (ITestResult failedTest : testContext.getFailedTests().getAllResults()) 
 		{
 			log.info("failedTest = " + failedTest.getName());
-			
-			// if we saw this test as a failed test before we mark as to be
-			// deleted
-			// or delete this failed test if there is at least one passed
-			// version
 			int failedTestId = getId(failedTest);
 			if (failedTestIds.contains(failedTestId)|| passedTestIds.contains(failedTestId)) 
 			{
@@ -84,7 +71,6 @@ public class TestNGListener extends TestListenerAdapter
 			}
 		}
 
-		// finally delete all tests that are marked
 		for (Iterator<ITestResult> iterator = testContext.getFailedTests().getAllResults().iterator(); iterator.hasNext();) 
 		{
 			ITestResult testResult = iterator.next();
