@@ -1,0 +1,8 @@
+2016-04-13 10:54:07.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-13 10:54:13.356 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-13 10:54:16.388 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-13 10:54:22.536 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idLbl_pgStandardReport_Title
+2016-04-13 10:54:25.577 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idLbl_pgStandardReport_SubTitle
+2016-04-13 10:54:28.600 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idVal_pgStandardReport_PageNum
+2016-04-13 10:54:31.635 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-13 10:54:31.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:moveDown

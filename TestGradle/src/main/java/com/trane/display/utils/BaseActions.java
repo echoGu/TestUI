@@ -29,6 +29,11 @@ public class BaseActions
 	public String localDirAndFileName;
 	public HashMap<String, String> dataMap;
 	
+	public String mainResourePath = "\\src\\main\\resources";
+	public String testResourePath = "\\src\\test\\resources";
+	public String uiMapPackagePath = "\\com\\trane\\display\\UIMaps\\";
+	public String testDataPackagePath = "\\com\\trane\\display\\cases\\data\\";
+	
 	/**
 	 * read xml to inital UI locator map
 	 * @throws Exception
@@ -36,8 +41,8 @@ public class BaseActions
 	public void InitLocatorMap() throws Exception 
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
-				+ "\\src\\main\\resources"
-				+ "\\com\\trane\\display\\UIMaps\\" 
+				+ mainResourePath
+				+ uiMapPackagePath
 				+ "UIMap.xml";
 		log.info(localDirAndFileName);
 		locatorMap = XMLutils.readXMLDocument(localDirAndFileName);
@@ -47,8 +52,8 @@ public class BaseActions
 	public void VerifyData(String filename, Integer pageIndex) throws Exception 
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
-				+ "\\src\\test\\resources"
-				+ "\\com\\trane\\display\\cases\\data\\" 
+				+ testResourePath
+				+ testDataPackagePath 
 				+ filename
 				+ ".csv";
 		dataMap = CSVutils.readCSV(localDirAndFileName, pageIndex);
@@ -109,8 +114,9 @@ public class BaseActions
 	public void replaceFTPfile(String localfilename, String ftpDirAndFileName) throws Exception 
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
-				+ "\\src\\test\\resources"
-				+ "\\com\\trane\\display\\cases\\data\\UC Configs\\" 
+				+ testResourePath
+				+ testDataPackagePath
+				+ "UC Configs\\" 
 				+ localfilename
 				+ ".xml";
 
@@ -143,7 +149,8 @@ public class BaseActions
 	public void rebootMP() 
 	{
 		String path = System.getProperty("user.dir") 
-				+ "\\src\\main\\java\\com\\trane\\display\\cases\\data\\" 
+				+ testResourePath
+				+ testDataPackagePath 
 				+ "UC800_reset.py";
 		 try {  
 	             log.info("start to reboot MP.........");

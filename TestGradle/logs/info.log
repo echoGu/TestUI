@@ -1,0 +1,165 @@
+2016-04-13 10:52:11.273 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Start
+2016-04-13 10:52:11.306 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Connect to the Server successfully
+2016-04-13 10:52:11.306 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: configure RequiredDevices......
+2016-04-13 10:52:11.306 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-13 10:52:11.338 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /FW_IPC3DeviceBinding/RequiredDevices.xml Successfully
+2016-04-13 10:52:11.338 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /FW_IPC3DeviceBinding/
+2016-04-13 10:52:11.338 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: RequiredDevices.xml
+2016-04-13 10:52:11.338 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-13 10:52:11.664 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - RequiredDevices.xml Successfully to /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-13 10:52:11.664 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: configure ConfigurationRecord......
+2016-04-13 10:52:11.665 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/ConfigurationRecord.xml
+2016-04-13 10:52:11.676 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/ConfigurationRecord.xml Successfully
+2016-04-13 10:52:11.677 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-13 10:52:11.677 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: ConfigurationRecord.xml
+2016-04-13 10:52:11.680 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-13 10:52:11.829 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - ConfigurationRecord.xml Successfully to /Configuration/ConfigurationRecord.xml
+2016-04-13 10:52:11.829 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: configure NameplateRecord......
+2016-04-13 10:52:11.829 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/NameplateRecord.xml
+2016-04-13 10:52:11.833 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/NameplateRecord.xml Successfully
+2016-04-13 10:52:11.833 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-13 10:52:11.834 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: NameplateRecord.xml
+2016-04-13 10:52:11.836 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-13 10:52:11.902 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - NameplateRecord.xml Successfully to /Configuration/NameplateRecord.xml
+2016-04-13 10:52:11.903 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: configure QuestionRecord......
+2016-04-13 10:52:11.903 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/QuestionRecord.xml
+2016-04-13 10:52:11.934 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/QuestionRecord.xml Successfully
+2016-04-13 10:52:11.934 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-13 10:52:11.934 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: QuestionRecord.xml
+2016-04-13 10:52:11.934 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-13 10:52:12.111 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - QuestionRecord.xml Successfully to /Configuration/QuestionRecord.xml
+2016-04-13 10:52:12.112 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Close Server Successfully!
+2016-04-13 10:52:12.113 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: start to reboot MP.........
+2016-04-13 10:52:21.513 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: wait 90 seconds to wait for reboot successfully......
+2016-04-13 10:53:51.427 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: reboot MP successfully
+2016-04-13 10:53:51.427 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-04-13 10:53:51.484 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.485 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idBtn_pgMain_navfooterBtnReports
+2016-04-13 10:53:51.486 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is btn_Reports
+2016-04-13 10:53:51.487 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.487 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idLbl_pgReportsLanding_PageTitle
+2016-04-13 10:53:51.488 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is title_Reports
+2016-04-13 10:53:51.488 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.489 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idLbl_pgStandardReport_Title
+2016-04-13 10:53:51.489 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is StandardReport_Title
+2016-04-13 10:53:51.490 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.490 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idLbl_pgStandardReport_SubTitle
+2016-04-13 10:53:51.490 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is StandardReport_SubTitle
+2016-04-13 10:53:51.491 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.491 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idBtn_pgReportsLanding_r3c3
+2016-04-13 10:53:51.491 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is btn_LogSheet
+2016-04-13 10:53:51.492 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.492 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idVal_pgStandardReport_PageNum
+2016-04-13 10:53:51.492 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is page_num
+2016-04-13 10:53:51.493 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.493 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value idVal_pgStandardReport_TotalPageNum
+2016-04-13 10:53:51.493 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is total_page_num
+2016-04-13 10:53:51.494 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.494 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value moveDown
+2016-04-13 10:53:51.494 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is btn_Down
+2016-04-13 10:53:51.495 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type ById
+2016-04-13 10:53:51.495 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value moveUp
+2016-04-13 10:53:51.495 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is btn_Up
+2016-04-13 10:54:04.214 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Home Page is loaded successfully
+2016-04-13 10:54:04.219 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:07.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-13 10:54:10.355 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Success
+2016-04-13 10:54:10.359 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:13.356 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-13 10:54:16.388 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-13 10:54:16.452 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Success
+2016-04-13 10:54:16.468 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:19.535 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Success
+2016-04-13 10:54:19.538 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:22.536 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idLbl_pgStandardReport_Title
+2016-04-13 10:54:25.577 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idLbl_pgStandardReport_SubTitle
+2016-04-13 10:54:28.600 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idVal_pgStandardReport_PageNum
+2016-04-13 10:54:31.635 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Success
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R1C1,Active Chilled Water Setpoint
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R1C2,Evaporator Entering Water Temperature
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R1C3,Evaporator Leaving Water Temperature
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R2C1,Evaporator Refrigerant Pressure Ckt1
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R2C2,Evaporator Saturated Rfgt Temp Ckt1
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R2C3,Evaporator Approach Temperature Ckt1
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R3C1,Evaporator Refrigerant Pressure Ckt2
+2016-04-13 10:54:31.693 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R3C2,Evaporator Saturated Rfgt Temp Ckt2
+2016-04-13 10:54:31.694 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R3C3,Evaporator Approach Temperature Ckt2
+2016-04-13 10:54:31.694 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigLogSheet.csv
+2016-04-13 10:54:31.731 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.732 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Saturated Rfgt Temp Ckt1
+2016-04-13 10:54:31.732 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Saturated Rfgt Temp Ckt1
+2016-04-13 10:54:31.757 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.757 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Approach Temperature Ckt1
+2016-04-13 10:54:31.757 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Approach Temperature Ckt1
+2016-04-13 10:54:31.779 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.780 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Approach Temperature Ckt2
+2016-04-13 10:54:31.780 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Approach Temperature Ckt2
+2016-04-13 10:54:31.805 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.805 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Refrigerant Pressure Ckt1
+2016-04-13 10:54:31.805 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Refrigerant Pressure Ckt1
+2016-04-13 10:54:31.829 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.829 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Refrigerant Pressure Ckt2
+2016-04-13 10:54:31.829 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Refrigerant Pressure Ckt2
+2016-04-13 10:54:31.854 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.854 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Saturated Rfgt Temp Ckt2
+2016-04-13 10:54:31.854 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Saturated Rfgt Temp Ckt2
+2016-04-13 10:54:31.878 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.878 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Leaving Water Temperature
+2016-04-13 10:54:31.878 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Leaving Water Temperature
+2016-04-13 10:54:31.902 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.902 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Active Chilled Water Setpoint
+2016-04-13 10:54:31.902 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Active Chilled Water Setpoint
+2016-04-13 10:54:31.925 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:31.925 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Entering Water Temperature
+2016-04-13 10:54:31.926 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Entering Water Temperature
+2016-04-13 10:54:31.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.cases.TestLogSheet: find element By id:moveDown
+2016-04-13 10:54:31.932 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: click btn_Down
+2016-04-13 10:54:34.989 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R1C1,Evaporator Water Flow Status
+2016-04-13 10:54:34.991 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R1C2,Evaporator Water Pump Override
+2016-04-13 10:54:34.992 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R1C3,Blank
+2016-04-13 10:54:34.993 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R2C1,Oil Return Solenoid Valve Cprsr1A
+2016-04-13 10:54:34.993 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R2C2,Oil Return Solenoid Valve Cprsr1B
+2016-04-13 10:54:34.994 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R2C3,EXV Percent Open Ckt1
+2016-04-13 10:54:34.995 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R3C1,Oil Return Solenoid Valve Cprsr2A
+2016-04-13 10:54:34.997 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R3C2,Oil Return Solenoid Valve Cprsr2B
+2016-04-13 10:54:34.998 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R3C3,EXV Percent Open Ckt2
+2016-04-13 10:54:34.999 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigLogSheet.csv
+2016-04-13 10:54:35.057 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.057 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Oil Return Solenoid Valve Cprsr1B
+2016-04-13 10:54:35.057 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Oil Return Solenoid Valve Cprsr1B
+2016-04-13 10:54:35.089 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.089 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: EXV Percent Open Ckt1
+2016-04-13 10:54:35.090 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: EXV Percent Open Ckt1
+2016-04-13 10:54:35.121 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.122 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: EXV Percent Open Ckt2
+2016-04-13 10:54:35.122 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: EXV Percent Open Ckt2
+2016-04-13 10:54:35.156 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.156 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Oil Return Solenoid Valve Cprsr1A
+2016-04-13 10:54:35.157 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Oil Return Solenoid Valve Cprsr1A
+2016-04-13 10:54:35.184 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.184 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Oil Return Solenoid Valve Cprsr2A
+2016-04-13 10:54:35.184 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Oil Return Solenoid Valve Cprsr2A
+2016-04-13 10:54:35.207 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.208 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Oil Return Solenoid Valve Cprsr2B
+2016-04-13 10:54:35.208 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Oil Return Solenoid Valve Cprsr2B
+2016-04-13 10:54:35.216 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: This WebElement doesn't exist!
+2016-04-13 10:54:35.216 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.216 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Blank
+2016-04-13 10:54:35.240 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.240 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Water Flow Status
+2016-04-13 10:54:35.241 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Water Flow Status
+2016-04-13 10:54:35.264 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Pass! 
+2016-04-13 10:54:35.264 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Actual value: Evaporator Water Pump Override
+2016-04-13 10:54:35.264 INFO  com.trane.display.utils.Log 46 info - com.trane.display.cases.TestLogSheet: Expected value: Evaporator Water Pump Override
+2016-04-13 10:54:35.265 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Success
+2016-04-13 10:54:35.266 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:35.273 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Success
+2016-04-13 10:54:35.274 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-13 10:54:35.274 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
+2016-04-13 10:54:35.275 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyLogSheetData
+2016-04-13 10:54:35.275 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickLogSheet
+2016-04-13 10:54:35.275 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnLogSheetClicked
+2016-04-13 10:54:35.275 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
+2016-04-13 10:54:35.276 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown

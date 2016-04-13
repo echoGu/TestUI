@@ -17,10 +17,10 @@ public class TestLogSheet extends BaseActions
 	private String page_num = "page_num";
 	private String total_page_num = "total_page_num";
 	
-	private String localRequiredDevices = "UC800 - RTAF - Comp2 - BASE - RequiredDevices";
-	private String localConfigurationRecord = "UC800 - RTAF - Comp2 - BASE - ConfigurationRecord";
-	private String localNameplateRecord = "UC800 - RTAF - Comp2 - BASE - NameplateRecord";
-	private String localQuestionRecord = "UC800 - RTAF - Comp2 - BASE - QuestionRecord";
+	private String localRequiredDevices = "UC800 - RTAF - Comp4 - BASE - RequiredDevices";
+	private String localConfigurationRecord = "UC800 - RTAF - Comp4 - BASE - ConfigurationRecord";
+	private String localNameplateRecord = "UC800 - RTAF - Comp4 - BASE - NameplateRecord";
+	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
 	
 	@BeforeClass
 	public void configure() throws Exception 

@@ -19,18 +19,21 @@ public class Log {
     public Log(Class<?> clazz) 
     {
 		this.clazz = clazz;
-		logger = LogManager.getLogger(this.clazz);
 		config();
+		logger = LogManager.getLogger(this.clazz);
 	}
     
 	public void config()
 	{
         ConfigurationSource source = null;
-		try {
+		try 
+		{
 			source = new ConfigurationSource(new FileInputStream(configfile));
-		} catch (FileNotFoundException e) {
+		} catch (FileNotFoundException e) 
+		{
 			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (IOException e) 
+		{
 			e.printStackTrace();
 		}
         Configurator.initialize(null, source);
@@ -71,6 +74,8 @@ public class Log {
 	{
 		logger.fatal(clazz.getCanonicalName() + ": " + message);
 	}
+	
+	
 	
 
 	

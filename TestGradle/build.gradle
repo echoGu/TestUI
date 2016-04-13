@@ -33,7 +33,7 @@ dependencies {
 
 }
 
-defaultTasks 'test'
+defaultTasks 'test', 'clean', 'compileJava'
 
 test {
      useTestNG(){

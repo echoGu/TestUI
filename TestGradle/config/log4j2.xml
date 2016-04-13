@@ -9,12 +9,6 @@
 			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
 	    </Console>
 	    
-		<File name="all" fileName="${log-path}/all.log" append="false">
-			<Filters>
-				<ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
-			</Filters>
-			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
-		</File>
 		<File name="debug" fileName="${log-path}/debug.log" append="false">
 			<Filters>
 				<ThresholdFilter level="info" onMatch="DENY" onMismatch="NEUTRAL"/>
@@ -36,7 +30,7 @@
 			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
 		</File>
 		
-		<RollingFile name="RollingFile" filename="${log-path}/app.log" filePattern="log/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+		<RollingFile name="RollingFile" filename="${log-path}/all.log" filePattern="log/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
 			<PatternLayout pattern="%d{YYYY-MM-dd 'at' HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
 			<SizeBasedTriggeringPolicy size="1MB"/>
 		</RollingFile>
@@ -45,12 +39,19 @@
 	<Loggers>
 		<Logger name="com.trane.display.utils.Log" level="trace" additivity="false">
 			<appender-ref ref="Console" />
-			<appender-ref ref="all" />
 			<appender-ref ref="debug" />
 			<appender-ref ref="info" />
 			<appender-ref ref="error" />
 			<appender-ref ref="RollingFile" />
 		</Logger>
+		
+		<Root level="trace" additivity="false">
+			<appender-ref ref="Console"/>
+			<appender-ref ref="debug" />
+			<appender-ref ref="info" />
+			<appender-ref ref="error" />
+			<appender-ref ref="RollingFile" />
+		</Root>
 
 	</Loggers>
 	  
