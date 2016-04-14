@@ -156,8 +156,8 @@ public class BaseActions
 	             log.info("start to reboot MP.........");
 	             Process pr = Runtime.getRuntime().exec("python " + path);  
 	             pr.waitFor();
-	             log.info("wait 90 seconds to wait for reboot successfully......");
-	             Thread.sleep(90000);
+	             log.info("wait 30 seconds to wait for reboot successfully......");
+	             Thread.sleep(30000);
 	             log.info("reboot MP successfully");
              } catch (Exception e) 
 		 	  {  
