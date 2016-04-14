@@ -156,6 +156,8 @@ public class BaseActions
 			      		{
 			    		  WebElement e = driver.findElement(By.id(key));
 			    		  String actualValue = e.getText();
+			    		  log.debug("the string's id is " + key);
+			    		  log.debug("the string's location is " + e.getLocation());
 			    		  log.debug("the string's length is " + actualValue.length());
 
 			    		   Assert.assertEquals(actualValue, value);

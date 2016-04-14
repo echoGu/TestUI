@@ -1,64 +1,98 @@
-2016-04-14 17:13:51.642 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-14 17:13:57.791 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-14 17:14:00.816 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
-2016-04-14 17:14:06.948 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
-2016-04-14 17:14:09.991 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_SubTitle
-2016-04-14 17:14:13.032 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:16.090 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-2016-04-14 17:14:16.135 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-2016-04-14 17:14:16.182 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-2016-04-14 17:14:16.207 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:16.229 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:16.276 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 35
-2016-04-14 17:14:16.304 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
-2016-04-14 17:14:16.332 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
-2016-04-14 17:14:16.359 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
-2016-04-14 17:14:16.384 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
-2016-04-14 17:14:16.407 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 35
-2016-04-14 17:14:16.431 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
-2016-04-14 17:14:16.457 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 29
-2016-04-14 17:14:16.483 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 37
-2016-04-14 17:14:16.488 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:16.502 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:16.516 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:19.643 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
-2016-04-14 17:14:19.684 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 21
-2016-04-14 17:14:19.730 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 21
-2016-04-14 17:14:19.758 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
-2016-04-14 17:14:19.787 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
-2016-04-14 17:14:19.820 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
-2016-04-14 17:14:19.855 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 28
-2016-04-14 17:14:19.883 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 30
-2016-04-14 17:14:19.886 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:19.898 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:19.913 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:22.988 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:23.023 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:23.074 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:26.145 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:26.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:26.232 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:29.305 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:29.341 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:29.371 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:32.445 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:32.478 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:32.511 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:35.584 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:35.621 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:35.663 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:38.749 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:38.805 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:38.838 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:41.888 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:41.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:41.956 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:45.033 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:45.070 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:45.105 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:48.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:48.225 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:48.259 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-14 17:14:51.337 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:51.378 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-14 17:14:51.416 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:15.646 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-14 17:41:21.750 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-14 17:41:24.790 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-14 17:41:30.943 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
+2016-04-14 17:41:33.996 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_SubTitle
+2016-04-14 17:41:37.045 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:40.093 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-14 17:41:40.134 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-14 17:41:40.164 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-14 17:41:40.211 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:40.234 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:40.284 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R2C2
+2016-04-14 17:41:40.291 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (287, 207)
+2016-04-14 17:41:40.292 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 35
+2016-04-14 17:41:40.318 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R2C3
+2016-04-14 17:41:40.349 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (545, 207)
+2016-04-14 17:41:40.349 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
+2016-04-14 17:41:40.350 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R3C3
+2016-04-14 17:41:40.356 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (545, 285)
+2016-04-14 17:41:40.357 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
+2016-04-14 17:41:40.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R2C1
+2016-04-14 17:41:40.387 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (29, 207)
+2016-04-14 17:41:40.388 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
+2016-04-14 17:41:40.414 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R3C1
+2016-04-14 17:41:40.421 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (29, 285)
+2016-04-14 17:41:40.422 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
+2016-04-14 17:41:40.447 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R3C2
+2016-04-14 17:41:40.453 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (287, 285)
+2016-04-14 17:41:40.454 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 35
+2016-04-14 17:41:40.478 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R1C3
+2016-04-14 17:41:40.484 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (545, 129)
+2016-04-14 17:41:40.485 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 36
+2016-04-14 17:41:40.509 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R1C1
+2016-04-14 17:41:40.516 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (29, 129)
+2016-04-14 17:41:40.516 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 29
+2016-04-14 17:41:40.541 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R1C2
+2016-04-14 17:41:40.547 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (287, 129)
+2016-04-14 17:41:40.547 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 37
+2016-04-14 17:41:40.552 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:40.566 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:40.581 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:43.719 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R2C2
+2016-04-14 17:41:43.728 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (287, 207)
+2016-04-14 17:41:43.729 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
+2016-04-14 17:41:43.767 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R2C3
+2016-04-14 17:41:43.778 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (545, 207)
+2016-04-14 17:41:43.778 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 21
+2016-04-14 17:41:43.813 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R3C3
+2016-04-14 17:41:43.822 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (545, 285)
+2016-04-14 17:41:43.823 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 21
+2016-04-14 17:41:43.855 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R2C1
+2016-04-14 17:41:43.862 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (29, 207)
+2016-04-14 17:41:43.862 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
+2016-04-14 17:41:43.887 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R3C1
+2016-04-14 17:41:43.893 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (29, 285)
+2016-04-14 17:41:43.894 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
+2016-04-14 17:41:43.917 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R3C2
+2016-04-14 17:41:43.923 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (287, 285)
+2016-04-14 17:41:43.924 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 33
+2016-04-14 17:41:43.957 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R1C1
+2016-04-14 17:41:43.964 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (29, 129)
+2016-04-14 17:41:43.964 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 28
+2016-04-14 17:41:43.989 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's id is idLbl_pgStandardReport_R1C2
+2016-04-14 17:41:43.994 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's location is (287, 129)
+2016-04-14 17:41:43.995 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: the string's length is 30
+2016-04-14 17:41:43.997 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:44.042 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:44.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:47.129 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:47.165 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:47.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:50.270 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:50.304 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:50.332 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:53.410 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:53.434 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:53.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:56.526 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:56.553 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:56.584 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:41:59.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:59.706 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:41:59.733 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:42:02.815 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:02.875 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:02.883 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:42:05.959 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:05.991 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:06.013 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:42:09.089 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:09.126 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:09.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:42:12.226 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:12.259 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:12.282 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-14 17:42:15.357 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:15.394 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-14 17:42:15.426 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
