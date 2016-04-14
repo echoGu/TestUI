@@ -25,7 +25,7 @@ public class CSVutils
             String varName = reader.get("varName");
             String index = reader.get("pageIndex");
 
-        	if(reader.get("pageIndex").equalsIgnoreCase(pageIndex+"")) 
+        	if(Integer.parseInt(index) == pageIndex) 
         	{
                 log.info(index + "," + selector + "," + varName);
             	dataMap.put(selector, varName);

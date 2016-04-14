@@ -51,53 +51,67 @@ public class BaseActions
 	
 	public void NavigateToPage(Integer pageIndex) throws Exception
 	{
+		String pageNumLocatorname = null;
+		
 		if(isElementPresent("standard_page_num"))
 		{
-			String currentPageNum = getElement("standard_page_num").getText();
-			log.info("currentPageNum: " + currentPageNum);
-			int PageNum =Integer.parseInt(currentPageNum);
-			int min = pageIndex - PageNum;
-			int flag;
-			
-			if(min == 0)
-			{
-				flag = 0;
-			} 
-			else if(min>0)
-			{
-				flag = 1;
-			}
-			else
-			{
-				flag = -1;
-			}
-			
-			switch(flag)
-			{
-			case 0:
-				log.info("on the expected page. Do noting.");
-				break;
-				
-			case 1:
-				log.info("need click movedown button "+ min + " times to get the expected page.");
-				for(int i=0; i<min; i++)
-				{
-					click("btn_Down");
-				}
-				break;
-			
-			case -1:
-				log.info("need click moveup button "+ min + " times to get the expected page.");
-				for(int i=0; i<min; i++)
-				{
-					click("btn_Up");
-				}
-				break;
-			
-			}
+			pageNumLocatorname = "standard_page_num";
 		} 
+		else if(isElementPresent("subcomponent_page_num"))
+			{
+				pageNumLocatorname = "subcomponent_page_num";
+			}
+		
+		String currentPageNum = getElement(pageNumLocatorname).getText();
+		log.info("currentPageNum: " + currentPageNum);
+		int PageNum =Integer.parseInt(currentPageNum);
+		int min = pageIndex - PageNum;
+		int flag;
+		
+		if(min == 0)
+		{
+			flag = 0;
+		} 
+		else if(min>0)
+		{
+			flag = 1;
+		}
+		else
+		{
+			flag = -1;
+		}
+		
+		switch(flag)
+		{
+		case 0:
+			log.info("on the expected page. Do noting.");
+			break;
+			
+		case 1:
+			log.info("need click movedown button "+ min + " times to get the expected page.");
+			for(int i=0; i<min; i++)
+			{
+				click("btn_Down");
+			}
+			break;
+		
+		case -1:
+			log.info("need click moveup button "+ min + " times to get the expected page.");
+			for(int i=0; i<min; i++)
+			{
+				click("btn_Up");
+			}
+			break;
+		
+		}
 	}
 	
+	/**
+	 * Verify Data on the specific page
+	 * @param filename
+	 * @param pageIndex
+	 * @throws Exception
+	 */
 	public void VerifyData(String filename, Integer pageIndex) throws Exception 
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
@@ -142,6 +156,7 @@ public class BaseActions
 			      		{
 			    		  WebElement e = driver.findElement(By.id(key));
 			    		  String actualValue = e.getText();
+			    		  log.debug("the string's length is " + actualValue.length());
 
 			    		   Assert.assertEquals(actualValue, value);
 
@@ -162,8 +177,33 @@ public class BaseActions
 		} 
 	  else 
 		{
-		  log.error("dataMap is empty!!!");
+		  log.error("no data for page " + pageIndex + " !!! Please check CSV file.");
 	    }
+	}
+	
+	public void VerifyAllData(String filename) throws Exception
+	{
+		String pageTotalNumLocatorname = null;
+		
+		if(isElementPresent("standard_total_page_num"))
+		{
+			pageTotalNumLocatorname = "standard_total_page_num";
+		} 
+		else if(isElementPresent("subcomponent_total_page_num"))
+			{
+			pageTotalNumLocatorname = "subcomponent_total_page_num";
+			}
+		
+		String totalPageNum = getElement(pageTotalNumLocatorname).getText();
+		log.info("ready to verify " + totalPageNum + " pages data. Please make sure your CSV file has the necessary data.");
+		
+		int tpn = Integer.parseInt(totalPageNum);
+		
+		for(int i=1; i<=tpn; i++)
+		{
+			log.info("ready to verify page " + i +".");
+			VerifyData(filename, i);
+		}
 	}
 	
 	public void replaceFTPfile(String localfilename, String ftpDirAndFileName) throws Exception 

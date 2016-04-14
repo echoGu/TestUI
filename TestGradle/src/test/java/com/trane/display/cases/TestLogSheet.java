@@ -63,7 +63,8 @@ public class TestLogSheet extends BaseActions
 	public void verifyLogSheetData() throws Exception 
 	{
 //		VerifyData("BaseConfigLogSheet", 1);
-		VerifyData("BaseConfigLogSheet", 2);
+//		VerifyData("BaseConfigLogSheet", 2);
+		VerifyAllData("BaseConfigLogSheet");
 	}
 	
 	@Test(description = "Close FireFox")
