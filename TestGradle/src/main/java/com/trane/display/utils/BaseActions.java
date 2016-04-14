@@ -25,7 +25,7 @@ public class BaseActions
 	
 	public WebDriver driver = new FirefoxDriver();
 	public HashMap<String, Locator> locatorMap;
-	public Log log = new Log(this.getClass());
+	public Log log = new Log(BaseActions.class);
 	public String localDirAndFileName;
 	public HashMap<String, String> dataMap;
 	
@@ -49,6 +49,55 @@ public class BaseActions
 		
 	}
 	
+	public void NavigateToPage(Integer pageIndex) throws Exception
+	{
+		if(isElementPresent("standard_page_num"))
+		{
+			String currentPageNum = getElement("standard_page_num").getText();
+			log.info("currentPageNum: " + currentPageNum);
+			int PageNum =Integer.parseInt(currentPageNum);
+			int min = pageIndex - PageNum;
+			int flag;
+			
+			if(min == 0)
+			{
+				flag = 0;
+			} 
+			else if(min>0)
+			{
+				flag = 1;
+			}
+			else
+			{
+				flag = -1;
+			}
+			
+			switch(flag)
+			{
+			case 0:
+				log.info("on the expected page. Do noting.");
+				break;
+				
+			case 1:
+				log.info("need click movedown button "+ min + " times to get the expected page.");
+				for(int i=0; i<min; i++)
+				{
+					click("btn_Down");
+				}
+				break;
+			
+			case -1:
+				log.info("need click moveup button "+ min + " times to get the expected page.");
+				for(int i=0; i<min; i++)
+				{
+					click("btn_Up");
+				}
+				break;
+			
+			}
+		} 
+	}
+	
 	public void VerifyData(String filename, Integer pageIndex) throws Exception 
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
@@ -56,59 +105,65 @@ public class BaseActions
 				+ testDataPackagePath 
 				+ filename
 				+ ".csv";
-		dataMap = CSVutils.readCSV(localDirAndFileName, pageIndex);
 		log.info(localDirAndFileName);
+		dataMap = CSVutils.readCSV(localDirAndFileName, pageIndex);
+		
+		NavigateToPage(pageIndex);
 		  
-		  if(!dataMap.isEmpty()) 
-		  {
-				Set<String> keys = dataMap.keySet();
-				
-				Iterator<String> iter = keys.iterator();
-				  
-				  while(iter.hasNext()) 
-				  {
-				      String key = (String)iter.next();
-				      String value = (String)dataMap.get(key);
-				      
-				      if(!ElementExist(By.id(key))) 
-				      {
-				    	  log.info("This WebElement doesn't exist!" );
-				    	  Assert.assertEquals("Blank", value);
-				    	  
-				    	  if(value.equalsIgnoreCase("Blank")) 
-				    	  {
-					    	  log.info("Pass! ");
+	  if(!dataMap.isEmpty()) 
+	  {
+			Set<String> keys = dataMap.keySet();
+			
+			Iterator<String> iter = keys.iterator();
+			  
+			  while(iter.hasNext()) 
+			  {
+			      String key = (String)iter.next();
+			      String value = (String)dataMap.get(key);
+			      
+			      if(!ElementExist(By.id(key))) 
+			      {
+			    	  log.info("This WebElement doesn't exist!" );
+			    	  Assert.assertEquals("Blank", value);
+			    	  
+			    	  if(value.equalsIgnoreCase("Blank")) 
+			    	  {
+				    	  log.info("Pass! ");
+				    	  log.info("Expected value: " + value);
+			    	  } 
+			    	  else if(!value.equalsIgnoreCase("Blank")) 
+			    	  		{
+					    	  log.error("Fail! ");
 					    	  log.info("Expected value: " + value);
-				    	  } else if(!value.equalsIgnoreCase("Blank")) 
-				    	  		{
-						    	  log.error("Fail! ");
-						    	  log.info("Expected value: " + value);
-				    	  		}
+			    	  		}
 
-				      } else if (ElementExist(By.id(key))) 
-				      		{
-				    		  WebElement e = driver.findElement(By.id(key));
-				    		  String actualValue = e.getText();
+			      } 
+			      else if (ElementExist(By.id(key))) 
+			      		{
+			    		  WebElement e = driver.findElement(By.id(key));
+			    		  String actualValue = e.getText();
 
-				    		   Assert.assertEquals(actualValue, value);
+			    		   Assert.assertEquals(actualValue, value);
 
-					    		  if (actualValue.equalsIgnoreCase(value)) 
-					    		  {
-					    			  log.info("Pass! ");
+				    		  if (actualValue.equals(value)) 
+				    		  {
+				    			  log.info("Pass! ");
+				    			  log.info("Actual value: " + actualValue);
+				    			  log.info("Expected value: " + value);
+				    		  } 
+				    		  else if (!actualValue.equals(value)) 
+				    		  		{
+					    			  log.error("Fail! ");
 					    			  log.info("Actual value: " + actualValue);
 					    			  log.info("Expected value: " + value);
-					    		  } else if (!actualValue.equalsIgnoreCase(value)) 
-					    		  		{
-						    			  log.error("Fail! ");
-						    			  log.info("Actual value: " + actualValue);
-						    			  log.info("Expected value: " + value);
-					    		  		}
-				    		  }
-				      }
-			} else 
-			{
-			  log.error("dataMap is empty!!!");
-		    }
+				    		  		}
+			    		  }
+			      }
+		} 
+	  else 
+		{
+		  log.error("dataMap is empty!!!");
+	    }
 	}
 	
 	public void replaceFTPfile(String localfilename, String ftpDirAndFileName) throws Exception 
@@ -225,7 +280,7 @@ public class BaseActions
     	
     }
     
-	boolean ElementExist(By Locator) 
+	public boolean ElementExist(By Locator) 
 	{
 		try 
 		{
@@ -260,6 +315,7 @@ public class BaseActions
 		Locator locator = getLocator(locatorName);
 		By by = getByLocator(locator);
 		WebElement element = driver.findElement(by);
+		log.info("get the WebElement by locatorName: " + locatorName);
 		return element;
 	}
 	/**

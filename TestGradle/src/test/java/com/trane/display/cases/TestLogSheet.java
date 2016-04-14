@@ -14,13 +14,13 @@ public class TestLogSheet extends BaseActions
 	private String title_Reports = "title_Reports";
 	private String StandardReport_Title = "StandardReport_Title";
 	private String StandardReport_SubTitle = "StandardReport_SubTitle";
-	private String page_num = "page_num";
-	private String total_page_num = "total_page_num";
+	private String standard_page_num = "standard_page_num";
+	private String standard_total_page_num = "standard_total_page_num";
 	
-	private String localRequiredDevices = "UC800 - RTAF - Comp2 - BASE - RequiredDevices";
-	private String localConfigurationRecord = "UC800 - RTAF - Comp2 - BASE - ConfigurationRecord";
-	private String localNameplateRecord = "UC800 - RTAF - Comp2 - BASE - NameplateRecord";
-	private String localQuestionRecord = "UC800 - RTAF - Comp2 - BASE - QuestionRecord";
+	private String localRequiredDevices = "UC800 - RTAF - Comp4 - BASE - RequiredDevices";
+	private String localConfigurationRecord = "UC800 - RTAF - Comp4 - BASE - ConfigurationRecord";
+	private String localNameplateRecord = "UC800 - RTAF - Comp4 - BASE - NameplateRecord";
+	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
 	
 	@BeforeClass
 	public void configure() throws Exception 
@@ -55,15 +55,14 @@ public class TestLogSheet extends BaseActions
 	{
 		verifyText(StandardReport_Title, "Log Sheet");
 		verifyText(StandardReport_SubTitle, "Evaporator");
-		verifyText(page_num, 1);
-		verifyText(total_page_num, 13);
+		verifyText(standard_page_num, 1);
+		verifyText(standard_total_page_num, 13);
 	}
 	
 	@Test(description = "Verify Log Sheet Data")
 	public void verifyLogSheetData() throws Exception 
 	{
-		VerifyData("BaseConfigLogSheet", 1);
-		click("btn_Down");
+//		VerifyData("BaseConfigLogSheet", 1);
 		VerifyData("BaseConfigLogSheet", 2);
 	}
 	

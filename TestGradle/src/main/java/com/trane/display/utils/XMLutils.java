@@ -61,18 +61,18 @@ public class XMLutils {
 						if (attribute.getName().equals("type")) 
 						{
 							type = attribute.getValue();
-							log.info("get locator type " + type);
+							log.info("get locator type: " + type);
 						} else 
 						{
 							value = attribute.getValue();
-							log.info("get locator value " + value);
+							log.info("get locator value: " + value);
 						}
 
 					}
 					
 					Locator temp = new Locator(value, getByType(type));
 					locatorName = locator.getText();
-					log.info("locator Name is " + locatorName);
+					log.info("locator Name is: " + locatorName);
 					locatorMap.put(locatorName, temp);
 				}
 				continue;
