@@ -15,5 +15,10 @@
 		<locator type="ById" value="idVal_pgSubcomponentReport_TotalPageNum">subcomponent_total_page_num</locator>
 		<locator type="ById" value="moveDown">btn_Down</locator>
 		<locator type="ById" value="moveUp">btn_Up</locator>
+		<locator type="ById" value="report_group_down">btn_report_group_Down</locator>
+		<locator type="ById" value="report_group_up">btn_report_group_Up</locator>
+		<locator type="ById" value="report_entries_available_down">btn_report_entries_available_down</locator>
+		<locator type="ById" value="report_entries_available_up">btn_report_entries_available_up</locator>
+		<locator type="ById" value="group_name">txt_group_name</locator>
 	</page>
 </map>

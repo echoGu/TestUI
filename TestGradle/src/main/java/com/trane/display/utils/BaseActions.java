@@ -11,6 +11,7 @@ import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -38,7 +39,7 @@ public class BaseActions
 	 * read xml to inital UI locator map
 	 * @throws Exception
 	 */
-	public void InitLocatorMap() throws Exception 
+	public void initLocatorMap() throws Exception 
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
 				+ mainResourePath
@@ -48,8 +49,10 @@ public class BaseActions
 		locatorMap = XMLutils.readXMLDocument(localDirAndFileName);
 		
 	}
-	
-	public void NavigateToPage(Integer pageIndex) throws Exception
+	/*
+	 * Subcomponet pages and Standard pages have different page num id
+	 */
+	public String sortPagesCurrentNum() throws Exception
 	{
 		String pageNumLocatorname = null;
 		
@@ -62,7 +65,12 @@ public class BaseActions
 				pageNumLocatorname = "subcomponent_page_num";
 			}
 		
-		String currentPageNum = getElement(pageNumLocatorname).getText();
+		return pageNumLocatorname;
+	}
+	
+	public void navigateToPage(Integer pageIndex) throws Exception
+	{
+		String currentPageNum = getElement(sortPagesCurrentNum()).getText();
 		log.info("currentPageNum: " + currentPageNum);
 		int PageNum =Integer.parseInt(currentPageNum);
 		int min = pageIndex - PageNum;
@@ -106,13 +114,7 @@ public class BaseActions
 		}
 	}
 	
-	/**
-	 * Verify Data on the specific page
-	 * @param filename
-	 * @param pageIndex
-	 * @throws Exception
-	 */
-	public void VerifyData(String filename, Integer pageIndex) throws Exception 
+	public HashMap<String,String> initialDataMap(String filename, Integer pageIndex) throws Exception
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
 				+ testResourePath
@@ -122,68 +124,78 @@ public class BaseActions
 		log.info(localDirAndFileName);
 		dataMap = CSVutils.readCSV(localDirAndFileName, pageIndex);
 		
-		NavigateToPage(pageIndex);
-		  
-	  if(!dataMap.isEmpty()) 
-	  {
-			Set<String> keys = dataMap.keySet();
-			
-			Iterator<String> iter = keys.iterator();
-			  
-			  while(iter.hasNext()) 
-			  {
-			      String key = (String)iter.next();
-			      String value = (String)dataMap.get(key);
-			      
-			      if(!ElementExist(By.id(key))) 
-			      {
-			    	  log.info("This WebElement doesn't exist!" );
-			    	  Assert.assertEquals("Blank", value);
-			    	  
-			    	  if(value.equalsIgnoreCase("Blank")) 
-			    	  {
-				    	  log.info("Pass! ");
-				    	  log.info("Expected value: " + value);
-			    	  } 
-			    	  else if(!value.equalsIgnoreCase("Blank")) 
-			    	  		{
-					    	  log.error("Fail! ");
-					    	  log.info("Expected value: " + value);
-			    	  		}
-
-			      } 
-			      else if (ElementExist(By.id(key))) 
-			      		{
-			    		  WebElement e = driver.findElement(By.id(key));
-			    		  String actualValue = e.getText();
-			    		  log.debug("the string's id is " + key);
-			    		  log.debug("the string's location is " + e.getLocation());
-			    		  log.debug("the string's length is " + actualValue.length());
-
-			    		   Assert.assertEquals(actualValue, value);
-
-				    		  if (actualValue.equals(value)) 
-				    		  {
-				    			  log.info("Pass! ");
-				    			  log.info("Actual value: " + actualValue);
-				    			  log.info("Expected value: " + value);
-				    		  } 
-				    		  else if (!actualValue.equals(value)) 
-				    		  		{
-					    			  log.error("Fail! ");
-					    			  log.info("Actual value: " + actualValue);
-					    			  log.info("Expected value: " + value);
-				    		  		}
-			    		  }
-			      }
-		} 
-	  else 
-		{
-		  log.error("no data for page " + pageIndex + " !!! Please check CSV file.");
-	    }
+		return dataMap;
 	}
 	
-	public void VerifyAllData(String filename) throws Exception
+	public void verifySpecificPageData(String filename, Integer pageIndex) throws Exception
+	{
+		navigateToPage(pageIndex);
+		compareData(filename, pageIndex);
+	}
+	
+	public int navigateToCustomReportGroup(String groupname) throws Exception
+	{
+		String currentGroup = getElement("txt_group_name").getText();
+		log.debug("currentGroup is " + currentGroup + "expected group is " + groupname);
+		int pageIndex = 1;
+		
+		while(!currentGroup.equals(groupname))
+		{
+			click("btn_report_group_Down");
+			pageIndex++;
+		}
+		log.debug("click move down button " + pageIndex + " times. Now the currentGroup is " + currentGroup);
+		
+		return pageIndex;
+	}
+	
+	public void verifySpecificCustomReportData(String filename, String groupname) throws Exception
+	{
+		int pageIndex = navigateToCustomReportGroup(groupname);
+		compareData(filename, pageIndex);
+	}
+
+	public void compareData(String filename, Integer pageIndex)
+	{
+		try {
+			dataMap = initialDataMap(filename, pageIndex);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		  if(!dataMap.isEmpty()) 
+		  {
+				Set<String> keys = dataMap.keySet();
+				
+				Iterator<String> iter = keys.iterator();
+				  
+				  while(iter.hasNext()) 
+				  {
+				      String key = (String)iter.next();
+				      String value = (String)dataMap.get(key);
+				      String actualValue =null;
+				      
+		    		  try {
+						      WebElement e = driver.findElement(By.id(key));
+				    		  actualValue = e.getText();
+		    			} catch (NoSuchElementException e) {
+		    				actualValue = "Blank";
+		    				log.debug("can't find the webElement by id " + key );
+		    			}
+		    		  
+		    		  Assert.assertEquals(actualValue, value);
+		    		  log.info("Actual value: " + actualValue);
+	    			  log.info("Expected value: " + value);
+				      
+				   }
+			} 
+		  else 
+			{
+			  log.error("no data for page " + pageIndex + " !!! Please check CSV file.");
+		    }
+	}
+	
+	public String sortPagesTotalNum() throws Exception
 	{
 		String pageTotalNumLocatorname = null;
 		
@@ -196,7 +208,12 @@ public class BaseActions
 			pageTotalNumLocatorname = "subcomponent_total_page_num";
 			}
 		
-		String totalPageNum = getElement(pageTotalNumLocatorname).getText();
+		return pageTotalNumLocatorname;
+	}
+	
+	public void verifyAllData(String filename) throws Exception
+	{
+		String totalPageNum = getElement(sortPagesTotalNum()).getText();
 		log.info("ready to verify " + totalPageNum + " pages data. Please make sure your CSV file has the necessary data.");
 		
 		int tpn = Integer.parseInt(totalPageNum);
@@ -204,7 +221,7 @@ public class BaseActions
 		for(int i=1; i<=tpn; i++)
 		{
 			log.info("ready to verify page " + i +".");
-			VerifyData(filename, i);
+			verifySpecificPageData(filename, i);
 		}
 	}
 	
@@ -322,7 +339,7 @@ public class BaseActions
     	
     }
     
-	public boolean ElementExist(By Locator) 
+	public boolean elementExist(By Locator) 
 	{
 		try 
 		{

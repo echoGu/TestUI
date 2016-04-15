@@ -1,0 +1,23 @@
+pageIndex,id,varName
+1,item_available_0,Top Level Mode
+1,item_available_1,Top Level Mode Ckt1 
+1,item_available_2,Top Level Mode Cprsr1A
+1,item_available_3,Top Level Mode Cprsr1B
+1,item_available_4,Top Level Mode Ckt2 
+1,item_available_5,Top Level Mode Cprsr2A
+1,item_available_6,Top Level Mode Cprsr2B
+1,item_available_7,Chiller Running Time
+1,item_available_8,Chiller Load Command
+1,item_available_9,Total Compressor Current %RLA
+1,item_available_10,Ice Building Active
+1,item_available_11,Free Cooling Active
+1,item_available_12,Active Chilled Water Setpoint
+1,item_available_13,Active Chilled Water Setpoint Source
+1,item_available_14,BAS Chilled Water Setpoint
+1,item_available_15,External Chilled Water Setpoint
+1,item_available_16,Active Demand Limit Setpoint
+1,item_available_17,Active Demand Limit Setpoint Source
+1,item_available_18,BAS Demand Limit Setpoint
+1,item_available_19,External Demand Limit Setpoint
+1,item_available_20,Active Ice Termination Setpoint
+1,item_available_21,Active Ice Termination Setpoint Source

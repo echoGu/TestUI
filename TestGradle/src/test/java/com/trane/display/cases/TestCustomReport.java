@@ -8,14 +8,10 @@ import com.trane.display.utils.BaseActions;
 import com.trane.display.utils.TestNGListener;
 
 @Listeners({TestNGListener.class })
-public class TestLogSheet extends BaseActions
+public class TestCustomReport extends BaseActions
 {
 	private String btn_Reports = "btn_Reports";
 	private String title_Reports = "title_Reports";
-	private String StandardReport_Title = "StandardReport_Title";
-	private String StandardReport_SubTitle = "StandardReport_SubTitle";
-	private String standard_page_num = "standard_page_num";
-	private String standard_total_page_num = "standard_total_page_num";
 	
 	private String localRequiredDevices = "UC800 - RTAF - Comp4 - BASE - RequiredDevices";
 	private String localConfigurationRecord = "UC800 - RTAF - Comp4 - BASE - ConfigurationRecord";
@@ -44,27 +40,22 @@ public class TestLogSheet extends BaseActions
 		verifyText(title_Reports, "Reports");
 	}
 
-	@Test(description = "Click Log Sheet button on the Reports page")
-	public void clickLogSheet() throws Exception 
+	@Test(description = "Click Custom Report 1 button on the Reports page")
+	public void clickCustomReport() throws Exception 
 	{
-		clickVisibleDiv("Log Sheet");
+		clickVisibleDiv("Custom Report 1");
 	}
 	
-	@Test(description = "Verify on Log Sheet page 1")
-	public void verifyBtnLogSheetClicked() throws Exception 
+	@Test(description = "Click Edit button")
+	public void ClickEditButton() throws Exception 
 	{
-		verifyText(StandardReport_Title, "Log Sheet");
-		verifyText(StandardReport_SubTitle, "Evaporator");
-		verifyText(standard_page_num, 1);
-		verifyText(standard_total_page_num, 13);
+		clickVisibleDiv("Edit");
 	}
 	
-	@Test(description = "Verify Log Sheet Data")
-	public void verifyLogSheetData() throws Exception 
+	@Test(description = "Verify Custom Report 1 Data")
+	public void verifyCustomReportData() throws Exception 
 	{
-//		verifySpecificPageData("BaseConfigLogSheet", 1);
-//		verifySpecificPageData("BaseConfigLogSheet", 2);
-		verifyAllData("BaseConfigLogSheet");
+		verifySpecificCustomReportData("BaseConfigCustomReport", "Chiller");
 	}
 	
 	@Test(description = "Close FireFox")
