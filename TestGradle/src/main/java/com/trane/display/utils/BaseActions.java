@@ -136,7 +136,7 @@ public class BaseActions
 	public int navigateToCustomReportGroup(String groupname) throws Exception
 	{
 		String currentGroup = getElement("txt_group_name").getText();
-		log.debug("currentGroup is " + currentGroup + "expected group is " + groupname);
+		log.debug("currentGroup is " + currentGroup + "; expected group is " + groupname);
 		int pageIndex = 1;
 		
 		while(!currentGroup.equals(groupname))
@@ -144,7 +144,7 @@ public class BaseActions
 			click("btn_report_group_Down");
 			pageIndex++;
 		}
-		log.debug("click move down button " + pageIndex + " times. Now the currentGroup is " + currentGroup);
+		log.debug("Now the currentGroup is " + currentGroup);
 		
 		return pageIndex;
 	}
@@ -152,7 +152,44 @@ public class BaseActions
 	public void verifySpecificCustomReportData(String filename, String groupname) throws Exception
 	{
 		int pageIndex = navigateToCustomReportGroup(groupname);
-		compareData(filename, pageIndex);
+		
+		try {
+			dataMap = initialDataMap(filename, pageIndex);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		  if(!dataMap.isEmpty()) 
+		  {
+				Set<String> keys = dataMap.keySet();
+				
+				Iterator<String> iter = keys.iterator();
+				  
+				  while(iter.hasNext()) 
+				  {
+				      String key = (String)iter.next();
+				      String value = (String)dataMap.get(key);
+				      String actualValue =null;
+				      
+		    		  try {
+						      WebElement e = driver.findElement(By.id(key));
+				    		  actualValue = e.getText();
+		    			} catch (NoSuchElementException e) {
+		    				click("btn_report_entries_available_down");
+//		    				actualValue = "Blank";
+//		    				log.debug("can't find the webElement by id " + key );
+		    			}
+		    		  
+		    		  Assert.assertEquals(actualValue, value);
+		    		  log.debug("Actual value: " + actualValue);
+	    			  log.debug("Expected value: " + value);
+				      
+				   }
+			} 
+		  else 
+			{
+			  log.error("no data for group " + groupname + " !!! Please check CSV file.");
+		    }
 	}
 
 	public void compareData(String filename, Integer pageIndex)
@@ -184,8 +221,8 @@ public class BaseActions
 		    			}
 		    		  
 		    		  Assert.assertEquals(actualValue, value);
-		    		  log.info("Actual value: " + actualValue);
-	    			  log.info("Expected value: " + value);
+		    		  log.debug("Actual value: " + actualValue);
+	    			  log.debug("Expected value: " + value);
 				      
 				   }
 			} 

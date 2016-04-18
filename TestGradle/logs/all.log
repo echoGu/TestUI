@@ -5584,3 +5584,519 @@
 2016-04-15 at 18:00:04.915 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
 2016-04-15 at 18:00:04.915 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
 2016-04-15 at 18:00:04.915 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: failedTest = verifyCustomReportData
+2016-04-18 at 17:22:06.597 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Start
+
+2016-04-18 at 17:22:06.649 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Connect to the Server successfully
+2016-04-18 at 17:22:06.650 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure RequiredDevices......
+2016-04-18 at 17:22:06.650 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:22:06.655 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /FW_IPC3DeviceBinding/RequiredDevices.xml Successfully
+2016-04-18 at 17:22:06.655 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /FW_IPC3DeviceBinding/
+2016-04-18 at 17:22:06.655 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: RequiredDevices.xml
+2016-04-18 at 17:22:06.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:22:06.986 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - RequiredDevices.xml Successfully to /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:22:06.986 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure ConfigurationRecord......
+2016-04-18 at 17:22:06.987 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:22:06.999 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/ConfigurationRecord.xml Successfully
+2016-04-18 at 17:22:07.000 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:22:07.000 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: ConfigurationRecord.xml
+2016-04-18 at 17:22:07.002 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:22:07.528 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - ConfigurationRecord.xml Successfully to /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:22:07.529 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure NameplateRecord......
+2016-04-18 at 17:22:07.529 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/NameplateRecord.xml
+2016-04-18 at 17:22:07.543 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/NameplateRecord.xml Successfully
+2016-04-18 at 17:22:07.543 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:22:07.544 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: NameplateRecord.xml
+2016-04-18 at 17:22:07.546 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:22:07.614 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - NameplateRecord.xml Successfully to /Configuration/NameplateRecord.xml
+2016-04-18 at 17:22:07.614 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure QuestionRecord......
+2016-04-18 at 17:22:07.615 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/QuestionRecord.xml
+2016-04-18 at 17:22:07.620 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/QuestionRecord.xml Successfully
+2016-04-18 at 17:22:07.620 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:22:07.620 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: QuestionRecord.xml
+2016-04-18 at 17:22:07.622 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:22:07.842 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - QuestionRecord.xml Successfully to /Configuration/QuestionRecord.xml
+2016-04-18 at 17:22:07.843 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Close Server Successfully!
+2016-04-18 at 17:22:07.843 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: start to reboot MP.........
+2016-04-18 at 17:22:17.612 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: wait 30 seconds to wait for reboot successfully......
+2016-04-18 at 17:22:47.608 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: reboot MP successfully
+2016-04-18 at 17:22:47.609 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-04-18 at 17:22:47.708 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.709 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:22:47.710 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Reports
+2016-04-18 at 17:22:47.710 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.711 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:22:47.711 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: title_Reports
+2016-04-18 at 17:22:47.711 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.712 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_Title
+2016-04-18 at 17:22:47.712 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_Title
+2016-04-18 at 17:22:47.712 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.713 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_SubTitle
+2016-04-18 at 17:22:47.713 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_SubTitle
+2016-04-18 at 17:22:47.714 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.714 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgReportsLanding_r3c3
+2016-04-18 at 17:22:47.714 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_LogSheet
+2016-04-18 at 17:22:47.715 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.716 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_PageNum
+2016-04-18 at 17:22:47.717 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_page_num
+2016-04-18 at 17:22:47.717 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.717 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_TotalPageNum
+2016-04-18 at 17:22:47.718 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_total_page_num
+2016-04-18 at 17:22:47.718 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.719 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_PageNum
+2016-04-18 at 17:22:47.720 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_page_num
+2016-04-18 at 17:22:47.720 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.720 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_TotalPageNum
+2016-04-18 at 17:22:47.721 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_total_page_num
+2016-04-18 at 17:22:47.721 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.722 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveDown
+2016-04-18 at 17:22:47.722 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Down
+2016-04-18 at 17:22:47.722 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.723 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveUp
+2016-04-18 at 17:22:47.723 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Up
+2016-04-18 at 17:22:47.723 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.724 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_down
+2016-04-18 at 17:22:47.727 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
+2016-04-18 at 17:22:47.728 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.728 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_up
+2016-04-18 at 17:22:47.728 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
+2016-04-18 at 17:22:47.729 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.729 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
+2016-04-18 at 17:22:47.731 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
+2016-04-18 at 17:22:47.732 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.732 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
+2016-04-18 at 17:22:47.733 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
+2016-04-18 at 17:22:47.733 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:22:47.733 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: group_name
+2016-04-18 at 17:22:47.734 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
+2016-04-18 at 17:23:14.030 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-04-18 at 17:23:17.038 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:23:17.057 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:23:20.156 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickReports--Test method success
+
+2016-04-18 at 17:23:23.159 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:23:23.179 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:23:26.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:23:26.218 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: title_Reports
+2016-04-18 at 17:23:26.234 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyBtnReportsClicked--Test method success
+
+2016-04-18 at 17:23:29.318 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickCustomReport--Test method success
+
+2016-04-18 at 17:23:32.415 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: ClickEditButton--Test method success
+
+2016-04-18 at 17:23:32.418 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
+2016-04-18 at 17:23:32.438 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: txt_group_name
+2016-04-18 at 17:23:32.460 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Chillerexpected group is Chiller
+2016-04-18 at 17:23:32.461 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: click move down button 1 times. Now the currentGroup is Chiller
+2016-04-18 at 17:23:32.462 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
+2016-04-18 at 17:23:32.481 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_0,Top Level Mode
+2016-04-18 at 17:23:32.482 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_1,Top Level Mode Ckt1
+2016-04-18 at 17:23:32.483 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_2,Top Level Mode Cprsr1A
+2016-04-18 at 17:23:32.484 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_3,Top Level Mode Cprsr1B
+2016-04-18 at 17:23:32.484 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_4,Top Level Mode Ckt2
+2016-04-18 at 17:23:32.485 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_5,Top Level Mode Cprsr2A
+2016-04-18 at 17:23:32.485 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_6,Top Level Mode Cprsr2B
+2016-04-18 at 17:23:32.486 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_7,Chiller Running Time
+2016-04-18 at 17:23:32.486 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_8,Chiller Load Command
+2016-04-18 at 17:23:32.487 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_9,Total Compressor Current %RLA
+2016-04-18 at 17:23:32.488 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_10,Ice Building Active
+2016-04-18 at 17:23:32.488 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_11,Free Cooling Active
+2016-04-18 at 17:23:32.489 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_12,Active Chilled Water Setpoint
+2016-04-18 at 17:23:32.489 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_13,Active Chilled Water Setpoint Source
+2016-04-18 at 17:23:32.490 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_14,BAS Chilled Water Setpoint
+2016-04-18 at 17:23:32.491 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_15,External Chilled Water Setpoint
+2016-04-18 at 17:23:32.491 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_16,Active Demand Limit Setpoint
+2016-04-18 at 17:23:32.492 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_17,Active Demand Limit Setpoint Source
+2016-04-18 at 17:23:32.492 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_18,BAS Demand Limit Setpoint
+2016-04-18 at 17:23:32.493 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_19,External Demand Limit Setpoint
+2016-04-18 at 17:23:32.493 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_20,Active Ice Termination Setpoint
+2016-04-18 at 17:23:32.494 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_21,Active Ice Termination Setpoint Source
+2016-04-18 at 17:23:32.512 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
+2016-04-18 at 17:23:32.521 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_report_entries_available_down
+2016-04-18 at 17:23:32.522 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
+2016-04-18 at 17:23:35.590 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyCustomReportData--Test method Failure
+
+2016-04-18 at 17:23:35.612 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: tearDown--Test method success
+
+2016-04-18 at 17:23:35.614 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+
+2016-04-18 at 17:23:35.614 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown
+2016-04-18 at 17:23:35.615 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickCustomReport
+2016-04-18 at 17:23:35.615 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
+2016-04-18 at 17:23:35.616 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = ClickEditButton
+2016-04-18 at 17:23:35.616 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
+2016-04-18 at 17:23:35.617 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: failedTest = verifyCustomReportData
+2016-04-18 at 17:29:01.877 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Start
+
+2016-04-18 at 17:29:01.908 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Connect to the Server successfully
+2016-04-18 at 17:29:01.908 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure RequiredDevices......
+2016-04-18 at 17:29:01.908 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:29:01.924 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /FW_IPC3DeviceBinding/RequiredDevices.xml Successfully
+2016-04-18 at 17:29:01.924 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /FW_IPC3DeviceBinding/
+2016-04-18 at 17:29:01.924 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: RequiredDevices.xml
+2016-04-18 at 17:29:01.924 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:29:02.251 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - RequiredDevices.xml Successfully to /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:29:02.251 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure ConfigurationRecord......
+2016-04-18 at 17:29:02.251 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:29:02.267 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/ConfigurationRecord.xml Successfully
+2016-04-18 at 17:29:02.267 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:29:02.267 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: ConfigurationRecord.xml
+2016-04-18 at 17:29:02.267 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - ConfigurationRecord.xml Successfully to /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure NameplateRecord......
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/NameplateRecord.xml
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/NameplateRecord.xml Successfully
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: NameplateRecord.xml
+2016-04-18 at 17:29:02.423 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:29:02.501 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - NameplateRecord.xml Successfully to /Configuration/NameplateRecord.xml
+2016-04-18 at 17:29:02.501 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure QuestionRecord......
+2016-04-18 at 17:29:02.501 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/QuestionRecord.xml
+2016-04-18 at 17:29:02.516 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/QuestionRecord.xml Successfully
+2016-04-18 at 17:29:02.516 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:29:02.516 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: QuestionRecord.xml
+2016-04-18 at 17:29:02.516 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:29:02.719 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - QuestionRecord.xml Successfully to /Configuration/QuestionRecord.xml
+2016-04-18 at 17:29:02.719 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Close Server Successfully!
+2016-04-18 at 17:29:02.719 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: start to reboot MP.........
+2016-04-18 at 17:29:12.180 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: wait 30 seconds to wait for reboot successfully......
+2016-04-18 at 17:29:42.192 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: reboot MP successfully
+2016-04-18 at 17:29:42.192 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Reports
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: title_Reports
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_Title
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_Title
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_SubTitle
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_SubTitle
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgReportsLanding_r3c3
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_LogSheet
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_PageNum
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_page_num
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_TotalPageNum
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_total_page_num
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_PageNum
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_page_num
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_TotalPageNum
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_total_page_num
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveDown
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Down
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveUp
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Up
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_down
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
+2016-04-18 at 17:29:42.223 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_up
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: group_name
+2016-04-18 at 17:29:42.239 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
+2016-04-18 at 17:30:02.347 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-04-18 at 17:30:05.373 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:30:05.404 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:30:08.540 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickReports--Test method success
+
+2016-04-18 at 17:30:11.550 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:30:11.566 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:30:14.592 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:30:14.608 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: title_Reports
+2016-04-18 at 17:30:14.639 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyBtnReportsClicked--Test method success
+
+2016-04-18 at 17:30:17.759 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickCustomReport--Test method success
+
+2016-04-18 at 17:30:20.878 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: ClickEditButton--Test method success
+
+2016-04-18 at 17:30:20.878 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
+2016-04-18 at 17:30:20.910 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: txt_group_name
+2016-04-18 at 17:30:20.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Chiller; expected group is Chiller
+2016-04-18 at 17:30:20.941 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: click move down button 1 times. Now the currentGroup is Chiller
+2016-04-18 at 17:30:20.941 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
+2016-04-18 at 17:30:20.941 ERROR com.trane.display.utils.Log 57 error - com.trane.display.utils.BaseActions: no data for group Chiller !!! Please check CSV file.
+2016-04-18 at 17:30:20.941 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyCustomReportData--Test method success
+
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: tearDown--Test method success
+
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyCustomReportData
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = ClickEditButton
+2016-04-18 at 17:30:20.972 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickCustomReport
+2016-04-18 at 17:33:14.262 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Start
+
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Connect to the Server successfully
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure RequiredDevices......
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /FW_IPC3DeviceBinding/RequiredDevices.xml Successfully
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /FW_IPC3DeviceBinding/
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: RequiredDevices.xml
+2016-04-18 at 17:33:14.293 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:33:14.637 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - RequiredDevices.xml Successfully to /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:33:14.637 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure ConfigurationRecord......
+2016-04-18 at 17:33:14.637 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:33:14.652 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/ConfigurationRecord.xml Successfully
+2016-04-18 at 17:33:14.652 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:33:14.652 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: ConfigurationRecord.xml
+2016-04-18 at 17:33:14.652 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:33:14.808 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - ConfigurationRecord.xml Successfully to /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:33:14.808 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure NameplateRecord......
+2016-04-18 at 17:33:14.808 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/NameplateRecord.xml
+2016-04-18 at 17:33:14.808 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/NameplateRecord.xml Successfully
+2016-04-18 at 17:33:14.808 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:33:14.824 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: NameplateRecord.xml
+2016-04-18 at 17:33:14.824 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:33:14.886 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - NameplateRecord.xml Successfully to /Configuration/NameplateRecord.xml
+2016-04-18 at 17:33:14.886 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure QuestionRecord......
+2016-04-18 at 17:33:14.886 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/QuestionRecord.xml
+2016-04-18 at 17:33:14.886 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/QuestionRecord.xml Successfully
+2016-04-18 at 17:33:14.886 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:33:14.886 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: QuestionRecord.xml
+2016-04-18 at 17:33:14.902 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:33:15.105 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - QuestionRecord.xml Successfully to /Configuration/QuestionRecord.xml
+2016-04-18 at 17:33:15.105 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Close Server Successfully!
+2016-04-18 at 17:33:15.105 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: start to reboot MP.........
+2016-04-18 at 17:33:24.566 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: wait 30 seconds to wait for reboot successfully......
+2016-04-18 at 17:33:54.580 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: reboot MP successfully
+2016-04-18 at 17:33:54.580 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Reports
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: title_Reports
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_Title
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_Title
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_SubTitle
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_SubTitle
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgReportsLanding_r3c3
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_LogSheet
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_PageNum
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_page_num
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_TotalPageNum
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_total_page_num
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_PageNum
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_page_num
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_TotalPageNum
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_total_page_num
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveDown
+2016-04-18 at 17:33:54.658 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Down
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveUp
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Up
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_down
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_up
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: group_name
+2016-04-18 at 17:33:54.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
+2016-04-18 at 17:34:16.188 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-04-18 at 17:34:19.199 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:34:19.215 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:34:22.350 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickReports--Test method success
+
+2016-04-18 at 17:34:25.361 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:34:25.377 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:34:28.403 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:34:28.419 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: title_Reports
+2016-04-18 at 17:34:28.450 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyBtnReportsClicked--Test method success
+
+2016-04-18 at 17:34:31.554 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickCustomReport--Test method success
+
+2016-04-18 at 17:34:34.674 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: ClickEditButton--Test method success
+
+2016-04-18 at 17:34:34.674 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
+2016-04-18 at 17:34:34.690 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: txt_group_name
+2016-04-18 at 17:34:34.705 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Chiller; expected group is Chiller
+2016-04-18 at 17:34:34.705 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: click move down button 0 times. Now the currentGroup is Chiller
+2016-04-18 at 17:34:34.705 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
+2016-04-18 at 17:34:34.721 ERROR com.trane.display.utils.Log 57 error - com.trane.display.utils.BaseActions: no data for group Chiller !!! Please check CSV file.
+2016-04-18 at 17:34:34.721 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyCustomReportData--Test method success
+
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: tearDown--Test method success
+
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = ClickEditButton
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyCustomReportData
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickCustomReport
+2016-04-18 at 17:34:34.737 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
+2016-04-18 at 17:36:05.046 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Start
+
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Connect to the Server successfully
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure RequiredDevices......
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /FW_IPC3DeviceBinding/RequiredDevices.xml Successfully
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /FW_IPC3DeviceBinding/
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: RequiredDevices.xml
+2016-04-18 at 17:36:05.077 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:36:05.405 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - RequiredDevices.xml Successfully to /FW_IPC3DeviceBinding/RequiredDevices.xml
+2016-04-18 at 17:36:05.405 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure ConfigurationRecord......
+2016-04-18 at 17:36:05.405 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:36:05.420 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/ConfigurationRecord.xml Successfully
+2016-04-18 at 17:36:05.420 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:36:05.420 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: ConfigurationRecord.xml
+2016-04-18 at 17:36:05.420 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:36:05.561 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - ConfigurationRecord.xml Successfully to /Configuration/ConfigurationRecord.xml
+2016-04-18 at 17:36:05.561 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure NameplateRecord......
+2016-04-18 at 17:36:05.561 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/NameplateRecord.xml
+2016-04-18 at 17:36:05.576 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/NameplateRecord.xml Successfully
+2016-04-18 at 17:36:05.576 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:36:05.576 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: NameplateRecord.xml
+2016-04-18 at 17:36:05.576 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:36:05.639 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - NameplateRecord.xml Successfully to /Configuration/NameplateRecord.xml
+2016-04-18 at 17:36:05.639 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: configure QuestionRecord......
+2016-04-18 at 17:36:05.639 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: deleteFile method: ftpDirAndFileName: /Configuration/QuestionRecord.xml
+2016-04-18 at 17:36:05.654 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: delete /Configuration/QuestionRecord.xml Successfully
+2016-04-18 at 17:36:05.654 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpDirectory: /Configuration/
+2016-04-18 at 17:36:05.654 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: uploadFile method: ftpfilename: QuestionRecord.xml
+2016-04-18 at 17:36:05.654 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: changeDir: true
+2016-04-18 at 17:36:05.857 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: upload D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\UC Configs\UC800 - RTAF - Comp4 - BASE - QuestionRecord.xml Successfully to /Configuration/QuestionRecord.xml
+2016-04-18 at 17:36:05.857 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.FTPutils: Close Server Successfully!
+2016-04-18 at 17:36:05.857 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: start to reboot MP.........
+2016-04-18 at 17:36:15.300 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: wait 30 seconds to wait for reboot successfully......
+2016-04-18 at 17:36:45.313 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: reboot MP successfully
+2016-04-18 at 17:36:45.313 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Reports
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: title_Reports
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_Title
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_Title
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idLbl_pgStandardReport_SubTitle
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: StandardReport_SubTitle
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idBtn_pgReportsLanding_r3c3
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_LogSheet
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_PageNum
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_page_num
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgStandardReport_TotalPageNum
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: standard_total_page_num
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_PageNum
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_page_num
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: idVal_pgSubcomponentReport_TotalPageNum
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: subcomponent_total_page_num
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveDown
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Down
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: moveUp
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_Up
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_down
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_group_up
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
+2016-04-18 at 17:36:45.376 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator type: ById
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: get locator value: group_name
+2016-04-18 at 17:36:45.391 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
+2016-04-18 at 17:37:08.066 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-04-18 at 17:37:11.077 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:37:11.092 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:37:14.212 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickReports--Test method success
+
+2016-04-18 at 17:37:17.223 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-18 at 17:37:17.238 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_Reports
+2016-04-18 at 17:37:20.265 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-18 at 17:37:20.280 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: title_Reports
+2016-04-18 at 17:37:20.296 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyBtnReportsClicked--Test method success
+
+2016-04-18 at 17:37:23.416 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: clickCustomReport--Test method success
+
+2016-04-18 at 17:37:26.551 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: ClickEditButton--Test method success
+
+2016-04-18 at 17:37:26.551 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
+2016-04-18 at 17:37:26.567 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: txt_group_name
+2016-04-18 at 17:37:26.598 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Chiller; expected group is Chiller
+2016-04-18 at 17:37:26.613 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Now the currentGroup is Chiller
+2016-04-18 at 17:37:26.613 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
+2016-04-18 at 17:37:26.613 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_0,Top Level Mode
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_1,Top Level Mode Ckt1
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_2,Top Level Mode Cprsr1A
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_3,Top Level Mode Cprsr1B
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_4,Top Level Mode Ckt2
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_5,Top Level Mode Cprsr2A
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_6,Top Level Mode Cprsr2B
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_7,Chiller Running Time
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_8,Chiller Load Command
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_9,Total Compressor Current %RLA
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_10,Ice Building Active
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_11,Free Cooling Active
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_12,Active Chilled Water Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_13,Active Chilled Water Setpoint Source
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_14,BAS Chilled Water Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_15,External Chilled Water Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_16,Active Demand Limit Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_17,Active Demand Limit Setpoint Source
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_18,BAS Demand Limit Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_19,External Demand Limit Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_20,Active Ice Termination Setpoint
+2016-04-18 at 17:37:26.629 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.CSVutils: 1,item_available_21,Active Ice Termination Setpoint Source
+2016-04-18 at 17:37:26.645 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
+2016-04-18 at 17:37:26.660 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: get the WebElement by locatorName: btn_report_entries_available_down
+2016-04-18 at 17:37:26.676 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
+2016-04-18 at 17:37:29.764 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: verifyCustomReportData--Test method Failure
+
+2016-04-18 at 17:37:29.780 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: tearDown--Test method success
+
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: Test Finish
+
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = ClickEditButton
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = tearDown
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = verifyBtnReportsClicked
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickReports
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: PassedTests = clickCustomReport
+2016-04-18 at 17:37:29.796 INFO  com.trane.display.utils.Log 46 info - com.trane.display.utils.TestNGListener: failedTest = verifyCustomReportData
