@@ -13,11 +13,9 @@ pageIndex,id,varName
 1,item_available_11,Free Cooling Active
 1,item_available_12,Active Chilled Water Setpoint
 1,item_available_13,Active Chilled Water Setpoint Source
-1,item_available_14,BAS Chilled Water Setpoint
-1,item_available_15,External Chilled Water Setpoint
-1,item_available_16,Active Demand Limit Setpoint
-1,item_available_17,Active Demand Limit Setpoint Source
-1,item_available_18,BAS Demand Limit Setpoint
-1,item_available_19,External Demand Limit Setpoint
-1,item_available_20,Active Ice Termination Setpoint
-1,item_available_21,Active Ice Termination Setpoint Source
+1,item_available_14,External Chilled Water Setpoint
+1,item_available_15,Active Demand Limit Setpoint
+1,item_available_16,Active Demand Limit Setpoint Source
+1,item_available_17,External Demand Limit Setpoint
+1,item_available_18,Active Ice Termination Setpoint
+1,item_available_19,Active Ice Termination Setpoint Source

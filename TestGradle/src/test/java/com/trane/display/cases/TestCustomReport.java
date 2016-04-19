@@ -21,7 +21,7 @@ public class TestCustomReport extends BaseActions
 	@BeforeClass
 	public void configure() throws Exception 
 	{
-		configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
+//		configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
 		initLocatorMap();
 		openHomePage();
 	}

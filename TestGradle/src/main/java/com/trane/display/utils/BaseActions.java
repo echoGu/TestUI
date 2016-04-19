@@ -161,6 +161,7 @@ public class BaseActions
 		
 		  if(!dataMap.isEmpty()) 
 		  {
+			  String nextItemId = null;
 			  for(Iterator<String> iter = dataMap.keySet().iterator(); iter.hasNext();)
 				  {
 				      String key = (String)iter.next();
@@ -181,13 +182,23 @@ public class BaseActions
 	    			  log.debug("Expected value: " + value);
 	    			  Assert.assertEquals(actualValue, value);
 	    			  
-	    			  int index = Integer.parseInt(key.substring(key.lastIndexOf("_")+1));
+	    			 int index = Integer.parseInt(key.substring(key.lastIndexOf("_")+1));
 					 if(index >0 && index % 2 == 0)  
 					 {
 						 log.info("Click move down button to get the next two items.");
 						 click("btn_report_entries_available_down");
 					 }
+					 nextItemId = "item_available_" + (index+1);
 				   }
+			  
+			  By by = By.id(nextItemId);
+			  WebElement e = driver.findElement(by);
+			  if(elementExist(by))
+			  {
+				  log.debug("nextItemId: " + nextItemId);
+				  log.error("please check csv file. " + nextItemId + " exists, but no data on the csv file.");
+				  Assert.assertEquals(e.getText(), "Null");
+			  }
 			} 
 		  else 
 			{
