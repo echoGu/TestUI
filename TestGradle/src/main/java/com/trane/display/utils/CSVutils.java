@@ -2,6 +2,7 @@ package com.trane.display.utils;
 
 import java.nio.charset.Charset;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 
 import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
@@ -13,7 +14,7 @@ public class CSVutils
 	{
 		Log log = new Log(CSVutils.class);
 		
-		HashMap<String, String> dataMap = new HashMap<String, String>();
+		HashMap<String, String> dataMap = new LinkedHashMap<String, String>();
 		dataMap.clear();
 		
         CsvReader reader = new CsvReader(localDirAndFileName, ',',Charset.forName("UTF-8"));
@@ -21,9 +22,9 @@ public class CSVutils
         while (reader.readRecord()) 
         {
 
+        	String index = reader.get("pageIndex");
             String selector = reader.get("id");
             String varName = reader.get("varName");
-            String index = reader.get("pageIndex");
 
         	if(Integer.parseInt(index) == pageIndex) 
         	{

@@ -37,8 +37,8 @@ defaultTasks 'test', 'clean', 'compileJava'
 
 test {
      useTestNG(){
-//    	 options.suites(file('config/TestNG_configs/TestLogSheet.xml'));
-     	options.suites(file('config/TestNG_configs/TestCustomReport.xml'));
+    	 options.suites(file('config/TestNG_configs/TestLogSheet.xml'));
+//     	options.suites(file('config/TestNG_configs/TestCustomReport.xml'));
      	useDefaultListeners = false
      }
 }

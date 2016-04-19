@@ -1,7 +1,102 @@
-2016-04-18 17:37:11.077 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-18 17:37:17.223 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-18 17:37:20.265 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
-2016-04-18 17:37:26.551 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-18 17:37:26.598 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Chiller; expected group is Chiller
-2016-04-18 17:37:26.613 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Now the currentGroup is Chiller
-2016-04-18 17:37:26.645 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
+2016-04-19 14:37:10.468 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-19 14:37:16.607 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
+2016-04-19 14:37:19.649 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
+2016-04-19 14:37:25.781 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
+2016-04-19 14:37:28.815 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_SubTitle
+2016-04-19 14:37:31.851 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:34.901 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-19 14:37:34.939 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-19 14:37:34.962 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-19 14:37:34.983 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:34.996 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:35.037 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-19 14:37:35.037 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Chilled Water Setpoint
+2016-04-19 14:37:35.037 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Chilled Water Setpoint
+2016-04-19 14:37:35.050 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-19 14:37:35.051 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Entering Water Temperature
+2016-04-19 14:37:35.051 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Entering Water Temperature
+2016-04-19 14:37:35.064 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-19 14:37:35.065 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Leaving Water Temperature
+2016-04-19 14:37:35.065 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Leaving Water Temperature
+2016-04-19 14:37:35.078 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-19 14:37:35.078 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt1
+2016-04-19 14:37:35.079 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt1
+2016-04-19 14:37:35.091 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-19 14:37:35.092 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Saturated Rfgt Temp Ckt1
+2016-04-19 14:37:35.092 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Saturated Rfgt Temp Ckt1
+2016-04-19 14:37:35.105 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-19 14:37:35.106 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Approach Temperature Ckt1
+2016-04-19 14:37:35.106 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Approach Temperature Ckt1
+2016-04-19 14:37:35.120 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-19 14:37:35.121 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt2
+2016-04-19 14:37:35.121 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt2
+2016-04-19 14:37:35.135 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-19 14:37:35.136 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Saturated Rfgt Temp Ckt2
+2016-04-19 14:37:35.136 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Saturated Rfgt Temp Ckt2
+2016-04-19 14:37:35.149 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-19 14:37:35.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Approach Temperature Ckt2
+2016-04-19 14:37:35.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Approach Temperature Ckt2
+2016-04-19 14:37:35.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:35.163 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:35.179 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:38.292 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-19 14:37:38.292 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Flow Status
+2016-04-19 14:37:38.293 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Flow Status
+2016-04-19 14:37:38.311 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-19 14:37:38.312 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Override
+2016-04-19 14:37:38.313 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Override
+2016-04-19 14:37:38.326 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
+2016-04-19 14:37:38.327 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-19 14:37:38.327 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-19 14:37:38.328 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-19 14:37:38.348 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-19 14:37:38.349 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr1A
+2016-04-19 14:37:38.349 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr1A
+2016-04-19 14:37:38.364 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-19 14:37:38.365 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr1B
+2016-04-19 14:37:38.366 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr1B
+2016-04-19 14:37:38.382 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-19 14:37:38.383 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Percent Open Ckt1
+2016-04-19 14:37:38.383 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Percent Open Ckt1
+2016-04-19 14:37:38.399 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-19 14:37:38.399 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr2A
+2016-04-19 14:37:38.400 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr2A
+2016-04-19 14:37:38.413 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-19 14:37:38.413 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr2B
+2016-04-19 14:37:38.414 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr2B
+2016-04-19 14:37:38.426 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-19 14:37:38.426 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Percent Open Ckt2
+2016-04-19 14:37:38.427 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Percent Open Ckt2
+2016-04-19 14:37:38.427 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:38.442 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:38.459 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:41.537 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:41.568 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:41.592 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:44.672 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:44.709 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:44.740 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:47.817 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:47.854 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:47.902 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:50.983 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:51.011 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:51.030 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:54.108 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:54.136 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:54.158 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:37:57.231 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:57.259 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:37:57.280 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:38:00.351 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:00.389 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:00.410 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:38:03.507 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:03.544 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:03.566 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:38:06.641 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:06.671 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:06.692 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-19 14:38:09.767 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:09.800 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-19 14:38:09.822 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown

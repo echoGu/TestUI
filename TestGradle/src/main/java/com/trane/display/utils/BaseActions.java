@@ -221,6 +221,7 @@ public class BaseActions
 		    			}
 		    		  
 		    		  Assert.assertEquals(actualValue, value);
+		    		  log.debug("id: " + key);
 		    		  log.debug("Actual value: " + actualValue);
 	    			  log.debug("Expected value: " + value);
 				      
