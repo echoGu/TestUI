@@ -161,29 +161,32 @@ public class BaseActions
 		
 		  if(!dataMap.isEmpty()) 
 		  {
-				Set<String> keys = dataMap.keySet();
-				
-				Iterator<String> iter = keys.iterator();
-				  
-				  while(iter.hasNext()) 
+			  for(Iterator<String> iter = dataMap.keySet().iterator(); iter.hasNext();)
 				  {
 				      String key = (String)iter.next();
 				      String value = (String)dataMap.get(key);
 				      String actualValue =null;
 				      
 		    		  try {
-						      WebElement e = driver.findElement(By.id(key));
-				    		  actualValue = e.getText();
+		    			  WebElement e = driver.findElement(By.id(key));
+		    			  actualValue = e.getText();
+
 		    			} catch (NoSuchElementException e) {
-		    				click("btn_report_entries_available_down");
-//		    				actualValue = "Blank";
-//		    				log.debug("can't find the webElement by id " + key );
+		    				actualValue = "Blank";
+		    				log.debug("can't find the webElement by id " + key );
 		    			}
 		    		  
-		    		  Assert.assertEquals(actualValue, value);
+		    		  log.debug("id: " + key);
 		    		  log.debug("Actual value: " + actualValue);
 	    			  log.debug("Expected value: " + value);
-				      
+	    			  Assert.assertEquals(actualValue, value);
+	    			  
+	    			  int index = Integer.parseInt(key.substring(key.lastIndexOf("_")+1));
+					 if(index >0 && index % 2 == 0)  
+					 {
+						 log.info("Click move down button to get the next two items.");
+						 click("btn_report_entries_available_down");
+					 }
 				   }
 			} 
 		  else 
@@ -202,11 +205,7 @@ public class BaseActions
 		
 		  if(!dataMap.isEmpty()) 
 		  {
-				Set<String> keys = dataMap.keySet();
-				
-				Iterator<String> iter = keys.iterator();
-				  
-				  while(iter.hasNext()) 
+				for(Iterator<String> iter = dataMap.keySet().iterator(); iter.hasNext();)
 				  {
 				      String key = (String)iter.next();
 				      String value = (String)dataMap.get(key);
