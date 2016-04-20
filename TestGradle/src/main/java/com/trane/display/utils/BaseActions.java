@@ -252,10 +252,10 @@ public class BaseActions
 		    				log.debug("can't find the webElement by id " + key );
 		    			}
 		    		  
-		    		  Assert.assertEquals(actualValue, value);
 		    		  log.debug("id: " + key);
 		    		  log.debug("Actual value: " + actualValue);
 	    			  log.debug("Expected value: " + value);
+	    			  Assert.assertEquals(actualValue, value);
 				      
 				   }
 			} 

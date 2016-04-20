@@ -1,1041 +1,295 @@
-2016-04-20 14:52:36.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-20 14:52:42.339 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-20 14:52:45.387 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
-2016-04-20 14:52:51.624 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:52:51.659 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Chiller; expected group is Chiller
-2016-04-20 14:52:51.695 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_0
-2016-04-20 14:52:51.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode
-2016-04-20 14:52:51.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode
-2016-04-20 14:52:51.719 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_1
-2016-04-20 14:52:51.719 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode Ckt1
-2016-04-20 14:52:51.720 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode Ckt1
-2016-04-20 14:52:51.739 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_2
-2016-04-20 14:52:51.740 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode Cprsr1A
-2016-04-20 14:52:51.740 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode Cprsr1A
-2016-04-20 14:52:51.741 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:52:51.759 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:52:54.866 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_3
-2016-04-20 14:52:54.867 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode Cprsr1B
-2016-04-20 14:52:54.868 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode Cprsr1B
-2016-04-20 14:52:54.896 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_4
-2016-04-20 14:52:54.897 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode Ckt2
-2016-04-20 14:52:54.898 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode Ckt2
-2016-04-20 14:52:54.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:52:54.920 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:52:58.046 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_5
-2016-04-20 14:52:58.046 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode Cprsr2A
-2016-04-20 14:52:58.046 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode Cprsr2A
-2016-04-20 14:52:58.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_6
-2016-04-20 14:52:58.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Top Level Mode Cprsr2B
-2016-04-20 14:52:58.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Top Level Mode Cprsr2B
-2016-04-20 14:52:58.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:52:58.068 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:01.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_7
-2016-04-20 14:53:01.151 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Chiller Running Time
-2016-04-20 14:53:01.151 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Chiller Running Time
-2016-04-20 14:53:01.166 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_8
-2016-04-20 14:53:01.166 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Chiller Load Command
-2016-04-20 14:53:01.167 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Chiller Load Command
-2016-04-20 14:53:01.167 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:01.180 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:04.284 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_9
-2016-04-20 14:53:04.284 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Total Compressor Current %RLA
-2016-04-20 14:53:04.285 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Total Compressor Current %RLA
-2016-04-20 14:53:04.306 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_10
-2016-04-20 14:53:04.307 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Ice Building Active
-2016-04-20 14:53:04.307 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Ice Building Active
-2016-04-20 14:53:04.308 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:04.324 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:07.433 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_11
-2016-04-20 14:53:07.434 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Active
-2016-04-20 14:53:07.435 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Active
-2016-04-20 14:53:07.457 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_12
-2016-04-20 14:53:07.457 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Chilled Water Setpoint
-2016-04-20 14:53:07.458 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Chilled Water Setpoint
-2016-04-20 14:53:07.459 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:07.477 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:10.561 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_13
-2016-04-20 14:53:10.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Chilled Water Setpoint Source
-2016-04-20 14:53:10.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Chilled Water Setpoint Source
-2016-04-20 14:53:10.576 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_14
-2016-04-20 14:53:10.576 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: External Chilled Water Setpoint
-2016-04-20 14:53:10.576 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: External Chilled Water Setpoint
-2016-04-20 14:53:10.577 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:10.589 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:13.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_15
-2016-04-20 14:53:13.697 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Demand Limit Setpoint
-2016-04-20 14:53:13.698 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Demand Limit Setpoint
-2016-04-20 14:53:13.732 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_16
-2016-04-20 14:53:13.733 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Demand Limit Setpoint Source
-2016-04-20 14:53:13.734 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Demand Limit Setpoint Source
-2016-04-20 14:53:13.735 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:13.759 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:16.867 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_17
-2016-04-20 14:53:16.868 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: External Demand Limit Setpoint
-2016-04-20 14:53:16.869 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: External Demand Limit Setpoint
-2016-04-20 14:53:16.889 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_18
-2016-04-20 14:53:16.889 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Ice Termination Setpoint
-2016-04-20 14:53:16.889 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Ice Termination Setpoint
-2016-04-20 14:53:16.890 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:16.903 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:20.011 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_19
-2016-04-20 14:53:20.011 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Ice Termination Setpoint Source
-2016-04-20 14:53:20.012 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Ice Termination Setpoint Source
-2016-04-20 14:53:20.027 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:53:20.044 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-20 14:53:23.116 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:53:23.183 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Evaporator; expected group is Evaporator
-2016-04-20 14:53:23.238 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_0
-2016-04-20 14:53:23.238 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Flow Status
-2016-04-20 14:53:23.238 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Flow Status
-2016-04-20 14:53:23.254 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_1
-2016-04-20 14:53:23.254 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Entering Water Temperature
-2016-04-20 14:53:23.254 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Entering Water Temperature
-2016-04-20 14:53:23.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_2
-2016-04-20 14:53:23.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Leaving Water Temperature
-2016-04-20 14:53:23.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Leaving Water Temperature
-2016-04-20 14:53:23.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:23.266 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:26.369 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_3
-2016-04-20 14:53:26.370 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Approach Temperature Ckt1
-2016-04-20 14:53:26.371 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Approach Temperature Ckt1
-2016-04-20 14:53:26.397 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_4
-2016-04-20 14:53:26.398 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt1
-2016-04-20 14:53:26.398 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt1
-2016-04-20 14:53:26.399 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:26.418 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:29.530 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_5
-2016-04-20 14:53:29.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Saturated Rfgt Temp Ckt1
-2016-04-20 14:53:29.532 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Saturated Rfgt Temp Ckt1
-2016-04-20 14:53:29.560 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_6
-2016-04-20 14:53:29.561 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pool Temp Ckt1
-2016-04-20 14:53:29.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pool Temp Ckt1
-2016-04-20 14:53:29.563 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:29.585 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:32.695 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_7
-2016-04-20 14:53:32.695 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Percent Open Ckt1
-2016-04-20 14:53:32.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Percent Open Ckt1
-2016-04-20 14:53:32.717 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_8
-2016-04-20 14:53:32.718 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Override Time Remaining Ckt1
-2016-04-20 14:53:32.719 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Override Time Remaining Ckt1
-2016-04-20 14:53:32.720 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:32.737 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:35.833 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_9
-2016-04-20 14:53:35.834 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr1A
-2016-04-20 14:53:35.834 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr1A
-2016-04-20 14:53:35.848 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_10
-2016-04-20 14:53:35.849 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr1B
-2016-04-20 14:53:35.849 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr1B
-2016-04-20 14:53:35.850 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:35.868 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:38.945 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_11
-2016-04-20 14:53:38.946 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Approach Temperature Ckt2
-2016-04-20 14:53:38.946 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Approach Temperature Ckt2
-2016-04-20 14:53:38.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_12
-2016-04-20 14:53:38.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt2
-2016-04-20 14:53:38.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt2
-2016-04-20 14:53:38.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:38.987 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:42.066 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_13
-2016-04-20 14:53:42.066 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Saturated Rfgt Temp Ckt2
-2016-04-20 14:53:42.066 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Saturated Rfgt Temp Ckt2
-2016-04-20 14:53:42.081 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_14
-2016-04-20 14:53:42.081 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pool Temp Ckt2
-2016-04-20 14:53:42.082 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pool Temp Ckt2
-2016-04-20 14:53:42.082 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:42.095 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:45.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_15
-2016-04-20 14:53:45.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Percent Open Ckt2
-2016-04-20 14:53:45.195 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Percent Open Ckt2
-2016-04-20 14:53:45.216 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_16
-2016-04-20 14:53:45.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Override Time Remaining Ckt2
-2016-04-20 14:53:45.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Override Time Remaining Ckt2
-2016-04-20 14:53:45.218 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:45.265 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:48.357 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_17
-2016-04-20 14:53:48.358 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr2A
-2016-04-20 14:53:48.358 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr2A
-2016-04-20 14:53:48.385 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_18
-2016-04-20 14:53:48.386 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr2B
-2016-04-20 14:53:48.386 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr2B
-2016-04-20 14:53:48.387 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:48.410 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:51.529 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_19
-2016-04-20 14:53:51.530 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Command
-2016-04-20 14:53:51.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Command
-2016-04-20 14:53:51.560 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_20
-2016-04-20 14:53:51.561 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Command Pump 1
-2016-04-20 14:53:51.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Command Pump 1
-2016-04-20 14:53:51.563 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:51.583 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:54.706 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_21
-2016-04-20 14:53:54.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Command Pump 2
-2016-04-20 14:53:54.708 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Command Pump 2
-2016-04-20 14:53:54.736 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_22
-2016-04-20 14:53:54.737 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Running Time Pump 1
-2016-04-20 14:53:54.737 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Running Time Pump 1
-2016-04-20 14:53:54.738 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:54.761 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:57.868 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_23
-2016-04-20 14:53:57.869 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Running Time Pump 2
-2016-04-20 14:53:57.870 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Running Time Pump 2
-2016-04-20 14:53:57.903 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_24
-2016-04-20 14:53:57.904 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Override
-2016-04-20 14:53:57.904 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Override
-2016-04-20 14:53:57.905 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:53:57.924 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:01.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_25
-2016-04-20 14:54:01.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Pump Override Time Remaining
-2016-04-20 14:54:01.055 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Pump Override Time Remaining
-2016-04-20 14:54:01.085 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_26
-2016-04-20 14:54:01.086 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Capacity
-2016-04-20 14:54:01.086 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Capacity
-2016-04-20 14:54:01.087 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:01.110 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:04.215 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_27
-2016-04-20 14:54:04.216 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Valve Percent Open
-2016-04-20 14:54:04.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Valve Percent Open
-2016-04-20 14:54:04.245 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_28
-2016-04-20 14:54:04.246 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Bypass Valve Percent Open
-2016-04-20 14:54:04.247 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Bypass Valve Percent Open
-2016-04-20 14:54:04.248 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:04.264 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:07.378 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_29
-2016-04-20 14:54:07.379 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Entering Water Temperature
-2016-04-20 14:54:07.379 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Entering Water Temperature
-2016-04-20 14:54:07.392 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:54:07.412 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-20 14:54:10.485 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:54:10.522 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Condenser; expected group is Condenser
-2016-04-20 14:54:10.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_0
-2016-04-20 14:54:10.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Outdoor Air Temperature
-2016-04-20 14:54:10.562 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Outdoor Air Temperature
-2016-04-20 14:54:10.582 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_1
-2016-04-20 14:54:10.583 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Pressure Ckt1
-2016-04-20 14:54:10.583 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Pressure Ckt1
-2016-04-20 14:54:10.604 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_2
-2016-04-20 14:54:10.604 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Saturated Rfgt Temp Ckt1
-2016-04-20 14:54:10.605 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Saturated Rfgt Temp Ckt1
-2016-04-20 14:54:10.605 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:10.622 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:13.726 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_3
-2016-04-20 14:54:13.727 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Temperature Target Ckt1
-2016-04-20 14:54:13.728 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Temperature Target Ckt1
-2016-04-20 14:54:13.757 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_4
-2016-04-20 14:54:13.758 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Refrigerant Pressure Ckt1
-2016-04-20 14:54:13.759 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Refrigerant Pressure Ckt1
-2016-04-20 14:54:13.760 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:13.799 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:16.890 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_5
-2016-04-20 14:54:16.891 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Air Flow Ckt1
-2016-04-20 14:54:16.891 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Air Flow Ckt1
-2016-04-20 14:54:16.916 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_6
-2016-04-20 14:54:16.917 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Cond Discharge Rfgt Saturated Temp Ckt1
-2016-04-20 14:54:16.917 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Cond Discharge Rfgt Saturated Temp Ckt1
-2016-04-20 14:54:16.918 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:16.938 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:20.043 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_7
-2016-04-20 14:54:20.044 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Temp Ckt1
-2016-04-20 14:54:20.045 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Temp Ckt1
-2016-04-20 14:54:20.063 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_8
-2016-04-20 14:54:20.064 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Subcooling Ckt1
-2016-04-20 14:54:20.064 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Subcooling Ckt1
-2016-04-20 14:54:20.064 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:20.081 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:23.210 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_9
-2016-04-20 14:54:23.211 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Pressure Ckt1
-2016-04-20 14:54:23.212 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Pressure Ckt1
-2016-04-20 14:54:23.233 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_10
-2016-04-20 14:54:23.233 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Tank Valve Ckt1
-2016-04-20 14:54:23.233 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Tank Valve Ckt1
-2016-04-20 14:54:23.234 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:23.251 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:26.353 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_11
-2016-04-20 14:54:26.354 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Pressure Ckt2
-2016-04-20 14:54:26.355 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Pressure Ckt2
-2016-04-20 14:54:26.380 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_12
-2016-04-20 14:54:26.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Saturated Rfgt Temp Ckt2
-2016-04-20 14:54:26.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Saturated Rfgt Temp Ckt2
-2016-04-20 14:54:26.382 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:26.405 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:29.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_13
-2016-04-20 14:54:29.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Temperature Target Ckt2
-2016-04-20 14:54:29.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Temperature Target Ckt2
-2016-04-20 14:54:29.532 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_14
-2016-04-20 14:54:29.532 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Refrigerant Pressure Ckt2
-2016-04-20 14:54:29.532 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Refrigerant Pressure Ckt2
-2016-04-20 14:54:29.532 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:29.546 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:32.668 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_15
-2016-04-20 14:54:32.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Air Flow Ckt2
-2016-04-20 14:54:32.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Air Flow Ckt2
-2016-04-20 14:54:32.692 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_16
-2016-04-20 14:54:32.693 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Cond Discharge Rfgt Saturated Temp Ckt2
-2016-04-20 14:54:32.693 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Cond Discharge Rfgt Saturated Temp Ckt2
-2016-04-20 14:54:32.693 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:32.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:35.831 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_17
-2016-04-20 14:54:35.831 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Temp Ckt2
-2016-04-20 14:54:35.832 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Temp Ckt2
-2016-04-20 14:54:35.844 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_18
-2016-04-20 14:54:35.844 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Subcooling Ckt2
-2016-04-20 14:54:35.845 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Subcooling Ckt2
-2016-04-20 14:54:35.861 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:35.865 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:38.968 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_19
-2016-04-20 14:54:38.969 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Pressure Ckt2
-2016-04-20 14:54:38.969 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Pressure Ckt2
-2016-04-20 14:54:38.993 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_20
-2016-04-20 14:54:38.994 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Tank Valve Ckt2
-2016-04-20 14:54:38.995 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Tank Valve Ckt2
-2016-04-20 14:54:38.995 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:39.025 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:42.165 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_21
-2016-04-20 14:54:42.166 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Heat Recovery Entering Water Temp
-2016-04-20 14:54:42.167 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Heat Recovery Entering Water Temp
-2016-04-20 14:54:42.196 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_22
-2016-04-20 14:54:42.197 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Heat Recovery Leaving Water Temp
-2016-04-20 14:54:42.198 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Heat Recovery Leaving Water Temp
-2016-04-20 14:54:42.199 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:42.229 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:54:42.252 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-20 14:54:45.324 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:54:45.353 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Compressor; expected group is Compressor
-2016-04-20 14:54:45.386 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_0
-2016-04-20 14:54:45.387 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Loss Level Sensor Ckt1
-2016-04-20 14:54:45.387 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Loss Level Sensor Ckt1
-2016-04-20 14:54:45.402 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_1
-2016-04-20 14:54:45.403 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr1A
-2016-04-20 14:54:45.403 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr1A
-2016-04-20 14:54:45.417 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_2
-2016-04-20 14:54:45.417 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr1A
-2016-04-20 14:54:45.417 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr1A
-2016-04-20 14:54:45.418 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:45.431 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:48.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_3
-2016-04-20 14:54:48.531 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr1A
-2016-04-20 14:54:48.532 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr1A
-2016-04-20 14:54:48.555 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_4
-2016-04-20 14:54:48.556 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Temperature Cprsr1A
-2016-04-20 14:54:48.556 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Temperature Cprsr1A
-2016-04-20 14:54:48.557 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:48.576 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:51.688 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_5
-2016-04-20 14:54:51.689 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Superheat Cprsr1A
-2016-04-20 14:54:51.690 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Superheat Cprsr1A
-2016-04-20 14:54:51.738 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_6
-2016-04-20 14:54:51.739 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr1A
-2016-04-20 14:54:51.740 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr1A
-2016-04-20 14:54:51.741 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:51.795 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:54.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_7
-2016-04-20 14:54:54.927 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr1A
-2016-04-20 14:54:54.927 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr1A
-2016-04-20 14:54:54.947 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_8
-2016-04-20 14:54:54.948 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Suction Refrigerant Pressure Cprsr1A
-2016-04-20 14:54:54.948 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Suction Refrigerant Pressure Cprsr1A
-2016-04-20 14:54:54.948 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:54.966 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:58.284 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_9
-2016-04-20 14:54:58.284 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Rfgt Pressure Cprsr1A
-2016-04-20 14:54:58.284 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Rfgt Pressure Cprsr1A
-2016-04-20 14:54:58.312 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_10
-2016-04-20 14:54:58.313 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr1B
-2016-04-20 14:54:58.313 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr1B
-2016-04-20 14:54:58.314 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:54:58.340 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:01.463 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_11
-2016-04-20 14:55:01.463 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr1B
-2016-04-20 14:55:01.463 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr1B
-2016-04-20 14:55:01.471 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_12
-2016-04-20 14:55:01.472 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr1B
-2016-04-20 14:55:01.472 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr1B
-2016-04-20 14:55:01.472 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:01.488 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:04.598 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_13
-2016-04-20 14:55:04.599 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Temperature Cprsr1B
-2016-04-20 14:55:04.600 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Temperature Cprsr1B
-2016-04-20 14:55:04.656 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_14
-2016-04-20 14:55:04.657 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Superheat Cprsr1B
-2016-04-20 14:55:04.658 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Superheat Cprsr1B
-2016-04-20 14:55:04.674 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:04.700 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:07.827 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_15
-2016-04-20 14:55:07.828 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr1B
-2016-04-20 14:55:07.829 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr1B
-2016-04-20 14:55:07.871 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_16
-2016-04-20 14:55:07.871 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr1B
-2016-04-20 14:55:07.871 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr1B
-2016-04-20 14:55:07.871 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:07.892 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:11.004 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_17
-2016-04-20 14:55:11.005 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Suction Refrigerant Pressure Cprsr1B
-2016-04-20 14:55:11.006 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Suction Refrigerant Pressure Cprsr1B
-2016-04-20 14:55:11.067 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_18
-2016-04-20 14:55:11.087 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Rfgt Pressure Cprsr1B
-2016-04-20 14:55:11.087 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Rfgt Pressure Cprsr1B
-2016-04-20 14:55:11.088 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:11.115 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:14.228 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_19
-2016-04-20 14:55:14.229 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Loss Level Sensor Ckt2
-2016-04-20 14:55:14.230 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Loss Level Sensor Ckt2
-2016-04-20 14:55:14.262 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_20
-2016-04-20 14:55:14.262 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr2A
-2016-04-20 14:55:14.262 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr2A
-2016-04-20 14:55:14.262 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:14.277 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:17.391 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_21
-2016-04-20 14:55:17.392 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr2A
-2016-04-20 14:55:17.393 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr2A
-2016-04-20 14:55:17.428 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_22
-2016-04-20 14:55:17.428 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr2A
-2016-04-20 14:55:17.429 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr2A
-2016-04-20 14:55:17.429 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:17.477 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:20.563 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_23
-2016-04-20 14:55:20.564 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Temperature Cprsr2A
-2016-04-20 14:55:20.565 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Temperature Cprsr2A
-2016-04-20 14:55:20.584 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_24
-2016-04-20 14:55:20.584 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Superheat Cprsr2A
-2016-04-20 14:55:20.584 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Superheat Cprsr2A
-2016-04-20 14:55:20.585 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:20.613 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:23.728 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_25
-2016-04-20 14:55:23.728 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr2A
-2016-04-20 14:55:23.728 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr2A
-2016-04-20 14:55:23.749 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_26
-2016-04-20 14:55:23.749 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr2A
-2016-04-20 14:55:23.749 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr2A
-2016-04-20 14:55:23.750 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:23.774 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:26.883 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_27
-2016-04-20 14:55:26.884 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Suction Refrigerant Pressure Cprsr2A
-2016-04-20 14:55:26.885 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Suction Refrigerant Pressure Cprsr2A
-2016-04-20 14:55:26.923 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_28
-2016-04-20 14:55:26.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Rfgt Pressure Cprsr2A
-2016-04-20 14:55:26.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Rfgt Pressure Cprsr2A
-2016-04-20 14:55:26.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:26.954 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:30.091 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_29
-2016-04-20 14:55:30.092 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr2B
-2016-04-20 14:55:30.108 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr2B
-2016-04-20 14:55:30.124 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_30
-2016-04-20 14:55:30.124 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr2B
-2016-04-20 14:55:30.124 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr2B
-2016-04-20 14:55:30.125 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:30.158 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:33.264 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_31
-2016-04-20 14:55:33.265 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr2B
-2016-04-20 14:55:33.266 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr2B
-2016-04-20 14:55:33.292 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_32
-2016-04-20 14:55:33.293 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Temperature Cprsr2B
-2016-04-20 14:55:33.293 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Temperature Cprsr2B
-2016-04-20 14:55:33.294 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:33.315 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:36.446 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_33
-2016-04-20 14:55:36.447 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Discharge Superheat Cprsr2B
-2016-04-20 14:55:36.447 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Discharge Superheat Cprsr2B
-2016-04-20 14:55:36.467 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_34
-2016-04-20 14:55:36.468 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr2B
-2016-04-20 14:55:36.468 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr2B
-2016-04-20 14:55:36.469 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:36.509 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:39.612 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_35
-2016-04-20 14:55:39.613 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr2B
-2016-04-20 14:55:39.614 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr2B
-2016-04-20 14:55:39.646 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_36
-2016-04-20 14:55:39.646 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Suction Refrigerant Pressure Cprsr2B
-2016-04-20 14:55:39.647 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Suction Refrigerant Pressure Cprsr2B
-2016-04-20 14:55:39.648 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:39.670 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:42.782 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_37
-2016-04-20 14:55:42.783 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Rfgt Pressure Cprsr2B
-2016-04-20 14:55:42.784 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Rfgt Pressure Cprsr2B
-2016-04-20 14:55:42.800 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:55:42.821 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-20 14:55:45.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-20 14:55:45.949 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: currentGroup is Motor; expected group is Motor
-2016-04-20 14:55:46.020 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_0
-2016-04-20 14:55:46.020 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Energy Consumption Last Reset
-2016-04-20 14:55:46.021 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Energy Consumption Last Reset
-2016-04-20 14:55:46.044 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_1
-2016-04-20 14:55:46.044 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Energy Consumption Resettable
-2016-04-20 14:55:46.045 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Energy Consumption Resettable
-2016-04-20 14:55:46.064 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_2
-2016-04-20 14:55:46.064 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Energy Consumption NonReset
-2016-04-20 14:55:46.065 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Energy Consumption NonReset
-2016-04-20 14:55:46.065 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:46.080 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:49.190 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_3
-2016-04-20 14:55:49.191 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Unit Power Consumption
-2016-04-20 14:55:49.192 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Unit Power Consumption
-2016-04-20 14:55:49.232 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_4
-2016-04-20 14:55:49.233 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Chiller Power Demand
-2016-04-20 14:55:49.234 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Chiller Power Demand
-2016-04-20 14:55:49.235 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:49.253 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:52.362 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_5
-2016-04-20 14:55:52.363 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 1A
-2016-04-20 14:55:52.364 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 1A
-2016-04-20 14:55:52.383 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_6
-2016-04-20 14:55:52.384 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 1A
-2016-04-20 14:55:52.384 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 1A
-2016-04-20 14:55:52.385 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:52.402 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:55.509 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_7
-2016-04-20 14:55:55.510 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 1A
-2016-04-20 14:55:55.511 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 1A
-2016-04-20 14:55:55.538 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_8
-2016-04-20 14:55:55.539 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 1A
-2016-04-20 14:55:55.539 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 1A
-2016-04-20 14:55:55.539 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:55.559 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:58.694 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_9
-2016-04-20 14:55:58.694 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 1A
-2016-04-20 14:55:58.694 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 1A
-2016-04-20 14:55:58.706 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_10
-2016-04-20 14:55:58.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 1A
-2016-04-20 14:55:58.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 1A
-2016-04-20 14:55:58.708 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:55:58.735 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:01.841 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_11
-2016-04-20 14:56:01.842 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 1A
-2016-04-20 14:56:01.842 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 1A
-2016-04-20 14:56:01.860 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_12
-2016-04-20 14:56:01.861 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 1A
-2016-04-20 14:56:01.861 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 1A
-2016-04-20 14:56:01.862 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:01.877 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:04.981 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_13
-2016-04-20 14:56:04.982 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 1A
-2016-04-20 14:56:04.983 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 1A
-2016-04-20 14:56:05.011 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_14
-2016-04-20 14:56:05.011 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 1A
-2016-04-20 14:56:05.012 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 1A
-2016-04-20 14:56:05.012 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:05.041 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:08.170 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_15
-2016-04-20 14:56:08.171 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 1B
-2016-04-20 14:56:08.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 1B
-2016-04-20 14:56:08.209 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_16
-2016-04-20 14:56:08.209 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 1B
-2016-04-20 14:56:08.209 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 1B
-2016-04-20 14:56:08.210 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:08.227 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:11.331 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_17
-2016-04-20 14:56:11.332 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 1B
-2016-04-20 14:56:11.332 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 1B
-2016-04-20 14:56:11.357 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_18
-2016-04-20 14:56:11.358 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 1B
-2016-04-20 14:56:11.358 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 1B
-2016-04-20 14:56:11.359 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:11.384 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:14.506 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_19
-2016-04-20 14:56:14.506 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 1B
-2016-04-20 14:56:14.506 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 1B
-2016-04-20 14:56:14.518 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_20
-2016-04-20 14:56:14.519 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 1B
-2016-04-20 14:56:14.519 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 1B
-2016-04-20 14:56:14.520 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:14.535 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:17.638 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_21
-2016-04-20 14:56:17.639 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 1B
-2016-04-20 14:56:17.655 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 1B
-2016-04-20 14:56:17.677 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_22
-2016-04-20 14:56:17.678 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 1B
-2016-04-20 14:56:17.678 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 1B
-2016-04-20 14:56:17.679 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:17.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:20.812 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_23
-2016-04-20 14:56:20.812 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 1B
-2016-04-20 14:56:20.812 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 1B
-2016-04-20 14:56:20.870 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_24
-2016-04-20 14:56:20.870 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 1B
-2016-04-20 14:56:20.870 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 1B
-2016-04-20 14:56:20.870 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:20.876 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:24.006 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_25
-2016-04-20 14:56:24.006 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 2A
-2016-04-20 14:56:24.006 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 2A
-2016-04-20 14:56:24.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_26
-2016-04-20 14:56:24.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 2A
-2016-04-20 14:56:24.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 2A
-2016-04-20 14:56:24.055 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:24.080 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:27.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_27
-2016-04-20 14:56:27.205 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 2A
-2016-04-20 14:56:27.220 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 2A
-2016-04-20 14:56:27.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_28
-2016-04-20 14:56:27.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 2A
-2016-04-20 14:56:27.238 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 2A
-2016-04-20 14:56:27.238 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:27.270 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:30.384 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_29
-2016-04-20 14:56:30.385 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 2A
-2016-04-20 14:56:30.386 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 2A
-2016-04-20 14:56:30.412 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_30
-2016-04-20 14:56:30.413 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 2A
-2016-04-20 14:56:30.413 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 2A
-2016-04-20 14:56:30.414 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:30.439 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:33.554 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_31
-2016-04-20 14:56:33.555 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 2A
-2016-04-20 14:56:33.555 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 2A
-2016-04-20 14:56:33.583 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_32
-2016-04-20 14:56:33.583 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 2A
-2016-04-20 14:56:33.583 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 2A
-2016-04-20 14:56:33.584 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:33.597 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:36.705 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_33
-2016-04-20 14:56:36.706 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 2A
-2016-04-20 14:56:36.706 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 2A
-2016-04-20 14:56:36.731 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_34
-2016-04-20 14:56:36.732 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 2A
-2016-04-20 14:56:36.732 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 2A
-2016-04-20 14:56:36.732 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:36.753 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:39.858 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_35
-2016-04-20 14:56:39.859 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 2B
-2016-04-20 14:56:39.859 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 2B
-2016-04-20 14:56:39.883 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_36
-2016-04-20 14:56:39.884 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 2B
-2016-04-20 14:56:39.884 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 2B
-2016-04-20 14:56:39.885 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:39.908 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:43.148 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_37
-2016-04-20 14:56:43.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 2B
-2016-04-20 14:56:43.165 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 2B
-2016-04-20 14:56:43.191 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_38
-2016-04-20 14:56:43.192 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 2B
-2016-04-20 14:56:43.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 2B
-2016-04-20 14:56:43.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:43.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:46.337 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_39
-2016-04-20 14:56:46.338 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 2B
-2016-04-20 14:56:46.339 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 2B
-2016-04-20 14:56:46.372 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_40
-2016-04-20 14:56:46.372 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 2B
-2016-04-20 14:56:46.373 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 2B
-2016-04-20 14:56:46.373 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:46.420 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:49.498 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_41
-2016-04-20 14:56:49.499 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 2B
-2016-04-20 14:56:49.499 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 2B
-2016-04-20 14:56:49.534 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_42
-2016-04-20 14:56:49.534 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 2B
-2016-04-20 14:56:49.534 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 2B
-2016-04-20 14:56:49.534 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:49.549 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:52.656 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_43
-2016-04-20 14:56:52.657 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 2B
-2016-04-20 14:56:52.658 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 2B
-2016-04-20 14:56:52.685 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: item_available_44
-2016-04-20 14:56:52.686 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 2B
-2016-04-20 14:56:52.686 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 2B
-2016-04-20 14:56:52.687 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-20 14:56:55.748 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-20 14:57:01.849 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idBtn_pgMain_navfooterBtnReports
-2016-04-20 14:57:04.866 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgReportsLanding_PageTitle
-2016-04-20 14:57:11.001 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
-2016-04-20 14:57:14.043 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_SubTitle
-2016-04-20 14:57:17.087 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:20.124 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-2016-04-20 14:57:20.169 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-2016-04-20 14:57:20.191 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
-2016-04-20 14:57:20.218 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:20.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:20.275 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:20.276 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Chilled Water Setpoint
-2016-04-20 14:57:20.276 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Chilled Water Setpoint
-2016-04-20 14:57:20.291 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:20.292 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Entering Water Temperature
-2016-04-20 14:57:20.292 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Entering Water Temperature
-2016-04-20 14:57:20.307 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:20.307 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Leaving Water Temperature
-2016-04-20 14:57:20.307 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Leaving Water Temperature
-2016-04-20 14:57:20.320 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:20.320 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt1
-2016-04-20 14:57:20.320 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt1
-2016-04-20 14:57:20.334 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:20.334 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Saturated Rfgt Temp Ckt1
-2016-04-20 14:57:20.334 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Saturated Rfgt Temp Ckt1
-2016-04-20 14:57:20.348 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:20.348 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Approach Temperature Ckt1
-2016-04-20 14:57:20.349 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Approach Temperature Ckt1
-2016-04-20 14:57:20.362 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:20.362 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt2
-2016-04-20 14:57:20.362 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt2
-2016-04-20 14:57:20.375 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:20.375 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Saturated Rfgt Temp Ckt2
-2016-04-20 14:57:20.375 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Saturated Rfgt Temp Ckt2
-2016-04-20 14:57:20.389 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:20.389 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Approach Temperature Ckt2
-2016-04-20 14:57:20.389 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Approach Temperature Ckt2
-2016-04-20 14:57:20.390 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:20.402 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:20.416 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:23.537 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:23.537 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Flow Status
-2016-04-20 14:57:23.537 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Flow Status
-2016-04-20 14:57:23.545 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:23.546 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Water Pump Override
-2016-04-20 14:57:23.546 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Water Pump Override
-2016-04-20 14:57:23.556 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:23.557 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:23.557 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:23.557 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:23.571 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:23.572 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr1A
-2016-04-20 14:57:23.572 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr1A
-2016-04-20 14:57:23.587 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:23.587 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr1B
-2016-04-20 14:57:23.587 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr1B
-2016-04-20 14:57:23.600 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:23.600 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Percent Open Ckt1
-2016-04-20 14:57:23.601 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Percent Open Ckt1
-2016-04-20 14:57:23.613 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:23.614 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr2A
-2016-04-20 14:57:23.614 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr2A
-2016-04-20 14:57:23.626 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:23.627 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Solenoid Valve Cprsr2B
-2016-04-20 14:57:23.627 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Solenoid Valve Cprsr2B
-2016-04-20 14:57:23.640 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:23.640 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: EXV Percent Open Ckt2
-2016-04-20 14:57:23.640 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: EXV Percent Open Ckt2
-2016-04-20 14:57:23.641 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:23.654 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:23.668 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:26.778 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:26.779 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Outdoor Air Temperature
-2016-04-20 14:57:26.780 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Outdoor Air Temperature
-2016-04-20 14:57:26.803 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:26.804 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Air Flow Ckt1
-2016-04-20 14:57:26.804 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Air Flow Ckt1
-2016-04-20 14:57:26.822 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:26.822 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Air Flow Ckt2
-2016-04-20 14:57:26.823 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Air Flow Ckt2
-2016-04-20 14:57:26.840 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:26.841 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Saturated Rfgt Temp Ckt1
-2016-04-20 14:57:26.841 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Saturated Rfgt Temp Ckt1
-2016-04-20 14:57:26.856 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:26.857 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Pressure Ckt1
-2016-04-20 14:57:26.857 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Pressure Ckt1
-2016-04-20 14:57:26.870 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:26.871 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Refrigerant Pressure Ckt1
-2016-04-20 14:57:26.871 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Refrigerant Pressure Ckt1
-2016-04-20 14:57:26.884 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:26.884 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Saturated Rfgt Temp Ckt2
-2016-04-20 14:57:26.885 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Saturated Rfgt Temp Ckt2
-2016-04-20 14:57:26.898 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:26.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Pressure Ckt2
-2016-04-20 14:57:26.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Pressure Ckt2
-2016-04-20 14:57:26.913 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:26.913 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Refrigerant Pressure Ckt2
-2016-04-20 14:57:26.913 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Refrigerant Pressure Ckt2
-2016-04-20 14:57:26.914 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:26.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:26.939 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:30.074 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:30.074 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Cond Discharge Rfgt Saturated Temp Ckt1
-2016-04-20 14:57:30.074 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Cond Discharge Rfgt Saturated Temp Ckt1
-2016-04-20 14:57:30.107 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:30.107 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Temp Ckt1
-2016-04-20 14:57:30.107 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Temp Ckt1
-2016-04-20 14:57:30.115 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:30.116 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Subcooling Ckt1
-2016-04-20 14:57:30.116 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Subcooling Ckt1
-2016-04-20 14:57:30.134 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:30.134 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Cond Discharge Rfgt Saturated Temp Ckt2
-2016-04-20 14:57:30.135 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Cond Discharge Rfgt Saturated Temp Ckt2
-2016-04-20 14:57:30.153 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:30.153 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Temp Ckt2
-2016-04-20 14:57:30.153 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Temp Ckt2
-2016-04-20 14:57:30.186 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:30.186 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Discharge Rfgt Subcooling Ckt2
-2016-04-20 14:57:30.186 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Discharge Rfgt Subcooling Ckt2
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:30.187 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:30.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:30.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:30.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:30.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:30.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:30.204 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:30.217 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:33.345 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:33.345 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr1A
-2016-04-20 14:57:33.345 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr1A
-2016-04-20 14:57:33.380 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:33.380 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 1A
-2016-04-20 14:57:33.380 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 1A
-2016-04-20 14:57:33.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:33.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:33.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:33.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:33.393 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:33.394 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr1B
-2016-04-20 14:57:33.394 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr1B
-2016-04-20 14:57:33.408 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:33.409 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 1B
-2016-04-20 14:57:33.409 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 1B
-2016-04-20 14:57:33.416 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:33.416 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:33.416 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:33.416 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:33.430 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:33.430 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr2A
-2016-04-20 14:57:33.431 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr2A
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 2A
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 2A
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:33.452 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:33.453 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:33.466 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:33.480 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:36.589 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:36.589 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Status Cprsr2B
-2016-04-20 14:57:36.590 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Status Cprsr2B
-2016-04-20 14:57:36.610 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:36.611 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 2B
-2016-04-20 14:57:36.611 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 2B
-2016-04-20 14:57:36.618 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:36.619 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:36.619 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:36.619 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:36.637 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:36.637 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr1A
-2016-04-20 14:57:36.637 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr1A
-2016-04-20 14:57:36.655 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:36.655 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr1A
-2016-04-20 14:57:36.655 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr1A
-2016-04-20 14:57:36.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:36.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr1A
-2016-04-20 14:57:36.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr1A
-2016-04-20 14:57:36.682 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:36.682 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr1B
-2016-04-20 14:57:36.682 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr1B
-2016-04-20 14:57:36.694 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:36.695 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr1B
-2016-04-20 14:57:36.695 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr1B
-2016-04-20 14:57:36.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:36.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr1B
-2016-04-20 14:57:36.707 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr1B
-2016-04-20 14:57:36.708 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:36.720 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:36.733 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:39.837 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:39.837 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr2A
-2016-04-20 14:57:39.838 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr2A
-2016-04-20 14:57:39.862 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:39.862 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr2A
-2016-04-20 14:57:39.862 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr2A
-2016-04-20 14:57:39.877 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:39.878 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr2A
-2016-04-20 14:57:39.879 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr2A
-2016-04-20 14:57:39.895 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:39.895 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Starts Cprsr2B
-2016-04-20 14:57:39.895 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Starts Cprsr2B
-2016-04-20 14:57:39.911 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:39.911 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Running Time Cprsr2B
-2016-04-20 14:57:39.911 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Running Time Cprsr2B
-2016-04-20 14:57:39.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:39.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Pressure Cprsr2B
-2016-04-20 14:57:39.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Pressure Cprsr2B
-2016-04-20 14:57:39.941 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:39.941 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt1
-2016-04-20 14:57:39.941 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt1
-2016-04-20 14:57:39.956 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:39.956 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Pressure Ckt1
-2016-04-20 14:57:39.956 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Pressure Ckt1
-2016-04-20 14:57:39.969 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:39.969 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Refrigerant Pressure Ckt1
-2016-04-20 14:57:39.969 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Refrigerant Pressure Ckt1
-2016-04-20 14:57:39.970 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:39.982 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:39.996 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:43.117 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:43.117 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evaporator Refrigerant Pressure Ckt2
-2016-04-20 14:57:43.117 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evaporator Refrigerant Pressure Ckt2
-2016-04-20 14:57:43.131 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:43.132 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Refrigerant Pressure Ckt2
-2016-04-20 14:57:43.133 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Refrigerant Pressure Ckt2
-2016-04-20 14:57:43.170 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:43.170 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Differential Refrigerant Pressure Ckt2
-2016-04-20 14:57:43.170 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Differential Refrigerant Pressure Ckt2
-2016-04-20 14:57:43.171 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:43.171 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr1A
-2016-04-20 14:57:43.171 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr1A
-2016-04-20 14:57:43.188 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:43.188 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr1B
-2016-04-20 14:57:43.188 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr1B
-2016-04-20 14:57:43.192 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:43.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:43.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:43.193 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:43.206 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:43.207 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr2A
-2016-04-20 14:57:43.207 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr2A
-2016-04-20 14:57:43.219 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:43.219 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Temperature Cprsr2B
-2016-04-20 14:57:43.219 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Temperature Cprsr2B
-2016-04-20 14:57:43.220 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:43.232 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:43.245 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:46.336 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:46.337 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:46.337 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:46.337 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:46.361 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:46.361 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Active Demand Limit Setpoint
-2016-04-20 14:57:46.361 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Active Demand Limit Setpoint
-2016-04-20 14:57:46.381 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:46.382 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Unit Power Consumption
-2016-04-20 14:57:46.382 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Unit Power Consumption
-2016-04-20 14:57:46.396 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:46.397 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Chiller Power Demand
-2016-04-20 14:57:46.397 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Chiller Power Demand
-2016-04-20 14:57:46.414 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:46.415 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 1A
-2016-04-20 14:57:46.415 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 1A
-2016-04-20 14:57:46.432 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:46.432 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 1B
-2016-04-20 14:57:46.432 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 1B
-2016-04-20 14:57:46.440 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:46.441 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:46.441 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
-2016-04-20 14:57:46.441 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
-2016-04-20 14:57:46.454 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:46.454 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 2A
-2016-04-20 14:57:46.455 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 2A
-2016-04-20 14:57:46.466 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:46.466 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Average Line Current % RLA Starter 2B
-2016-04-20 14:57:46.467 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Average Line Current % RLA Starter 2B
-2016-04-20 14:57:46.467 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:46.479 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:46.496 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:49.616 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:49.616 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 1A
-2016-04-20 14:57:49.616 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 1A
-2016-04-20 14:57:49.624 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:49.625 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 1A
-2016-04-20 14:57:49.625 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 1A
-2016-04-20 14:57:49.641 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:49.641 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 1A
-2016-04-20 14:57:49.642 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 1A
-2016-04-20 14:57:49.655 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:49.656 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 1A
-2016-04-20 14:57:49.656 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 1A
-2016-04-20 14:57:49.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:49.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 1A
-2016-04-20 14:57:49.669 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 1A
-2016-04-20 14:57:49.682 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:49.683 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 1A
-2016-04-20 14:57:49.683 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 1A
-2016-04-20 14:57:49.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:49.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 1A
-2016-04-20 14:57:49.696 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 1A
-2016-04-20 14:57:49.709 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:49.709 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 1A
-2016-04-20 14:57:49.710 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 1A
-2016-04-20 14:57:49.722 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:49.723 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 1A
-2016-04-20 14:57:49.723 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 1A
-2016-04-20 14:57:49.723 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:49.735 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:49.764 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:52.878 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:52.879 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 1B
-2016-04-20 14:57:52.879 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 1B
-2016-04-20 14:57:52.903 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:52.904 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 1B
-2016-04-20 14:57:52.904 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 1B
-2016-04-20 14:57:52.923 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:52.923 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 1B
-2016-04-20 14:57:52.924 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 1B
-2016-04-20 14:57:52.948 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:52.949 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 1B
-2016-04-20 14:57:52.949 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 1B
-2016-04-20 14:57:52.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:52.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 1B
-2016-04-20 14:57:52.986 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 1B
-2016-04-20 14:57:52.987 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:52.987 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 1B
-2016-04-20 14:57:52.987 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 1B
-2016-04-20 14:57:52.997 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:52.997 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 1B
-2016-04-20 14:57:52.997 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 1B
-2016-04-20 14:57:53.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:53.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 1B
-2016-04-20 14:57:53.053 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 1B
-2016-04-20 14:57:53.069 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:53.069 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 1B
-2016-04-20 14:57:53.069 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 1B
-2016-04-20 14:57:53.070 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:53.084 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:53.100 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:56.214 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:56.215 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 2A
-2016-04-20 14:57:56.215 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 2A
-2016-04-20 14:57:56.236 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:56.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 2A
-2016-04-20 14:57:56.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 2A
-2016-04-20 14:57:56.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:56.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 2A
-2016-04-20 14:57:56.255 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 2A
-2016-04-20 14:57:56.268 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:56.269 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 2A
-2016-04-20 14:57:56.269 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 2A
-2016-04-20 14:57:56.281 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:56.282 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 2A
-2016-04-20 14:57:56.282 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 2A
-2016-04-20 14:57:56.295 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:56.296 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 2A
-2016-04-20 14:57:56.296 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 2A
-2016-04-20 14:57:56.308 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:56.309 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 2A
-2016-04-20 14:57:56.309 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 2A
-2016-04-20 14:57:56.322 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:56.322 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 2A
-2016-04-20 14:57:56.322 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 2A
-2016-04-20 14:57:56.335 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:56.335 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 2A
-2016-04-20 14:57:56.336 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 2A
-2016-04-20 14:57:56.336 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:56.348 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
-2016-04-20 14:57:56.387 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-20 14:57:59.497 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
-2016-04-20 14:57:59.498 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 % RLA Starter 2B
-2016-04-20 14:57:59.498 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 % RLA Starter 2B
-2016-04-20 14:57:59.520 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
-2016-04-20 14:57:59.521 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 % RLA Starter 2B
-2016-04-20 14:57:59.521 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 % RLA Starter 2B
-2016-04-20 14:57:59.566 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
-2016-04-20 14:57:59.566 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 % RLA Starter 2B
-2016-04-20 14:57:59.566 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 % RLA Starter 2B
-2016-04-20 14:57:59.567 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
-2016-04-20 14:57:59.567 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L1 Starter 2B
-2016-04-20 14:57:59.567 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L1 Starter 2B
-2016-04-20 14:57:59.571 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
-2016-04-20 14:57:59.572 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L2 Starter 2B
-2016-04-20 14:57:59.572 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L2 Starter 2B
-2016-04-20 14:57:59.589 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
-2016-04-20 14:57:59.589 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Current L3 Starter 2B
-2016-04-20 14:57:59.589 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Current L3 Starter 2B
-2016-04-20 14:57:59.603 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
-2016-04-20 14:57:59.603 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage AB Starter 2B
-2016-04-20 14:57:59.603 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage AB Starter 2B
-2016-04-20 14:57:59.616 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
-2016-04-20 14:57:59.616 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage BC Starter 2B
-2016-04-20 14:57:59.617 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage BC Starter 2B
-2016-04-20 14:57:59.629 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
-2016-04-20 14:57:59.630 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Motor Voltage CA Starter 2B
-2016-04-20 14:57:59.630 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Motor Voltage CA Starter 2B
+2016-04-20 15:58:15.372 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idLbl_pgStandardReport_Title
+2016-04-20 15:58:15.423 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-20 15:58:15.454 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_TotalPageNum
+2016-04-20 15:58:15.492 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:15.535 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:15.587 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:15.587 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Chilled Water Control Feedforward Gain
+2016-04-20 15:58:15.587 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Chilled Water Control Feedforward Gain
+2016-04-20 15:58:15.588 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:15.588 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Modulation Proportional Gain
+2016-04-20 15:58:15.588 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Modulation Proportional Gain
+2016-04-20 15:58:15.593 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:15.593 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Modulation Integral Time
+2016-04-20 15:58:15.593 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Modulation Integral Time
+2016-04-20 15:58:15.622 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:15.623 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Control Staging Time
+2016-04-20 15:58:15.623 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Control Staging Time
+2016-04-20 15:58:15.657 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:15.657 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Stage On Control Level
+2016-04-20 15:58:15.657 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Stage On Control Level
+2016-04-20 15:58:15.658 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:15.658 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Stage Off Control Level
+2016-04-20 15:58:15.658 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Stage Off Control Level
+2016-04-20 15:58:15.690 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:15.690 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Demand Limit Startup Target
+2016-04-20 15:58:15.690 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Demand Limit Startup Target
+2016-04-20 15:58:15.691 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:15.691 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Demand Limit Softload Time
+2016-04-20 15:58:15.691 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Demand Limit Softload Time
+2016-04-20 15:58:15.710 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:15.710 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Capacity Control Softload Time
+2016-04-20 15:58:15.710 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Capacity Control Softload Time
+2016-04-20 15:58:15.710 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:15.728 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:15.777 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:18.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:18.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Cooling Design Delta Temp (Waterside)
+2016-04-20 15:58:18.899 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Cooling Design Delta Temp (Waterside)
+2016-04-20 15:58:18.914 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:18.915 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Limit Relay Filter Time
+2016-04-20 15:58:18.915 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Limit Relay Filter Time
+2016-04-20 15:58:18.930 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:18.931 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Head Relief Relay Filter Time
+2016-04-20 15:58:18.931 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Head Relief Relay Filter Time
+2016-04-20 15:58:18.945 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:18.946 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Chiller Service Enable
+2016-04-20 15:58:18.946 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Chiller Service Enable
+2016-04-20 15:58:18.963 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:18.963 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Compressor Service Enable
+2016-04-20 15:58:18.964 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Compressor Service Enable
+2016-04-20 15:58:18.977 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:18.978 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evap Water Pump Service Enable
+2016-04-20 15:58:18.978 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evap Water Pump Service Enable
+2016-04-20 15:58:18.991 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:18.992 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Service Recommended Messages
+2016-04-20 15:58:18.992 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Service Recommended Messages
+2016-04-20 15:58:19.006 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:19.007 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Operational Pumpdown Enable
+2016-04-20 15:58:19.007 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Operational Pumpdown Enable
+2016-04-20 15:58:19.015 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:19.015 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:19.015 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:19.016 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:19.016 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:19.049 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:19.050 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:22.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:22.150 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Local Atmospheric Pressure
+2016-04-20 15:58:22.151 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Local Atmospheric Pressure
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Rfgt Tank Valve Open Delay
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Rfgt Tank Valve Open Delay
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:22.194 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:22.228 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:22.228 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Cprsr1A
+2016-04-20 15:58:22.228 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Cprsr1A
+2016-04-20 15:58:22.267 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:22.267 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Delay Time Cprsr1A
+2016-04-20 15:58:22.267 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Delay Time Cprsr1A
+2016-04-20 15:58:22.268 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:22.268 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:22.268 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:22.268 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:22.273 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:22.273 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Cprsr1B
+2016-04-20 15:58:22.274 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Cprsr1B
+2016-04-20 15:58:22.309 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:22.309 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Delay Time Cprsr1B
+2016-04-20 15:58:22.309 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Delay Time Cprsr1B
+2016-04-20 15:58:22.341 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:22.341 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:22.341 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:22.341 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:22.341 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:22.342 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:22.359 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:25.492 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:25.492 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Cprsr2A
+2016-04-20 15:58:25.492 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Cprsr2A
+2016-04-20 15:58:25.525 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:25.525 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Delay Time Cprsr2A
+2016-04-20 15:58:25.525 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Delay Time Cprsr2A
+2016-04-20 15:58:25.543 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:25.543 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:25.543 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:25.543 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:25.593 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:25.593 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Cprsr2B
+2016-04-20 15:58:25.593 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Cprsr2B
+2016-04-20 15:58:25.626 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:25.626 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: User Cmd Min Capacity Delay Time Cprsr2B
+2016-04-20 15:58:25.626 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: User Cmd Min Capacity Delay Time Cprsr2B
+2016-04-20 15:58:25.627 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:25.627 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:25.627 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:25.627 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:25.638 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:25.638 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: High Evaporator Water Temp Cutout
+2016-04-20 15:58:25.639 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: High Evaporator Water Temp Cutout
+2016-04-20 15:58:25.652 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:25.652 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Evaporator Water Temp Cutout
+2016-04-20 15:58:25.652 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Evaporator Water Temp Cutout
+2016-04-20 15:58:25.665 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:25.665 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Refrigerant Temperature Cutout
+2016-04-20 15:58:25.666 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Refrigerant Temperature Cutout
+2016-04-20 15:58:25.666 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:25.699 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:25.700 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:28.806 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:28.807 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Evap Flow Overdue Wait Time
+2016-04-20 15:58:28.807 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Evap Flow Overdue Wait Time
+2016-04-20 15:58:28.822 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:28.823 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:28.824 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:28.825 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:28.839 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:28.840 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:28.840 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:28.841 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:28.864 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:28.865 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Rfgt Temp Limit Proportional Gain
+2016-04-20 15:58:28.865 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Rfgt Temp Limit Proportional Gain
+2016-04-20 15:58:28.881 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:28.882 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Rfgt Temp Limit Integral Time
+2016-04-20 15:58:28.882 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Rfgt Temp Limit Integral Time
+2016-04-20 15:58:28.892 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:28.892 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:28.892 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:28.893 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:28.907 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:28.907 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Variable Evap Water Flow Compensation
+2016-04-20 15:58:28.908 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Variable Evap Water Flow Compensation
+2016-04-20 15:58:28.915 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:28.916 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:28.916 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:28.916 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:28.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:28.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:28.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:28.925 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:28.926 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:28.939 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:28.954 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:32.066 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:32.066 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Hot Start Threshold Temperature
+2016-04-20 15:58:32.066 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Hot Start Threshold Temperature
+2016-04-20 15:58:32.077 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:32.078 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:32.079 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:32.079 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:32.088 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:32.089 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:32.089 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:32.090 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:32.116 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:32.117 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Rated Capacity
+2016-04-20 15:58:32.117 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Rated Capacity
+2016-04-20 15:58:32.157 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:32.157 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Free Cooling Valve Control Fan Speed
+2016-04-20 15:58:32.157 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Free Cooling Valve Control Fan Speed
+2016-04-20 15:58:32.158 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:32.158 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:32.158 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:32.158 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:32.191 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:32.191 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Air Coil Correction
+2016-04-20 15:58:32.191 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Air Coil Correction
+2016-04-20 15:58:32.197 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:32.197 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Fan Control Feed Forward Gain
+2016-04-20 15:58:32.197 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Fan Control Feed Forward Gain
+2016-04-20 15:58:32.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:32.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Damping Coefficient
+2016-04-20 15:58:32.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Damping Coefficient
+2016-04-20 15:58:32.237 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:32.238 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:32.250 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:35.365 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:35.365 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Subcooling Integral Time
+2016-04-20 15:58:35.365 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Subcooling Integral Time
+2016-04-20 15:58:35.383 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:35.383 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Subcooling Tracking Time
+2016-04-20 15:58:35.384 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Subcooling Tracking Time
+2016-04-20 15:58:35.435 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:35.435 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Subcooling Proportional Gain
+2016-04-20 15:58:35.435 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Subcooling Proportional Gain
+2016-04-20 15:58:35.436 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:35.436 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Condenser Pressure Limit Setpoint
+2016-04-20 15:58:35.436 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Condenser Pressure Limit Setpoint
+2016-04-20 15:58:35.442 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:35.443 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: HPC Limit Proportional Gain
+2016-04-20 15:58:35.443 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: HPC Limit Proportional Gain
+2016-04-20 15:58:35.456 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:35.457 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: HPC Limit Integral Time
+2016-04-20 15:58:35.457 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: HPC Limit Integral Time
+2016-04-20 15:58:35.471 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:35.471 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Under/Over Voltage Protection Enable
+2016-04-20 15:58:35.471 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Under/Over Voltage Protection Enable
+2016-04-20 15:58:35.485 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:35.485 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Current Limit Ti
+2016-04-20 15:58:35.486 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Current Limit Ti
+2016-04-20 15:58:35.499 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:35.499 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Current Limit Kp
+2016-04-20 15:58:35.499 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Current Limit Kp
+2016-04-20 15:58:35.500 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:35.525 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:35.537 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:38.648 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:38.649 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Restart Inhibit Diagnostic
+2016-04-20 15:58:38.649 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Restart Inhibit Diagnostic
+2016-04-20 15:58:38.675 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:38.676 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Restart Inhibit Free Starts
+2016-04-20 15:58:38.677 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Restart Inhibit Free Starts
+2016-04-20 15:58:38.705 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:38.705 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Restart Inhibit Start To Start Time
+2016-04-20 15:58:38.705 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Restart Inhibit Start To Start Time
+2016-04-20 15:58:38.734 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:38.734 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Limit Enable
+2016-04-20 15:58:38.734 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Limit Enable
+2016-04-20 15:58:38.744 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:38.744 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Oil Return Valve Minimum On/Off Time
+2016-04-20 15:58:38.745 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Oil Return Valve Minimum On/Off Time
+2016-04-20 15:58:38.754 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:38.755 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:38.755 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:38.756 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:38.772 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:38.772 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Disch Superheat Trip Setpt Cprsr1A
+2016-04-20 15:58:38.772 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Disch Superheat Trip Setpt Cprsr1A
+2016-04-20 15:58:38.787 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:38.788 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Disch Superheat Trip Setpt Cprsr1B
+2016-04-20 15:58:38.788 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Disch Superheat Trip Setpt Cprsr1B
+2016-04-20 15:58:38.795 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:38.796 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:38.796 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:38.796 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:38.797 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:38.810 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:idVal_pgStandardReport_PageNum
+2016-04-20 15:58:38.824 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-20 15:58:41.944 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C1
+2016-04-20 15:58:41.944 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Disch Superheat Trip Setpt Cprsr2A
+2016-04-20 15:58:41.944 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Disch Superheat Trip Setpt Cprsr2A
+2016-04-20 15:58:41.984 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C2
+2016-04-20 15:58:41.984 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Low Disch Superheat Trip Setpt Cprsr2B
+2016-04-20 15:58:41.984 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Low Disch Superheat Trip Setpt Cprsr2B
+2016-04-20 15:58:41.996 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:41.996 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R1C3
+2016-04-20 15:58:41.997 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:41.997 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:42.008 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:42.009 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C1
+2016-04-20 15:58:42.009 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:42.009 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:42.017 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:42.018 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C2
+2016-04-20 15:58:42.018 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:42.018 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:42.026 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:42.027 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R2C3
+2016-04-20 15:58:42.027 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:42.027 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:42.035 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:42.036 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C1
+2016-04-20 15:58:42.036 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:42.036 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:42.044 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:42.045 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C2
+2016-04-20 15:58:42.045 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:42.045 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank
+2016-04-20 15:58:42.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: can't find the webElement by id idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:42.054 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: id: idLbl_pgStandardReport_R3C3
+2016-04-20 15:58:42.055 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Actual value: Blank
+2016-04-20 15:58:42.055 DEBUG com.trane.display.utils.Log 51 debug - com.trane.display.utils.BaseActions: Expected value: Blank

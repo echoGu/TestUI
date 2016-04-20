@@ -70,7 +70,7 @@ pageIndex,id,varName
 8,idLbl_pgStandardReport_R2C3,Blank
 8,idLbl_pgStandardReport_R3C1,Oil Temperature Cprsr2A
 8,idLbl_pgStandardReport_R3C2,Oil Temperature Cprsr2B
-9,idLbl_pgStandardReport_R3C3,Blank
+8,idLbl_pgStandardReport_R3C3,Blank
 9,idLbl_pgStandardReport_R1C1,Active Demand Limit Setpoint
 9,idLbl_pgStandardReport_R1C2,Unit Power Consumption
 9,idLbl_pgStandardReport_R1C3,Chiller Power Demand
