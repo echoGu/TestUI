@@ -1,118 +1,118 @@
-pageIndex,id,varName,,,
-1,idLbl_pgStandardReport_R1C1,Active Chilled Water Setpoint,,,
-1,idLbl_pgStandardReport_R1C2,Evaporator Entering Water Temperature,,,
-1,idLbl_pgStandardReport_R1C3,Evaporator Leaving Water Temperature,,,
-1,idLbl_pgStandardReport_R2C1,Evaporator Refrigerant Pressure Ckt1,,,
-1,idLbl_pgStandardReport_R2C2,Evaporator Saturated Rfgt Temp Ckt1,,,
-1,idLbl_pgStandardReport_R2C3,Evaporator Approach Temperature Ckt1,,,
-1,idLbl_pgStandardReport_R3C1,Evaporator Refrigerant Pressure Ckt2,,,
-1,idLbl_pgStandardReport_R3C2,Evaporator Saturated Rfgt Temp Ckt2,,,
-1,idLbl_pgStandardReport_R3C3,Evaporator Approach Temperature Ckt2,,,
-2,idLbl_pgStandardReport_R1C1,Evaporator Water Flow Status,,,
-2,idLbl_pgStandardReport_R1C2,Evaporator Water Pump Override,,,
-2,idLbl_pgStandardReport_R1C3,Blank,,,
-2,idLbl_pgStandardReport_R2C1,Oil Return Solenoid Valve Cprsr1A,,,
-2,idLbl_pgStandardReport_R2C2,Oil Return Solenoid Valve Cprsr1B,,,
-2,idLbl_pgStandardReport_R2C3,EXV Percent Open Ckt1,,,
-2,idLbl_pgStandardReport_R3C1,Oil Return Solenoid Valve Cprsr2A,,,
-2,idLbl_pgStandardReport_R3C2,Oil Return Solenoid Valve Cprsr2B,,,
-2,idLbl_pgStandardReport_R3C3,EXV Percent Open Ckt2,,,
-3,idLbl_pgStandardReport_R1C1,Outdoor Air Temperature,,,
-3,idLbl_pgStandardReport_R1C2,Air Flow Ckt1,,,
-3,idLbl_pgStandardReport_R1C3,Air Flow Ckt2,,,
-3,idLbl_pgStandardReport_R2C1,Condenser Saturated Rfgt Temp Ckt1,,,
-3,idLbl_pgStandardReport_R2C2,Condenser Refrigerant Pressure Ckt1,,,
-3,idLbl_pgStandardReport_R2C3,Differential Refrigerant Pressure Ckt1,,,
-3,idLbl_pgStandardReport_R3C1,Condenser Saturated Rfgt Temp Ckt2,,,
-3,idLbl_pgStandardReport_R3C2,Condenser Refrigerant Pressure Ckt2,,,
-3,idLbl_pgStandardReport_R3C3,Differential Refrigerant Pressure Ckt2,,,
-4,idLbl_pgStandardReport_R1C1,Cond Discharge Rfgt Saturated Temp Ckt1,,,
-4,idLbl_pgStandardReport_R1C2,Condenser Discharge Rfgt Temp Ckt1,,,
-4,idLbl_pgStandardReport_R1C3,Condenser Discharge Rfgt Subcooling Ckt1,,,
-4,idLbl_pgStandardReport_R2C1,Cond Discharge Rfgt Saturated Temp Ckt2,,,
-4,idLbl_pgStandardReport_R2C2,Condenser Discharge Rfgt Temp Ckt2,,,
-4,idLbl_pgStandardReport_R2C3,Condenser Discharge Rfgt Subcooling Ckt2,,,
-4,idLbl_pgStandardReport_R3C1,Blank,,,
-4,idLbl_pgStandardReport_R3C2,Blank,,,
-4,idLbl_pgStandardReport_R3C3,Blank,,,
-5,idLbl_pgStandardReport_R1C1,Running Status Cprsr1A,,,
-5,idLbl_pgStandardReport_R1C2,Average Line Current % RLA Starter 1A,,,
-5,idLbl_pgStandardReport_R1C3,Blank,,,
-5,idLbl_pgStandardReport_R2C1,Running Status Cprsr1B,,,
-5,idLbl_pgStandardReport_R2C2,Average Line Current % RLA Starter 1B,,,
-5,idLbl_pgStandardReport_R2C3,Blank,,,
-5,idLbl_pgStandardReport_R3C1,Running Status Cprsr2A,,,
-5,idLbl_pgStandardReport_R3C2,Average Line Current % RLA Starter 2A,,,
-5,idLbl_pgStandardReport_R3C3,Blank,,,
-6,idLbl_pgStandardReport_R1C1,Running Status Cprsr2B,,,
-6,idLbl_pgStandardReport_R1C2,Average Line Current % RLA Starter 2B,,,
-6,idLbl_pgStandardReport_R1C3,Blank,,,
-6,idLbl_pgStandardReport_R2C1,Starts Cprsr1A,,,
-6,idLbl_pgStandardReport_R2C2,Running Time Cprsr1A,,,
-6,idLbl_pgStandardReport_R2C3,Oil Pressure Cprsr1A,,,
-6,idLbl_pgStandardReport_R3C1,Starts Cprsr1B,,,
-6,idLbl_pgStandardReport_R3C2,Running Time Cprsr1B,,,
-6,idLbl_pgStandardReport_R3C3,Oil Pressure Cprsr1B,,,
-7,idLbl_pgStandardReport_R1C1,Starts Cprsr2A,,,
-7,idLbl_pgStandardReport_R1C2,Running Time Cprsr2A,,,
-7,idLbl_pgStandardReport_R1C3,Oil Pressure Cprsr2A,,,
-7,idLbl_pgStandardReport_R2C1,Starts Cprsr2B,,,
-7,idLbl_pgStandardReport_R2C2,Running Time Cprsr2B,,,
-7,idLbl_pgStandardReport_R2C3,Oil Pressure Cprsr2B,,,
-7,idLbl_pgStandardReport_R3C1,Evaporator Refrigerant Pressure Ckt1,,,
-7,idLbl_pgStandardReport_R3C2,Condenser Refrigerant Pressure Ckt1,,,
-8,idLbl_pgStandardReport_R3C3,Differential Refrigerant Pressure Ckt1,,,
-8,idLbl_pgStandardReport_R1C1,Evaporator Refrigerant Pressure Ckt2,,,
-8,idLbl_pgStandardReport_R1C2,Condenser Refrigerant Pressure Ckt2,,,
-8,idLbl_pgStandardReport_R1C3,Differential Refrigerant Pressure Ckt2,,,
-8,idLbl_pgStandardReport_R2C1,Oil Temperature Cprsr1A,,,
-8,idLbl_pgStandardReport_R2C2,Oil Temperature Cprsr1B,,,
-8,idLbl_pgStandardReport_R2C3,Blank,,,
-8,idLbl_pgStandardReport_R3C1,Oil Temperature Cprsr2A,,,
-8,idLbl_pgStandardReport_R3C2,Oil Temperature Cprsr2B,,,
-9,idLbl_pgStandardReport_R3C3,Blank,,,
-9,idLbl_pgStandardReport_R1C1,Active Demand Limit Setpoint,,,
-9,idLbl_pgStandardReport_R1C2,Unit Power Consumption,,,
-9,idLbl_pgStandardReport_R1C3,Chiller Power Demand,,,
-9,idLbl_pgStandardReport_R2C1,Average Line Current % RLA Starter 1A,,,
-9,idLbl_pgStandardReport_R2C2,Average Line Current % RLA Starter 1B,,,
-9,idLbl_pgStandardReport_R2C3,Blank,,,
-9,idLbl_pgStandardReport_R3C1,Average Line Current % RLA Starter 2A,,,
-9,idLbl_pgStandardReport_R3C2,Average Line Current % RLA Starter 2B,,,
-9,idLbl_pgStandardReport_R3C3,Blank,,,
-10,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 1A,,,
-10,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 1A,,,
-10,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 1A,,,
-10,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 1A,,,
-10,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 1A,,,
-10,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 1A,,,
-10,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 1A,,,
-10,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 1A,,,
-10,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 1A,,,
-11,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 1B,,,
-11,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 1B,,,
-11,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 1B,,,
-11,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 1B,,,
-11,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 1B,,,
-11,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 1B,,,
-11,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 1B,,,
-11,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 1B,,,
-11,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 1B,,,
-12,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 2A,,,
-12,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 2A,,,
-12,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 2A,,,
-12,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 2A,,,
-12,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 2A,,,
-12,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 2A,,,
-12,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 2A,,,
-12,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 2A,,,
-12,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 2A,,,
-13,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 2B,,,
-13,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 2B,,,
-13,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 2B,,,
-13,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 2B,,,
-13,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 2B,,,
-13,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 2B,,,
-13,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 2B,,,
-13,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 2B,,,
-13,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 2B,,,
+pageIndex,id,varName
+1,idLbl_pgStandardReport_R1C1,Active Chilled Water Setpoint
+1,idLbl_pgStandardReport_R1C2,Evaporator Entering Water Temperature
+1,idLbl_pgStandardReport_R1C3,Evaporator Leaving Water Temperature
+1,idLbl_pgStandardReport_R2C1,Evaporator Refrigerant Pressure Ckt1
+1,idLbl_pgStandardReport_R2C2,Evaporator Saturated Rfgt Temp Ckt1
+1,idLbl_pgStandardReport_R2C3,Evaporator Approach Temperature Ckt1
+1,idLbl_pgStandardReport_R3C1,Evaporator Refrigerant Pressure Ckt2
+1,idLbl_pgStandardReport_R3C2,Evaporator Saturated Rfgt Temp Ckt2
+1,idLbl_pgStandardReport_R3C3,Evaporator Approach Temperature Ckt2
+2,idLbl_pgStandardReport_R1C1,Evaporator Water Flow Status
+2,idLbl_pgStandardReport_R1C2,Evaporator Water Pump Override
+2,idLbl_pgStandardReport_R1C3,Blank
+2,idLbl_pgStandardReport_R2C1,Oil Return Solenoid Valve Cprsr1A
+2,idLbl_pgStandardReport_R2C2,Oil Return Solenoid Valve Cprsr1B
+2,idLbl_pgStandardReport_R2C3,EXV Percent Open Ckt1
+2,idLbl_pgStandardReport_R3C1,Oil Return Solenoid Valve Cprsr2A
+2,idLbl_pgStandardReport_R3C2,Oil Return Solenoid Valve Cprsr2B
+2,idLbl_pgStandardReport_R3C3,EXV Percent Open Ckt2
+3,idLbl_pgStandardReport_R1C1,Outdoor Air Temperature
+3,idLbl_pgStandardReport_R1C2,Air Flow Ckt1
+3,idLbl_pgStandardReport_R1C3,Air Flow Ckt2
+3,idLbl_pgStandardReport_R2C1,Condenser Saturated Rfgt Temp Ckt1
+3,idLbl_pgStandardReport_R2C2,Condenser Refrigerant Pressure Ckt1
+3,idLbl_pgStandardReport_R2C3,Differential Refrigerant Pressure Ckt1
+3,idLbl_pgStandardReport_R3C1,Condenser Saturated Rfgt Temp Ckt2
+3,idLbl_pgStandardReport_R3C2,Condenser Refrigerant Pressure Ckt2
+3,idLbl_pgStandardReport_R3C3,Differential Refrigerant Pressure Ckt2
+4,idLbl_pgStandardReport_R1C1,Cond Discharge Rfgt Saturated Temp Ckt1
+4,idLbl_pgStandardReport_R1C2,Condenser Discharge Rfgt Temp Ckt1
+4,idLbl_pgStandardReport_R1C3,Condenser Discharge Rfgt Subcooling Ckt1
+4,idLbl_pgStandardReport_R2C1,Cond Discharge Rfgt Saturated Temp Ckt2
+4,idLbl_pgStandardReport_R2C2,Condenser Discharge Rfgt Temp Ckt2
+4,idLbl_pgStandardReport_R2C3,Condenser Discharge Rfgt Subcooling Ckt2
+4,idLbl_pgStandardReport_R3C1,Blank
+4,idLbl_pgStandardReport_R3C2,Blank
+4,idLbl_pgStandardReport_R3C3,Blank
+5,idLbl_pgStandardReport_R1C1,Running Status Cprsr1A
+5,idLbl_pgStandardReport_R1C2,Average Line Current % RLA Starter 1A
+5,idLbl_pgStandardReport_R1C3,Blank
+5,idLbl_pgStandardReport_R2C1,Running Status Cprsr1B
+5,idLbl_pgStandardReport_R2C2,Average Line Current % RLA Starter 1B
+5,idLbl_pgStandardReport_R2C3,Blank
+5,idLbl_pgStandardReport_R3C1,Running Status Cprsr2A
+5,idLbl_pgStandardReport_R3C2,Average Line Current % RLA Starter 2A
+5,idLbl_pgStandardReport_R3C3,Blank
+6,idLbl_pgStandardReport_R1C1,Running Status Cprsr2B
+6,idLbl_pgStandardReport_R1C2,Average Line Current % RLA Starter 2B
+6,idLbl_pgStandardReport_R1C3,Blank
+6,idLbl_pgStandardReport_R2C1,Starts Cprsr1A
+6,idLbl_pgStandardReport_R2C2,Running Time Cprsr1A
+6,idLbl_pgStandardReport_R2C3,Oil Pressure Cprsr1A
+6,idLbl_pgStandardReport_R3C1,Starts Cprsr1B
+6,idLbl_pgStandardReport_R3C2,Running Time Cprsr1B
+6,idLbl_pgStandardReport_R3C3,Oil Pressure Cprsr1B
+7,idLbl_pgStandardReport_R1C1,Starts Cprsr2A
+7,idLbl_pgStandardReport_R1C2,Running Time Cprsr2A
+7,idLbl_pgStandardReport_R1C3,Oil Pressure Cprsr2A
+7,idLbl_pgStandardReport_R2C1,Starts Cprsr2B
+7,idLbl_pgStandardReport_R2C2,Running Time Cprsr2B
+7,idLbl_pgStandardReport_R2C3,Oil Pressure Cprsr2B
+7,idLbl_pgStandardReport_R3C1,Evaporator Refrigerant Pressure Ckt1
+7,idLbl_pgStandardReport_R3C2,Condenser Refrigerant Pressure Ckt1
+7,idLbl_pgStandardReport_R3C3,Differential Refrigerant Pressure Ckt1
+8,idLbl_pgStandardReport_R1C1,Evaporator Refrigerant Pressure Ckt2
+8,idLbl_pgStandardReport_R1C2,Condenser Refrigerant Pressure Ckt2
+8,idLbl_pgStandardReport_R1C3,Differential Refrigerant Pressure Ckt2
+8,idLbl_pgStandardReport_R2C1,Oil Temperature Cprsr1A
+8,idLbl_pgStandardReport_R2C2,Oil Temperature Cprsr1B
+8,idLbl_pgStandardReport_R2C3,Blank
+8,idLbl_pgStandardReport_R3C1,Oil Temperature Cprsr2A
+8,idLbl_pgStandardReport_R3C2,Oil Temperature Cprsr2B
+9,idLbl_pgStandardReport_R3C3,Blank
+9,idLbl_pgStandardReport_R1C1,Active Demand Limit Setpoint
+9,idLbl_pgStandardReport_R1C2,Unit Power Consumption
+9,idLbl_pgStandardReport_R1C3,Chiller Power Demand
+9,idLbl_pgStandardReport_R2C1,Average Line Current % RLA Starter 1A
+9,idLbl_pgStandardReport_R2C2,Average Line Current % RLA Starter 1B
+9,idLbl_pgStandardReport_R2C3,Blank
+9,idLbl_pgStandardReport_R3C1,Average Line Current % RLA Starter 2A
+9,idLbl_pgStandardReport_R3C2,Average Line Current % RLA Starter 2B
+9,idLbl_pgStandardReport_R3C3,Blank
+10,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 1A
+10,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 1A
+10,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 1A
+10,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 1A
+10,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 1A
+10,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 1A
+10,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 1A
+10,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 1A
+10,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 1A
+11,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 1B
+11,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 1B
+11,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 1B
+11,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 1B
+11,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 1B
+11,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 1B
+11,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 1B
+11,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 1B
+11,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 1B
+12,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 2A
+12,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 2A
+12,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 2A
+12,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 2A
+12,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 2A
+12,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 2A
+12,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 2A
+12,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 2A
+12,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 2A
+13,idLbl_pgStandardReport_R1C1,Motor Current L1 % RLA Starter 2B
+13,idLbl_pgStandardReport_R1C2,Motor Current L2 % RLA Starter 2B
+13,idLbl_pgStandardReport_R1C3,Motor Current L3 % RLA Starter 2B
+13,idLbl_pgStandardReport_R2C1,Motor Current L1 Starter 2B
+13,idLbl_pgStandardReport_R2C2,Motor Current L2 Starter 2B
+13,idLbl_pgStandardReport_R2C3,Motor Current L3 Starter 2B
+13,idLbl_pgStandardReport_R3C1,Motor Voltage AB Starter 2B
+13,idLbl_pgStandardReport_R3C2,Motor Voltage BC Starter 2B
+13,idLbl_pgStandardReport_R3C3,Motor Voltage CA Starter 2B

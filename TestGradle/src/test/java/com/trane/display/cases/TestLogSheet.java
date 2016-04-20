@@ -1,6 +1,6 @@
 package com.trane.display.cases;
 
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -22,10 +22,10 @@ public class TestLogSheet extends BaseActions
 	private String localNameplateRecord = "UC800 - RTAF - Comp4 - BASE - NameplateRecord";
 	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
 	
-	@BeforeClass
+	@BeforeSuite
 	public void configure() throws Exception 
 	{
-//		configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
+		configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
 		initLocatorMap();
 		openHomePage();
 	}

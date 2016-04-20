@@ -11,6 +11,7 @@ import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -197,7 +198,11 @@ public class BaseActions
 					 if(index >0 && index % 2 == 0)  
 					 {
 						 log.info("Click move down button to get the next two items.");
-						 click("btn_report_entries_available_down");
+						 String btnDownlocatorname = "btn_report_entries_available_down";
+						 if(isElementPresent(btnDownlocatorname))
+						 {
+							 click(btnDownlocatorname);
+						 }
 					 }
 					 nextItemId = "item_available_" + (index+1);
 				   }
@@ -205,7 +210,6 @@ public class BaseActions
     		  try 
     		  {
     			  By by = By.id(nextItemId);
-    			  WebElement e = driver.findElement(by);
     			  
     			  if(elementExist(by))
     			  {

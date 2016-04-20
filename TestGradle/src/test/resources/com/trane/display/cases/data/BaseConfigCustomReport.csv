@@ -82,50 +82,34 @@ Compressor ,item_available_6,Oil Pressure Cprsr1A
 Compressor ,item_available_7,Oil Temperature Cprsr1A
 Compressor ,item_available_8,Suction Refrigerant Pressure Cprsr1A
 Compressor ,item_available_9,Differential Rfgt Pressure Cprsr1A
-Compressor ,item_available_10,Economizer Valve Percent Open Cprsr1A
-Compressor ,item_available_11,Economizer Discharge Pressure Cprsr1A
-Compressor ,item_available_12,Economizer Discharge Temperature Cprsr1A
-Compressor ,item_available_13,Economizer Superheat Cprsr1A
-Compressor ,item_available_14,Running Status Cprsr1B
-Compressor ,item_available_15,Running Time Cprsr1B
-Compressor ,item_available_16,Starts Cprsr1B
-Compressor ,item_available_17,Discharge Temperature Cprsr1B
-Compressor ,item_available_18,Discharge Superheat Cprsr1B
-Compressor ,item_available_19,Oil Pressure Cprsr1B
-Compressor ,item_available_20,Oil Temperature Cprsr1B
-Compressor ,item_available_21,Suction Refrigerant Pressure Cprsr1B
-Compressor ,item_available_22,Differential Rfgt Pressure Cprsr1B
-Compressor ,item_available_23,Economizer Valve Percent Open Cprsr1B
-Compressor ,item_available_24,Economizer Discharge Pressure Cprsr1B
-Compressor ,item_available_25,Economizer Discharge Temperature Cprsr1B
-Compressor ,item_available_26,Economizer Superheat Cprsr1B
-Compressor ,item_available_27,Oil Loss Level Sensor Ckt2
-Compressor ,item_available_28,Running Status Cprsr2A
-Compressor ,item_available_29,Running Time Cprsr2A
-Compressor ,item_available_30,Starts Cprsr2A
-Compressor ,item_available_31,Discharge Temperature Cprsr2A
-Compressor ,item_available_32,Discharge Superheat Cprsr2A
-Compressor ,item_available_33,Oil Pressure Cprsr2A
-Compressor ,item_available_34,Oil Temperature Cprsr2A
-Compressor ,item_available_35,Suction Refrigerant Pressure Cprsr2A
-Compressor ,item_available_36,Differential Rfgt Pressure Cprsr2A
-Compressor ,item_available_37,Economizer Valve Percent Open Cprsr2A
-Compressor ,item_available_38,Economizer Discharge Pressure Cprsr2A
-Compressor ,item_available_39,Economizer Discharge Temperature Cprsr2A
-Compressor ,item_available_40,Economizer Superheat Cprsr2A
-Compressor ,item_available_41,Running Status Cprsr2B
-Compressor ,item_available_42,Running Time Cprsr2B
-Compressor ,item_available_43,Starts Cprsr2B
-Compressor ,item_available_44,Discharge Temperature Cprsr2B
-Compressor ,item_available_45,Discharge Superheat Cprsr2B
-Compressor ,item_available_46,Oil Pressure Cprsr2B
-Compressor ,item_available_47,Oil Temperature Cprsr2B
-Compressor ,item_available_48,Suction Refrigerant Pressure Cprsr2B
-Compressor ,item_available_49,Differential Rfgt Pressure Cprsr2B
-Compressor ,item_available_50,Economizer Valve Percent Open Cprsr2B
-Compressor ,item_available_51,Economizer Discharge Pressure Cprsr2B
-Compressor ,item_available_52,Economizer Discharge Temperature Cprsr2B
-Compressor ,item_available_53,Economizer Superheat Cprsr2B
+Compressor ,item_available_10,Running Status Cprsr1B
+Compressor ,item_available_11,Running Time Cprsr1B
+Compressor ,item_available_12,Starts Cprsr1B
+Compressor ,item_available_13,Discharge Temperature Cprsr1B
+Compressor ,item_available_14,Discharge Superheat Cprsr1B
+Compressor ,item_available_15,Oil Pressure Cprsr1B
+Compressor ,item_available_16,Oil Temperature Cprsr1B
+Compressor ,item_available_17,Suction Refrigerant Pressure Cprsr1B
+Compressor ,item_available_18,Differential Rfgt Pressure Cprsr1B
+Compressor ,item_available_19,Oil Loss Level Sensor Ckt2
+Compressor ,item_available_20,Running Status Cprsr2A
+Compressor ,item_available_21,Running Time Cprsr2A
+Compressor ,item_available_22,Starts Cprsr2A
+Compressor ,item_available_23,Discharge Temperature Cprsr2A
+Compressor ,item_available_24,Discharge Superheat Cprsr2A
+Compressor ,item_available_25,Oil Pressure Cprsr2A
+Compressor ,item_available_26,Oil Temperature Cprsr2A
+Compressor ,item_available_27,Suction Refrigerant Pressure Cprsr2A
+Compressor ,item_available_28,Differential Rfgt Pressure Cprsr2A
+Compressor ,item_available_29,Running Status Cprsr2B
+Compressor ,item_available_30,Running Time Cprsr2B
+Compressor ,item_available_31,Starts Cprsr2B
+Compressor ,item_available_32,Discharge Temperature Cprsr2B
+Compressor ,item_available_33,Discharge Superheat Cprsr2B
+Compressor ,item_available_34,Oil Pressure Cprsr2B
+Compressor ,item_available_35,Oil Temperature Cprsr2B
+Compressor ,item_available_36,Suction Refrigerant Pressure Cprsr2B
+Compressor ,item_available_37,Differential Rfgt Pressure Cprsr2B
 Motor ,item_available_0,Energy Consumption Last Reset
 Motor ,item_available_1,Energy Consumption Resettable
 Motor ,item_available_2,Energy Consumption NonReset
