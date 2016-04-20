@@ -10,7 +10,7 @@ import com.csvreader.CsvWriter;
 public class CSVutils 
 {
 	
-	public static HashMap<String, String> readCSV(String localDirAndFileName, Integer pageIndex) throws Exception 
+	public static HashMap<String, String> readCSV(String localDirAndFileName, String pageIndex) throws Exception 
 	{
 		Log log = new Log(CSVutils.class);
 		
@@ -26,7 +26,7 @@ public class CSVutils
             String selector = reader.get("id");
             String varName = reader.get("varName");
 
-        	if(Integer.parseInt(index) == pageIndex) 
+        	if(index.equals(pageIndex)) 
         	{
                 log.info(index + "," + selector + "," + varName);
             	dataMap.put(selector, varName);

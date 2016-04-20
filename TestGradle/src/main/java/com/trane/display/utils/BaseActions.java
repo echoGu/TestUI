@@ -114,7 +114,7 @@ public class BaseActions
 		}
 	}
 	
-	public HashMap<String,String> initialDataMap(String filename, Integer pageIndex) throws Exception
+	public HashMap<String,String> initialDataMap(String filename, String pageIndex) throws Exception
 	{
 		localDirAndFileName = System.getProperty("user.dir") 
 				+ testResourePath
@@ -130,31 +130,39 @@ public class BaseActions
 	public void verifySpecificPageData(String filename, Integer pageIndex) throws Exception
 	{
 		navigateToPage(pageIndex);
-		compareData(filename, pageIndex);
+		compareData(filename, pageIndex+"");
 	}
 	
-	public int navigateToCustomReportGroup(String groupname) throws Exception
+	public void navigateToCustomReportGroup(String groupname) throws Exception
 	{
 		String currentGroup = getElement("txt_group_name").getText();
-		log.debug("currentGroup is " + currentGroup + "; expected group is " + groupname);
-		int pageIndex = 1;
 		
 		while(!currentGroup.equals(groupname))
 		{
 			click("btn_report_group_Down");
-			pageIndex++;
+			currentGroup = getElement("txt_group_name").getText();
 		}
-		log.debug("Now the currentGroup is " + currentGroup);
 		
-		return pageIndex;
+		log.debug("currentGroup is " + currentGroup + "; expected group is " + groupname);
+		
+	}
+	
+	public void verifyAllCustomReportData(String filename) throws Exception
+	{
+		verifySpecificCustomReportData(filename, "Chiller");
+		verifySpecificCustomReportData(filename, "Evaporator");
+		verifySpecificCustomReportData(filename, "Condenser");
+		verifySpecificCustomReportData(filename, "Compressor");
+		verifySpecificCustomReportData(filename, "Motor");
+		
 	}
 	
 	public void verifySpecificCustomReportData(String filename, String groupname) throws Exception
 	{
-		int pageIndex = navigateToCustomReportGroup(groupname);
+		navigateToCustomReportGroup(groupname);
 		
 		try {
-			dataMap = initialDataMap(filename, pageIndex);
+			dataMap = initialDataMap(filename, groupname);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -168,11 +176,14 @@ public class BaseActions
 				      String value = (String)dataMap.get(key);
 				      String actualValue =null;
 				      
-		    		  try {
+		    		  try 
+		    		  {
 		    			  WebElement e = driver.findElement(By.id(key));
 		    			  actualValue = e.getText();
 
-		    			} catch (NoSuchElementException e) {
+		    			} 
+		    		    catch (NoSuchElementException e) 
+		    		    {
 		    				actualValue = "Blank";
 		    				log.debug("can't find the webElement by id " + key );
 		    			}
@@ -191,22 +202,29 @@ public class BaseActions
 					 nextItemId = "item_available_" + (index+1);
 				   }
 			  
-			  By by = By.id(nextItemId);
-			  WebElement e = driver.findElement(by);
-			  if(elementExist(by))
-			  {
-				  log.debug("nextItemId: " + nextItemId);
-				  log.error("please check csv file. " + nextItemId + " exists, but no data on the csv file.");
-				  Assert.assertEquals(e.getText(), "Null");
-			  }
+    		  try 
+    		  {
+    			  By by = By.id(nextItemId);
+    			  WebElement e = driver.findElement(by);
+    			  
+    			  if(elementExist(by))
+    			  {
+    				  Assert.assertEquals(nextItemId + " exists on the UI","no related data on the CSV file.");
+    			  }
+
+    			} 
+    		    catch (NoSuchElementException e) {
+    			  log.debug("nextItemId: " + nextItemId);
+    			  Assert.assertEquals("null","null");
+    			}
 			} 
 		  else 
 			{
-			  log.error("no data for group " + groupname + " !!! Please check CSV file.");
+			  Assert.assertEquals("no data for page " + groupname + " !!! Please check CSV file.", "some data");
 		    }
 	}
 
-	public void compareData(String filename, Integer pageIndex)
+	public void compareData(String filename, String pageIndex)
 	{
 		try {
 			dataMap = initialDataMap(filename, pageIndex);
@@ -239,7 +257,7 @@ public class BaseActions
 			} 
 		  else 
 			{
-			  log.error("no data for page " + pageIndex + " !!! Please check CSV file.");
+			  Assert.assertEquals("no data for page " + pageIndex + " !!! Please check CSV file.", "some data");
 		    }
 	}
 	

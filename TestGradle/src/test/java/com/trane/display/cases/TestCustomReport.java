@@ -55,7 +55,9 @@ public class TestCustomReport extends BaseActions
 	@Test(description = "Verify Custom Report 1 Data")
 	public void verifyCustomReportData() throws Exception 
 	{
-		verifySpecificCustomReportData("BaseConfigCustomReport", "Chiller");
+//		verifySpecificCustomReportData("BaseConfigCustomReport", "Chiller");
+//		verifySpecificCustomReportData("BaseConfigCustomReport", "Evaporator");
+		verifyAllCustomReportData("BaseConfigCustomReport");
 	}
 	
 	@Test(description = "Close FireFox")
