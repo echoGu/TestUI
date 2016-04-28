@@ -1,5 +1,12 @@
 package com.trane.display.utils;
 
+/**
+ * This class is designed to log different kinds of informations when programming is running.
+ * 
+ * @author irblir
+ * @since 2016-04-22
+ */
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -39,8 +46,6 @@ public class Log {
         Configurator.initialize(null, source);
 	}
 	
-//	trace < debug < info < warn < error < fatal
-
 	public void info(String message) 
 	{
 		logger.info(clazz.getCanonicalName() + ": " + message);

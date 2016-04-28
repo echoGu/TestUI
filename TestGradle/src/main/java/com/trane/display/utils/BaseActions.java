@@ -1,5 +1,13 @@
 package com.trane.display.utils;
 
+/**
+ * This class is the father of all testNG test classes.
+ * It covers all the necessary basic actions.
+ * 
+ * @author irblir
+ * @since 2016-04-22
+ */
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -7,11 +15,9 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -20,7 +26,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 
 public class BaseActions 
 {
@@ -50,29 +55,12 @@ public class BaseActions
 		locatorMap = XMLutils.readXMLDocument(localDirAndFileName);
 		
 	}
-	/*
-	 * Subcomponet pages and Standard pages have different page num id
-	 */
-	public String sortPagesCurrentNum() throws Exception
-	{
-		String pageNumLocatorname = null;
-		
-		if(isElementPresent("standard_page_num"))
-		{
-			pageNumLocatorname = "standard_page_num";
-		} 
-		else if(isElementPresent("subcomponent_page_num"))
-			{
-				pageNumLocatorname = "subcomponent_page_num";
-			}
-		
-		return pageNumLocatorname;
-	}
 	
 	public void navigateToPage(Integer pageIndex) throws Exception
 	{
-		String currentPageNum = getElement(sortPagesCurrentNum()).getText();
+		String currentPageNum = getElement("PageNum").getText();
 		log.info("currentPageNum: " + currentPageNum);
+		
 		int PageNum =Integer.parseInt(currentPageNum);
 		int min = pageIndex - PageNum;
 		int flag;
@@ -186,21 +174,25 @@ public class BaseActions
 		    		    catch (NoSuchElementException e) 
 		    		    {
 		    				actualValue = "Blank";
-		    				log.debug("can't find the webElement by id " + key );
 		    			}
 		    		  
-		    		  log.debug("id: " + key);
-		    		  log.debug("Actual value: " + actualValue);
-	    			  log.debug("Expected value: " + value);
-	    			  Assert.assertEquals(actualValue, value);
+		    		  if(!actualValue.equals(value))
+		    		  {
+		    			  log.error("filename: " + filename);
+		    			  log.error("page: " + groupname);
+			    		  log.error("id: " + key);
+			    		  log.error("Actual_value: " + actualValue);
+		    			  log.error("Expect_value: " + value + "\n");
+		    		  }
+	    			  Assertion.verifyEquals(actualValue, value, groupname);
 	    			  
 	    			 int index = Integer.parseInt(key.substring(key.lastIndexOf("_")+1));
 					 if(index >0 && index % 2 == 0)  
 					 {
-						 log.info("Click move down button to get the next two items.");
 						 String btnDownlocatorname = "btn_report_entries_available_down";
-						 if(isElementPresent(btnDownlocatorname))
+						 if(isElementDisplayed(byLocatorName(btnDownlocatorname)))
 						 {
+							 log.debug("Click down button to get the next two items.");
 							 click(btnDownlocatorname);
 						 }
 					 }
@@ -211,20 +203,20 @@ public class BaseActions
     		  {
     			  By by = By.id(nextItemId);
     			  
-    			  if(elementExist(by))
+    			  if(isElementDisplayed(by))
     			  {
-    				  Assert.assertEquals(nextItemId + " exists on the UI","no related data on the CSV file.");
+    				  Assertion.verifyEquals(nextItemId + " exists on the UI","no related data on the CSV file.");
     			  }
 
     			} 
     		    catch (NoSuchElementException e) {
     			  log.debug("nextItemId: " + nextItemId);
-    			  Assert.assertEquals("null","null");
+    			  Assertion.verifyEquals("null","null");
     			}
 			} 
 		  else 
 			{
-			  Assert.assertEquals("no data for page " + groupname + " !!! Please check CSV file.", "some data");
+			  Assertion.verifyEquals("no data for page " + groupname + " !!! Please check CSV file.", "some data");
 		    }
 	}
 
@@ -249,41 +241,30 @@ public class BaseActions
 				    		  actualValue = e.getText();
 		    			} catch (NoSuchElementException e) {
 		    				actualValue = "Blank";
-		    				log.debug("can't find the webElement by id " + key );
 		    			}
 		    		  
-		    		  log.debug("id: " + key);
-		    		  log.debug("Actual value: " + actualValue);
-	    			  log.debug("Expected value: " + value);
-	    			  Assert.assertEquals(actualValue, value);
+		    		  if(!actualValue.equals(value))
+		    		  {
+		    			  log.error("filename: " + filename);
+		    			  log.error("page: " + pageIndex);
+			    		  log.error("id: " + key);
+			    		  log.error("Actual_value: " + actualValue);
+		    			  log.error("Expect_value: " + value + "\n");
+		    		  }
+		    	
+	    			  Assertion.verifyEquals(actualValue, value, pageIndex);
 				      
 				   }
 			} 
 		  else 
 			{
-			  Assert.assertEquals("no data for page " + pageIndex + " !!! Please check CSV file.", "some data");
+			  Assertion.verifyEquals("no data for page " + pageIndex + " !!! Please check CSV file.", "some data");
 		    }
-	}
-	
-	public String sortPagesTotalNum() throws Exception
-	{
-		String pageTotalNumLocatorname = null;
-		
-		if(isElementPresent("standard_total_page_num"))
-		{
-			pageTotalNumLocatorname = "standard_total_page_num";
-		} 
-		else if(isElementPresent("subcomponent_total_page_num"))
-			{
-			pageTotalNumLocatorname = "subcomponent_total_page_num";
-			}
-		
-		return pageTotalNumLocatorname;
 	}
 	
 	public void verifyAllData(String filename) throws Exception
 	{
-		String totalPageNum = getElement(sortPagesTotalNum()).getText();
+		String totalPageNum = getElement("TotalPageNum").getText();
 		log.info("ready to verify " + totalPageNum + " pages data. Please make sure your CSV file has the necessary data.");
 		
 		int tpn = Integer.parseInt(totalPageNum);
@@ -353,15 +334,15 @@ public class BaseActions
 	{
 		return driver;
 	}
-    /**
-     * load home page
-     */
-    public void openHomePage() 
+
+    public void openHomePage() throws Exception 
     {
     	driver.get("http://192.168.1.3/FS/root/UI_Medium/index.html");  
     	WebDriverWait wait = new WebDriverWait(driver,20); 
-    	wait.until(ExpectedConditions.textToBePresentInElementLocated(By.id("idLbl_pgHomePage_Title"), "Home"));
+    	wait.until(ExpectedConditions.
+    			textToBePresentInElementLocated(byLocatorName("Title"), "Home"));
         log.info("Home Page is loaded successfully");
+    	Thread.sleep(10000);
     }
     
     public void takeScreenShot() 
@@ -393,78 +374,51 @@ public class BaseActions
 		    }
 	}
     
-    /**
-     * 
-     * @param locatorName
-     * @return
-     * @throws Exception
-     */
-    public boolean isElementPresent(String locatorName) throws Exception 
-    {
-    	Locator locator = getLocator(locatorName);
-    	boolean isPresent = false;
-    	WebDriverWait wait = new WebDriverWait(driver, 10);
-    	isPresent = wait.until(ExpectedConditions.presenceOfElementLocated(getByLocator(locator))).isDisplayed();
-    	return isPresent;
-    	
-    }
     
-	public boolean elementExist(By Locator) 
+	public boolean isElementDisplayed(By by) 
 	{
 		try 
 		{
-			driver.findElement(Locator);
-			return true;
-		} catch (org.openqa.selenium.NoSuchElementException ex) 
+			if(driver.findElement(by).isDisplayed())
+			{
+				return true;
+			}
+		} catch (NoSuchElementException ex) 
 		{
 			return false;
 		}
+		return false;
 	}
     
-	/**
-	 * 
-	 * @param locatorName
-	 * @return
-	 * @throws IOException
-	 */
 	public Locator getLocator(String locatorName) throws IOException 
 	{
 		Locator locator = locatorMap.get(locatorName);
 		return locator;
 
 	}
-	/**
-	 * 
-	 * @param locatorName
-	 * @return
-	 * @throws Exception
-	 */
-	public WebElement getElement(String locatorName) throws Exception 
+	
+	public By byLocatorName(String locatorName) throws Exception
+	{
+		return getByLocator(getLocator(locatorName));
+	}
+	
+	public WebElement getElement(String locatorName) throws Exception
 	{
 		Locator locator = getLocator(locatorName);
 		By by = getByLocator(locator);
 		WebElement element = driver.findElement(by);
-		log.info("get the WebElement by locatorName: " + locatorName);
+		log.info("getElement method - get the WebElement by locatorName: " + locatorName);
 		return element;
 	}
-	/**
-	 * click and find a WebElement by locatorName
-	 * @param locatorName
-	 * @throws Exception
-	 */
+	
 	public void click(String locatorName) throws Exception 
 	{
 		WebElement e = getElement(locatorName);
 		log.info("click "+locatorName);
 		e.click();
-		Thread.sleep(3000);
+		Thread.sleep(1000);
 	}
-	/**
-	 * 
-	 * @param locator
-	 * @return By
-	 * @throws IOException
-	 */
+	
 	public By getByLocator(Locator locator) throws IOException 
 	{
 		By by = null;
@@ -472,87 +426,67 @@ public class BaseActions
 		switch (locator.getBy()) 
 		{
 			case xpath:
-				log.debug("find element By xpath:"+selector);
+				log.info("find element By xpath:"+selector);
 				by = By.xpath(selector);
 				break;
 			case id:
-				log.debug("find element By id:"+selector);
+				log.info("find element By id:"+selector);
 				by = By.id(selector);
 				break;
 			case name:
-				log.debug("find element By name:"+selector);
+				log.info("find element By name:"+selector);
 				by = By.name(selector);
 				break;
 			case cssSelector:
-				log.debug("find element By cssSelector:"+selector);
+				log.info("find element By cssSelector:"+selector);
 				by = By.cssSelector(selector);
 				break;
 			case className:
-				log.debug("find element By className:"+selector);
+				log.info("find element By className:"+selector);
 				by = By.className(selector);
 				break;
 			case tagName:
-				log.debug("find element By tagName:"+selector);
+				log.info("find element By tagName:"+selector);
 				by = By.tagName(selector);
 				break;
 			case linkText:
-				log.debug("find element By linkText:"+selector);
+				log.info("find element By linkText:"+selector);
 				by = By.linkText(selector);
 				break;
 			case partialLinkText:
-				log.debug("find element By partialLinkText:"+selector);
+				log.info("find element By partialLinkText:"+selector);
 				by = By.partialLinkText(selector);
 				break;
 		}
 		return by;
 	}
-	/**
-	 * 
-	 * @param locatorName
-	 * @param num
-	 * @throws Exception
-	 */
+	
 	public void verifyText(String locatorName, Integer num) throws Exception 
 	{
-		Thread.sleep(3000);
-		Assert.assertEquals(getElement(locatorName).getText(), num+"");
+		Thread.sleep(1000);
+		Assertion.verifyEquals(getElement(locatorName).getText(), num+"");
 		
 	}
-	/**
-	 * 
-	 * @param locatorName
-	 * @param text
-	 * @throws Exception
-	 */
+
 	public void verifyText(String locatorName, String text) throws Exception 
 	{
-		Thread.sleep(3000);
-		Assert.assertEquals(getElement(locatorName).getText(), text);
+		Thread.sleep(1000);
+		Assertion.verifyEquals(getElement(locatorName).getText(), text);
 		
 	}
-	/**
-	 * 
-	 * @param locatorName
-	 * @param attribute
-	 * @param content
-	 * @throws Exception
-	 */
+
 	public void verifyAttribute(String locatorName, String attribute, String content) throws Exception 
 	{
-		Thread.sleep(3000);
-		Assert.assertEquals(getElement(locatorName).getAttribute(attribute), content);
+		Thread.sleep(1000);
+		Assertion.verifyEquals(getElement(locatorName).getAttribute(attribute), content);
 	}
 	
-	/**
-	 * find and click a WebElemnt by Text 
-	 * @param WebElemnt's Text
-	 */
 	public void clickVisibleDiv(String text) 
 	{
 		driver.findElement(By.xpath("//*[text()='"+text+"']")).click();
 		try 
 		{
-			Thread.sleep(3000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) 
 		{
 			e.printStackTrace();

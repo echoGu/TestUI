@@ -26,8 +26,7 @@ dependencies {
         ['org.apache.commons:commons-csv:1.2'],
         ['commons-net:commons-net:1.4.1'],
         ['com.google.inject:guice:4.0'],
-        [files('libs/javacsv.jar', 'libs/reportng-1.1.5.jar', 'libs/velocity-dep-1.4.jar')],
-        ['junit:junit:4.+'],
+        [files('libs/javacsv.jar', 'libs/reportng-1.1.4.jar','libs/velocity-dep-1.4.jar')],
     	['org.testng:testng:6.9.10']
     )
 
@@ -37,10 +36,7 @@ defaultTasks 'test', 'clean', 'compileJava'
 
 test {
      useTestNG(){
-    	 options.suites(file('config/TestNG_configs/TestLogSheet.xml'));
-//     	options.suites(file('config/TestNG_configs/TestCustomReport.xml'));
-//     	options.suites(file('config/TestNG_configs/TestBaseConfig_4comps.xml'));
-//     	options.suites(file('config/TestNG_configs/TestServiceSettings.xml'));
+     	options.suites(file('config/TestNG_configs/TestBaseConfig_4comps.xml'));
      	useDefaultListeners = false
      }
 }

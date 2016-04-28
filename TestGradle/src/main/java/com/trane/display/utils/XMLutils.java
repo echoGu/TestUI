@@ -1,5 +1,12 @@
 package com.trane.display.utils;
 
+/**
+ * This class is designed to read and write UI Map xml.
+ * 
+ * @author irblir
+ * @since 2016-04-22
+ */
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,13 +25,7 @@ import com.trane.display.utils.Locator.ByType;
 
 
 public class XMLutils {
-    /**
-     * read xml to initialize locatorMap
-     * @param path
-     * @param pageName
-     * @return HashMap<String, Locator>
-     * @throws Exception
-     */
+	
 	public static HashMap<String, Locator> readXMLDocument(String path) throws Exception 
 	{
 
@@ -84,7 +85,7 @@ public class XMLutils {
 	
 	public static ByType getByType(String type) 
 	{
-		ByType byType = ByType.id;
+		ByType byType = null;
 		if (type == null || type.equalsIgnoreCase("id")) 
 		{
 			byType = ByType.id;
@@ -113,10 +114,6 @@ public class XMLutils {
 		return byType;
 	}
 	
-	/**
-	 * create a UIMap template
-	 * @throws IOException
-	 */
 
 	public static void writeXMLDocument() throws IOException 
 	{

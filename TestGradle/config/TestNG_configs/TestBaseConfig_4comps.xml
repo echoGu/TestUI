@@ -2,28 +2,16 @@
 <suite name="Custom Report Demo" verbose="10">
 	<test name = "CustomReportBaseConfigDataLayout" preserve-order = "true">
 		<classes>
-			<class name="com.trane.display.cases.TestCustomReport">
+			<class name="com.trane.display.cases.TestBaseConfig_4comps">
 				<methods>
-					<include name="clickReports" />
-					<include name="verifyBtnReportsClicked" />
-					<include name="clickCustomReport" />
-					<include name="ClickEditButton" />
-					<include name="verifyCustomReportData" />
-					<include name="tearDown" />
-				</methods>
-			</class>
-		</classes>
-	</test>
-		<test name = "LogSheetBaseConfigDataLayout" preserve-order = "true">
-		<classes>
-			<class name="com.trane.display.cases.TestLogSheet">
-				<methods>
-					<include name="clickReports" />
-					<include name="verifyBtnReportsClicked" />
-					<include name="clickLogSheet" />
-					<include name="verifyBtnLogSheetClicked" />
-					<include name="verifyLogSheetData" />
-					<include name="tearDown" />
+					<include name="a_navigateToServiceSettingsPage" />
+					<include name="b_verifyServiceSettingsData" />
+					<include name="c_navigateToEditCustomReportPage" />
+					<include name="d_verifyCustomReportData" />
+					<include name="e_navigateToLogSheetPage" />
+					<include name="f_verifyLogSheetData" />
+					<include name="g_navigateToEvapCkt1Page" />
+					<include name="h_verifyEvapCkt1Data" />
 				</methods>
 			</class>
 		</classes>

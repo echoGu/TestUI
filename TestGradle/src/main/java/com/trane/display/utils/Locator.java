@@ -1,10 +1,13 @@
 package com.trane.display.utils;
-
-public class Locator {
+/**
+ * This class is to designed to interpret UI Map xml
+ * 
+ * @author irblir
+ * @since 2016-04-22
+ */
+public class Locator 
+{
 	private String selector;
-	/**
-	 * create a enum variable for By
-	 */
 	public enum ByType 
 	{
 		xpath, id, linkText, name, className, cssSelector, partialLinkText, tagName

@@ -1,0 +1,82 @@
+pageIndex,id,varName
+1,idLbl_pgStandardReport_R1C1,Chilled Water Control Feedforward Gain
+1,idLbl_pgStandardReport_R1C2,Modulation Proportional Gain
+1,idLbl_pgStandardReport_R1C3,Modulation Integral Time 
+1,idLbl_pgStandardReport_R2C1,Control Staging Time
+1,idLbl_pgStandardReport_R2C2,Stage On Control Level
+1,idLbl_pgStandardReport_R2C3,Stage Off Control Level
+1,idLbl_pgStandardReport_R3C1,Demand Limit Startup Target
+1,idLbl_pgStandardReport_R3C2,Demand Limit Softload Time
+1,idLbl_pgStandardReport_R3C3,Capacity Control Softload Time
+2,idLbl_pgStandardReport_R1C1,Cooling Design Delta Temp (Waterside)
+2,idLbl_pgStandardReport_R1C2,Limit Relay Filter Time
+2,idLbl_pgStandardReport_R1C3,Head Relief Relay Filter Time
+2,idLbl_pgStandardReport_R2C1,Chiller Service Enable
+2,idLbl_pgStandardReport_R2C2,Compressor Service Enable
+2,idLbl_pgStandardReport_R2C3,Evap Water Pump Service Enable
+2,idLbl_pgStandardReport_R3C1,Service Recommended Messages
+2,idLbl_pgStandardReport_R3C2,Operational Pumpdown Enable
+2,idLbl_pgStandardReport_R3C3,Blank
+3,idLbl_pgStandardReport_R1C1,Local Atmospheric Pressure
+3,idLbl_pgStandardReport_R1C2,Condenser Rfgt Tank Valve Open Delay
+3,idLbl_pgStandardReport_R1C3,Blank
+3,idLbl_pgStandardReport_R2C1,User Cmd Min Capacity Cprsr1A
+3,idLbl_pgStandardReport_R2C2,User Cmd Min Capacity Delay Time Cprsr1A 
+3,idLbl_pgStandardReport_R2C3,Blank
+3,idLbl_pgStandardReport_R3C1,User Cmd Min Capacity Cprsr1B 
+3,idLbl_pgStandardReport_R3C2,User Cmd Min Capacity Delay Time Cprsr1B
+3,idLbl_pgStandardReport_R3C3,Blank
+4,idLbl_pgStandardReport_R1C1,User Cmd Min Capacity Cprsr2A 
+4,idLbl_pgStandardReport_R1C2,User Cmd Min Capacity Delay Time Cprsr2A 
+4,idLbl_pgStandardReport_R1C3,Blank
+4,idLbl_pgStandardReport_R2C1,User Cmd Min Capacity Cprsr2B 
+4,idLbl_pgStandardReport_R2C2,User Cmd Min Capacity Delay Time Cprsr2B 
+4,idLbl_pgStandardReport_R2C3,Blank
+4,idLbl_pgStandardReport_R3C1,High Evaporator Water Temp Cutout
+4,idLbl_pgStandardReport_R3C2,Low Evaporator Water Temp Cutout 
+4,idLbl_pgStandardReport_R3C3,Low Refrigerant Temperature Cutout
+5,idLbl_pgStandardReport_R1C1,Evap Flow Overdue Wait Time
+5,idLbl_pgStandardReport_R1C2,Blank
+5,idLbl_pgStandardReport_R1C3,Blank
+5,idLbl_pgStandardReport_R2C1,Low Rfgt Temp Limit Proportional Gain
+5,idLbl_pgStandardReport_R2C2,Low Rfgt Temp Limit Integral Time
+5,idLbl_pgStandardReport_R2C3,Blank
+5,idLbl_pgStandardReport_R3C1,Variable Evap Water Flow Compensation
+5,idLbl_pgStandardReport_R3C2,Blank
+5,idLbl_pgStandardReport_R3C3,Blank
+6,idLbl_pgStandardReport_R1C1,Hot Start Threshold Temperature
+6,idLbl_pgStandardReport_R1C2,Blank
+6,idLbl_pgStandardReport_R1C3,Blank
+6,idLbl_pgStandardReport_R2C1,Free Cooling Rated Capacity
+6,idLbl_pgStandardReport_R2C2,Free Cooling Valve Control Fan Speed
+6,idLbl_pgStandardReport_R2C3,Blank
+6,idLbl_pgStandardReport_R3C1,Air Coil Correction
+6,idLbl_pgStandardReport_R3C2,Fan Control Feed Forward Gain
+6,idLbl_pgStandardReport_R3C3,Damping Coefficient
+7,idLbl_pgStandardReport_R1C1,Condenser Subcooling Integral Time
+7,idLbl_pgStandardReport_R1C2,Condenser Subcooling Tracking Time
+7,idLbl_pgStandardReport_R1C3,Condenser Subcooling Proportional Gain
+7,idLbl_pgStandardReport_R2C1,Condenser Pressure Limit Setpoint
+7,idLbl_pgStandardReport_R2C2,HPC Limit Proportional Gain
+7,idLbl_pgStandardReport_R2C3,HPC Limit Integral Time
+7,idLbl_pgStandardReport_R3C1,Under/Over Voltage Protection Enable
+7,idLbl_pgStandardReport_R3C2,Current Limit Ti
+7,idLbl_pgStandardReport_R3C3,Current Limit Kp
+8,idLbl_pgStandardReport_R1C1,Restart Inhibit Diagnostic
+8,idLbl_pgStandardReport_R1C2,Restart Inhibit Free Starts
+8,idLbl_pgStandardReport_R1C3,Restart Inhibit Start To Start Time
+8,idLbl_pgStandardReport_R2C1,Oil Return Limit Enable
+8,idLbl_pgStandardReport_R2C2,Oil Return Valve Minimum On/Off Time
+8,idLbl_pgStandardReport_R2C3,Blank
+8,idLbl_pgStandardReport_R3C1,Low Disch Superheat Trip Setpt Cprsr1A
+8,idLbl_pgStandardReport_R3C2,Low Disch Superheat Trip Setpt Cprsr1B
+8,idLbl_pgStandardReport_R3C3,Blank
+9,idLbl_pgStandardReport_R1C1,Low Disch Superheat Trip Setpt Cprsr2A
+9,idLbl_pgStandardReport_R1C2,Low Disch Superheat Trip Setpt Cprsr2B
+9,idLbl_pgStandardReport_R1C3,Blank
+9,idLbl_pgStandardReport_R2C1,Blank
+9,idLbl_pgStandardReport_R2C2,Blank
+9,idLbl_pgStandardReport_R2C3,Blank
+9,idLbl_pgStandardReport_R3C1,Blank
+9,idLbl_pgStandardReport_R3C2,Blank
+9,idLbl_pgStandardReport_R3C3,Blank

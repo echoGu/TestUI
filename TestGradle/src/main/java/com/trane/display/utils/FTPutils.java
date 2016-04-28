@@ -1,5 +1,12 @@
 package com.trane.display.utils;
 
+/**
+ * This class is designed to update configuration files.
+ * 
+ * @author irblir
+ * @since 2016-04-22
+ */
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,5 +1,13 @@
 package com.trane.display.utils;
 
+/**
+ * This class is designed to read or write a CSV file.
+ * csv files store the data with a header - "pageIndex, id, varName".
+ * 
+ * @author irblir
+ * @since 2016-04-22
+ */
+
 import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.LinkedHashMap;

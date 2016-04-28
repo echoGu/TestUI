@@ -6,7 +6,7 @@
 	
 	<Appenders>
 		<Console name="Console" target="SYSTEM_OUT">
-			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %-5level - %msg%n"/>
 	    </Console>
 	    
 		<File name="debug" fileName="${log-path}/debug.log" append="false">
@@ -14,7 +14,7 @@
 				<ThresholdFilter level="info" onMatch="DENY" onMismatch="NEUTRAL"/>
 				<ThresholdFilter level="trace" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
 			</Filters>
-			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level - %msg%xEx%n"/>
 		</File>
 		
 		<File name="info" fileName="${log-path}/info.log" append="false">
@@ -22,16 +22,16 @@
 				<ThresholdFilter level="warn" onMatch="DENY" onMismatch="NEUTRAL"/>
 				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
 			</Filters>
-			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level - %msg%xEx%n"/>
 		</File>
 		
 		<File name="error" fileName="${log-path}/error.log" append="false">
 			<ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY"/>
-			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+			<PatternLayout pattern="%d{YYYY-MM-dd HH:mm:ss.SSS} %-5level - %msg%xEx%n"/>
 		</File>
 		
 		<RollingFile name="RollingFile" filename="${log-path}/all.log" filePattern="${log-path}/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
-			<PatternLayout pattern="%d{YYYY-MM-dd 'at' HH:mm:ss.SSS} %-5level %class{36} %L %M - %msg%xEx%n"/>
+			<PatternLayout pattern="%d{YYYY-MM-dd 'at' HH:mm:ss.SSS} %-5level - %msg%xEx%n"/>
 			<SizeBasedTriggeringPolicy size="1MB"/>
 		</RollingFile>
 	</Appenders> 
