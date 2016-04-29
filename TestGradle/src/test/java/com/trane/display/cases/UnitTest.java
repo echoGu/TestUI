@@ -12,7 +12,6 @@ public class UnitTest extends BaseActions {
   @Test
   public void f() throws Exception 
   {
-	  initLocatorMap();
 	  openHomePage();
 	  
 	  

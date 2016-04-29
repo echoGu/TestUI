@@ -1,606 +1,100 @@
-2016-04-28 17:37:51.039 INFO  - com.trane.display.utils.TestNGListener: Test Start
+2016-04-29 09:38:28.957 INFO  - com.trane.display.utils.TestNGListener: Test Start
 
-2016-04-28 17:37:51.053 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator value: moveDown
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Down
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator value: moveUp
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Up
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_down
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_up
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
-2016-04-28 17:37:51.100 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: group_name
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'Title')]
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: Title
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'ubTitle')]
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: SubTitle
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'PageNum')]
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: PageNum
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'TotalPageNum')]
-2016-04-28 17:37:51.101 INFO  - com.trane.display.utils.XMLutils: locator Name is: TotalPageNum
-2016-04-28 17:37:58.170 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'Title')]
-2016-04-28 17:38:03.678 INFO  - com.trane.display.utils.BaseActions: Home Page is loaded successfully
-2016-04-28 17:38:18.041 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'Title')]
-2016-04-28 17:38:18.051 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: Title
-2016-04-28 17:38:19.074 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'ubTitle')]
-2016-04-28 17:38:19.097 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: SubTitle
-2016-04-28 17:38:19.114 INFO  - com.trane.display.utils.TestNGListener: c_navigateToEditCustomReportPage--Test method success
+2016-04-29 09:38:28.976 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-04-29 09:38:29.004 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.005 INFO  - com.trane.display.utils.XMLutils: get locator value: moveDown
+2016-04-29 09:38:29.005 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Down
+2016-04-29 09:38:29.005 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator value: moveUp
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Up
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_down
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_up
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
+2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator value: group_name
+2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'Title')]
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: locator Name is: Title
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'ubTitle')]
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: locator Name is: SubTitle
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'PageNum')]
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: locator Name is: PageNum
+2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-04-29 09:38:29.009 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'TotalPageNum')]
+2016-04-29 09:38:29.009 INFO  - com.trane.display.utils.XMLutils: locator Name is: TotalPageNum
+2016-04-29 09:38:35.974 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'Title')]
+2016-04-29 09:38:41.920 INFO  - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-04-29 09:38:55.244 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-04-29 09:38:55.278 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-04-29 09:38:55.299 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'TotalPageNum')]
+2016-04-29 09:38:55.313 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: TotalPageNum
+2016-04-29 09:38:55.324 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'TotalPageNum')]
+2016-04-29 09:38:55.337 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: TotalPageNum
+2016-04-29 09:38:55.350 INFO  - com.trane.display.utils.BaseActions: ready to verify 3 pages data. Please make sure your CSV file has the necessary data.
+2016-04-29 09:38:55.350 INFO  - com.trane.display.utils.BaseActions: ready to verify page 1.
+2016-04-29 09:38:55.350 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-04-29 09:38:55.357 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 1
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.BaseActions: on the expected page. Do noting.
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigEvap_Ckt1.csv
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R1C1,Active Chilled Water Setpoint
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R1C2,Evaporator Entering Water Temperature
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R1C3,Evaporator Leaving Water Temperature
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R2C1,Evaporator Water Pump Override
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R2C2,Evaporator Water Flow Status
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R2C3,Evaporator Approach Temperature Ckt1
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R3C1,Evaporator Refrigerant Pool Temp Ckt1
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R3C2,Evaporator Refrigerant Pressure Ckt1
+2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R3C3,Evaporator Saturated Rfgt Temp Ckt1
+2016-04-29 09:38:55.530 INFO  - com.trane.display.utils.BaseActions: ready to verify page 2.
+2016-04-29 09:38:55.530 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 1
+2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-29 09:38:55.534 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-04-29 09:38:55.535 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-04-29 09:38:56.594 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigEvap_Ckt1.csv
+2016-04-29 09:38:56.596 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R1C1,Oil Return Solenoid Valve Cprsr1A
+2016-04-29 09:38:56.597 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R1C2,Oil Return Solenoid Valve Cprsr1B
+2016-04-29 09:38:56.597 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R1C3,Blank
+2016-04-29 09:38:56.598 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R2C1,EXV Percent Open Ckt1
+2016-04-29 09:38:56.598 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R2C2,Blank
+2016-04-29 09:38:56.599 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R2C3,Blank
+2016-04-29 09:38:56.599 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R3C1,Evaporator Water Pump Running Time Pump 1
+2016-04-29 09:38:56.600 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R3C2,Evaporator Water Pump Running Time Pump 2
+2016-04-29 09:38:56.600 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R3C3,Blank
+2016-04-29 09:38:56.804 INFO  - com.trane.display.utils.BaseActions: ready to verify page 3.
+2016-04-29 09:38:56.804 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-04-29 09:38:56.804 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-04-29 09:38:56.805 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 2
+2016-04-29 09:38:56.805 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-04-29 09:38:56.805 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-04-29 09:38:56.806 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-04-29 09:38:56.806 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-04-29 09:38:57.869 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigEvap_Ckt1.csv
+2016-04-29 09:38:57.872 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R1C1,Free Cooling Capacity
+2016-04-29 09:38:57.873 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R1C2,Free Cooling Valve Percent Open
+2016-04-29 09:38:57.873 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R1C3,Free Cooling Bypass Valve Percent Open
+2016-04-29 09:38:57.873 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R2C1,Free Cooling Entering Water Temperature
+2016-04-29 09:38:57.874 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R2C2,Blank
+2016-04-29 09:38:57.875 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R2C3,Blank
+2016-04-29 09:38:57.875 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R3C1,Blank
+2016-04-29 09:38:57.875 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R3C2,Blank
+2016-04-29 09:38:57.876 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R3C3,Blank
+2016-04-29 09:38:58.044 INFO  - com.trane.display.utils.TestNGListener: f--Test method success
 
-2016-04-28 17:38:19.116 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:38:19.147 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:38:19.148 DEBUG - com.trane.display.utils.BaseActions: currentGroup is Chiller; expected group is Chiller
-2016-04-28 17:38:19.148 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
-2016-04-28 17:38:19.153 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_0,Top Level Mode
-2016-04-28 17:38:19.153 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_1,Top Level Mode Ckt1
-2016-04-28 17:38:19.153 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_2,Top Level Mode Cprsr1A
-2016-04-28 17:38:19.154 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_3,Top Level Mode Cprsr1B
-2016-04-28 17:38:19.154 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_4,Top Level Mode Ckt2
-2016-04-28 17:38:19.154 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_5,Top Level Mode Cprsr2A
-2016-04-28 17:38:19.154 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_6,Top Level Mode Cprsr2B
-2016-04-28 17:38:19.155 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_7,Chiller Running Time
-2016-04-28 17:38:19.155 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_8,Chiller Load Command
-2016-04-28 17:38:19.155 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_9,Total Compressor Current %RLA
-2016-04-28 17:38:19.155 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_10,Ice Building Active
-2016-04-28 17:38:19.156 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_11,Free Cooling Active
-2016-04-28 17:38:19.156 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_12,Active Chilled Water Setpoint
-2016-04-28 17:38:19.156 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_13,Active Chilled Water Setpoint Source
-2016-04-28 17:38:19.156 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_14,External Chilled Water Setpoint
-2016-04-28 17:38:19.157 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_15,Active Demand Limit Setpoint
-2016-04-28 17:38:19.157 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_16,Active Demand Limit Setpoint Source
-2016-04-28 17:38:19.157 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_17,External Demand Limit Setpoint
-2016-04-28 17:38:19.157 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_18,Active Ice Termination Setpoint
-2016-04-28 17:38:19.158 INFO  - com.trane.display.utils.CSVutils: Chiller,item_available_19,Active Ice Termination Setpoint Source
-2016-04-28 17:38:19.209 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:19.249 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:19.249 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:19.250 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:19.250 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:20.375 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:20.411 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:20.411 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:20.416 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:20.416 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:21.561 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:21.569 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:21.570 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:21.580 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:21.581 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:22.709 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:22.741 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:22.741 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:22.741 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:22.741 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:23.833 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:23.867 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:23.867 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:23.868 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:23.868 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:24.999 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:25.056 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:25.056 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:25.057 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:25.057 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:26.178 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:26.196 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:26.197 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:26.203 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:26.203 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:27.330 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:27.367 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:27.367 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:27.402 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:27.402 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:28.540 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:28.544 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:28.545 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:28.583 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:28.583 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:29.713 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:38:29.719 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:38:29.754 INFO  - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-28 17:38:29.759 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_group_Down
-2016-04-28 17:38:29.760 INFO  - com.trane.display.utils.BaseActions: click btn_report_group_Down
-2016-04-28 17:38:30.826 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:38:30.863 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:38:30.865 DEBUG - com.trane.display.utils.BaseActions: currentGroup is Evaporator; expected group is Evaporator
-2016-04-28 17:38:30.866 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
-2016-04-28 17:38:30.868 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_0,Evaporator Water Flow Status
-2016-04-28 17:38:30.868 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_1,Evaporator Entering Water Temperature
-2016-04-28 17:38:30.869 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_2,Evaporator Leaving Water Temperature
-2016-04-28 17:38:30.869 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_3,Evaporator Approach Temperature Ckt1
-2016-04-28 17:38:30.869 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_4,Evaporator Refrigerant Pressure Ckt1
-2016-04-28 17:38:30.869 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_5,Evaporator Saturated Rfgt Temp Ckt1
-2016-04-28 17:38:30.870 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_6,Evaporator Refrigerant Pool Temp Ckt1
-2016-04-28 17:38:30.870 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_7,EXV Percent Open Ckt1
-2016-04-28 17:38:30.870 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_8,EXV Override Time Remaining Ckt1
-2016-04-28 17:38:30.870 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_9,Oil Return Solenoid Valve Cprsr1A
-2016-04-28 17:38:30.870 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_10,Oil Return Solenoid Valve Cprsr1B
-2016-04-28 17:38:30.871 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_11,Evaporator Approach Temperature Ckt2
-2016-04-28 17:38:30.871 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_12,Evaporator Refrigerant Pressure Ckt2
-2016-04-28 17:38:30.871 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_13,Evaporator Saturated Rfgt Temp Ckt2
-2016-04-28 17:38:30.871 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_14,Evaporator Refrigerant Pool Temp Ckt2
-2016-04-28 17:38:30.871 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_15,EXV Percent Open Ckt2
-2016-04-28 17:38:30.872 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_16,EXV Override Time Remaining Ckt2
-2016-04-28 17:38:30.872 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_17,Oil Return Solenoid Valve Cprsr2A
-2016-04-28 17:38:30.872 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_18,Oil Return Solenoid Valve Cprsr2B
-2016-04-28 17:38:30.872 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_19,Evaporator Water Pump Command
-2016-04-28 17:38:30.872 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_20,Evaporator Water Pump Command Pump 1
-2016-04-28 17:38:30.873 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_21,Evaporator Water Pump Command Pump 2
-2016-04-28 17:38:30.873 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_22,Evaporator Water Pump Running Time Pump 1
-2016-04-28 17:38:30.873 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_23,Evaporator Water Pump Running Time Pump 2
-2016-04-28 17:38:30.873 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_24,Evaporator Water Pump Override
-2016-04-28 17:38:30.873 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_25,Evaporator Pump Override Time Remaining
-2016-04-28 17:38:30.874 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_26,Free Cooling Capacity
-2016-04-28 17:38:30.874 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_27,Free Cooling Valve Percent Open
-2016-04-28 17:38:30.874 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_28,Free Cooling Bypass Valve Percent Open
-2016-04-28 17:38:30.874 INFO  - com.trane.display.utils.CSVutils: Evaporator,item_available_29,Free Cooling Entering Water Temperature
-2016-04-28 17:38:30.928 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:30.940 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:30.940 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:30.946 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:30.947 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:32.073 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:32.094 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:32.094 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:32.102 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:32.103 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:33.229 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:33.265 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:33.265 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:33.269 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:33.270 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:34.386 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:34.402 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:34.403 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:34.421 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:34.421 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:35.553 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:35.569 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:35.569 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:35.576 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:35.577 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:36.751 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:36.786 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:36.786 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:36.803 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:36.803 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:37.925 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:37.963 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:37.963 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:37.983 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:37.983 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:39.126 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:39.143 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:39.143 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:39.147 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:39.148 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:40.280 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:40.304 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:40.304 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:40.315 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:40.315 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:41.432 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:41.448 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:41.449 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:41.455 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:41.456 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:42.594 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:42.630 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:42.630 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:42.637 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:42.638 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:43.761 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:43.781 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:43.797 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:43.812 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:43.812 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:44.955 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:44.959 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:44.959 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:44.980 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:44.981 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:46.115 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:46.133 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:46.134 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:46.141 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:46.141 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:47.264 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:38:47.269 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:38:47.301 INFO  - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-28 17:38:47.306 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_group_Down
-2016-04-28 17:38:47.306 INFO  - com.trane.display.utils.BaseActions: click btn_report_group_Down
-2016-04-28 17:38:48.382 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:38:48.420 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:38:48.448 DEBUG - com.trane.display.utils.BaseActions: currentGroup is Condenser; expected group is Condenser
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_0,Outdoor Air Temperature
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_1,Condenser Refrigerant Pressure Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_2,Condenser Saturated Rfgt Temp Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_3,Condenser Temperature Target Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_4,Differential Refrigerant Pressure Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_5,Air Flow Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_6,Cond Discharge Rfgt Saturated Temp Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_7,Condenser Discharge Rfgt Temp Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_8,Condenser Discharge Rfgt Subcooling Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_9,Condenser Discharge Rfgt Pressure Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_10,Condenser Refrigerant Tank Valve Ckt1
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_11,Condenser Refrigerant Pressure Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_12,Condenser Saturated Rfgt Temp Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_13,Condenser Temperature Target Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_14,Differential Refrigerant Pressure Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_15,Air Flow Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_16,Cond Discharge Rfgt Saturated Temp Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_17,Condenser Discharge Rfgt Temp Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_18,Condenser Discharge Rfgt Subcooling Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_19,Condenser Discharge Rfgt Pressure Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_20,Condenser Refrigerant Tank Valve Ckt2
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_21,Heat Recovery Entering Water Temp
-2016-04-28 17:38:48.448 INFO  - com.trane.display.utils.CSVutils: Condenser,item_available_22,Heat Recovery Leaving Water Temp
-2016-04-28 17:38:48.510 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:48.532 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:48.532 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:48.536 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:48.537 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:49.705 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:49.713 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:49.714 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:49.724 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:49.724 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:50.858 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:50.876 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:50.876 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:50.883 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:50.884 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:52.037 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:52.063 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:52.064 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:52.084 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:52.084 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:53.237 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:53.285 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:53.285 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:53.293 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:53.293 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:54.414 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:54.448 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:54.449 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:54.458 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:54.459 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:55.603 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:55.657 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:55.657 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:55.658 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:55.658 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:56.770 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:56.805 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:56.805 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:56.809 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:56.809 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:57.951 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:57.973 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:57.973 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:57.983 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:57.983 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:38:59.142 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:59.160 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:38:59.160 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:38:59.167 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:38:59.167 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:00.308 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:00.336 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:39:00.354 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:39:00.361 INFO  - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-28 17:39:00.367 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_group_Down
-2016-04-28 17:39:00.368 INFO  - com.trane.display.utils.BaseActions: click btn_report_group_Down
-2016-04-28 17:39:01.441 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:39:01.458 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:39:01.494 DEBUG - com.trane.display.utils.BaseActions: currentGroup is Compressor; expected group is Compressor
-2016-04-28 17:39:01.494 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_0,Oil Loss Level Sensor Ckt1
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_1,Running Status Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_2,Running Time Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_3,Starts Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_4,Discharge Temperature Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_5,Discharge Superheat Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_6,Oil Pressure Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_7,Oil Temperature Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_8,Suction Refrigerant Pressure Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_9,Differential Rfgt Pressure Cprsr1A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_10,Running Status Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_11,Running Time Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_12,Starts Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_13,Discharge Temperature Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_14,Discharge Superheat Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_15,Oil Pressure Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_16,Oil Temperature Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_17,Suction Refrigerant Pressure Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_18,Differential Rfgt Pressure Cprsr1B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_19,Oil Loss Level Sensor Ckt2
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_20,Running Status Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_21,Running Time Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_22,Starts Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_23,Discharge Temperature Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_24,Discharge Superheat Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_25,Oil Pressure Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_26,Oil Temperature Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_27,Suction Refrigerant Pressure Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_28,Differential Rfgt Pressure Cprsr2A
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_29,Running Status Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_30,Running Time Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_31,Starts Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_32,Discharge Temperature Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_33,Discharge Superheat Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_34,Oil Pressure Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_35,Oil Temperature Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_36,Suction Refrigerant Pressure Cprsr2B
-2016-04-28 17:39:01.495 INFO  - com.trane.display.utils.CSVutils: Compressor,item_available_37,Differential Rfgt Pressure Cprsr2B
-2016-04-28 17:39:01.546 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:01.558 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:01.559 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:01.565 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:01.565 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:02.712 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:02.745 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:02.745 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:02.751 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:02.751 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:03.904 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:03.918 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:03.919 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:03.927 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:03.927 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:05.060 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:05.079 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:05.079 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:05.117 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:05.117 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:06.215 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:06.250 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:06.250 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:06.251 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:06.251 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:07.370 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:07.397 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:07.398 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:07.408 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:07.408 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:08.553 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:08.571 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:08.571 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:08.593 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:08.593 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:09.731 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:09.732 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:09.732 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:09.737 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:09.738 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:10.855 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:10.877 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:10.877 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:10.877 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:10.877 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:11.996 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:12.011 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:12.012 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:12.018 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:12.019 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:13.160 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:13.166 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:13.167 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:13.201 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:13.201 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:14.322 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:14.359 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:14.360 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:14.370 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:14.371 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:15.498 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:15.535 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:15.535 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:15.540 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:15.540 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:16.664 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:16.708 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:16.708 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:16.741 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:16.741 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:17.862 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:17.876 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:17.877 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:17.887 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:17.887 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:19.029 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:19.054 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:19.054 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:19.063 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:19.063 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:20.203 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:20.234 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:20.235 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:20.246 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:20.247 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:21.406 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:21.443 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:21.444 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:21.457 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:21.458 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:22.604 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:39:22.605 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:39:22.614 INFO  - com.trane.display.utils.BaseActions: find element By id:report_group_down
-2016-04-28 17:39:22.624 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_group_Down
-2016-04-28 17:39:22.625 INFO  - com.trane.display.utils.BaseActions: click btn_report_group_Down
-2016-04-28 17:39:23.781 INFO  - com.trane.display.utils.BaseActions: find element By id:group_name
-2016-04-28 17:39:23.813 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: txt_group_name
-2016-04-28 17:39:23.823 DEBUG - com.trane.display.utils.BaseActions: currentGroup is Motor; expected group is Motor
-2016-04-28 17:39:23.824 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigCustomReport.csv
-2016-04-28 17:39:23.826 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_0,Energy Consumption Last Reset
-2016-04-28 17:39:23.826 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_1,Energy Consumption Resettable
-2016-04-28 17:39:23.827 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_2,Energy Consumption NonReset
-2016-04-28 17:39:23.827 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_3,Unit Power Consumption
-2016-04-28 17:39:23.827 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_4,Chiller Power Demand
-2016-04-28 17:39:23.828 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_5,Average Line Current % RLA Starter 1A
-2016-04-28 17:39:23.828 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_6,Motor Current L1 % RLA Starter 1A
-2016-04-28 17:39:23.828 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_7,Motor Current L2 % RLA Starter 1A
-2016-04-28 17:39:23.829 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_8,Motor Current L3 % RLA Starter 1A
-2016-04-28 17:39:23.829 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_9,Motor Current L1 Starter 1A
-2016-04-28 17:39:23.829 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_10,Motor Current L2 Starter 1A
-2016-04-28 17:39:23.830 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_11,Motor Current L3 Starter 1A
-2016-04-28 17:39:23.830 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_12,Motor Voltage AB Starter 1A
-2016-04-28 17:39:23.830 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_13,Motor Voltage BC Starter 1A
-2016-04-28 17:39:23.831 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_14,Motor Voltage CA Starter 1A
-2016-04-28 17:39:23.831 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_15,Average Line Current % RLA Starter 1B
-2016-04-28 17:39:23.831 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_16,Motor Current L1 % RLA Starter 1B
-2016-04-28 17:39:23.832 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_17,Motor Current L2 % RLA Starter 1B
-2016-04-28 17:39:23.832 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_18,Motor Current L3 % RLA Starter 1B
-2016-04-28 17:39:23.832 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_19,Motor Current L1 Starter 1B
-2016-04-28 17:39:23.833 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_20,Motor Current L2 Starter 1B
-2016-04-28 17:39:23.833 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_21,Motor Current L3 Starter 1B
-2016-04-28 17:39:23.833 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_22,Motor Voltage AB Starter 1B
-2016-04-28 17:39:23.834 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_23,Motor Voltage BC Starter 1B
-2016-04-28 17:39:23.834 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_24,Motor Voltage CA Starter 1B
-2016-04-28 17:39:23.834 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_25,Average Line Current % RLA Starter 2A
-2016-04-28 17:39:23.835 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_26,Motor Current L1 % RLA Starter 2A
-2016-04-28 17:39:23.835 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_27,Motor Current L2 % RLA Starter 2A
-2016-04-28 17:39:23.835 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_28,Motor Current L3 % RLA Starter 2A
-2016-04-28 17:39:23.836 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_29,Motor Current L1 Starter 2A
-2016-04-28 17:39:23.836 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_30,Motor Current L2 Starter 2A
-2016-04-28 17:39:23.836 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_31,Motor Current L3 Starter 2A
-2016-04-28 17:39:23.837 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_32,Motor Voltage AB Starter 2A
-2016-04-28 17:39:23.837 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_33,Motor Voltage BC Starter 2A
-2016-04-28 17:39:23.837 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_34,Motor Voltage CA Starter 2A
-2016-04-28 17:39:23.838 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_35,Average Line Current % RLA Starter 2B
-2016-04-28 17:39:23.838 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_36,Motor Current L1 % RLA Starter 2B
-2016-04-28 17:39:23.838 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_37,Motor Current L2 % RLA Starter 2B
-2016-04-28 17:39:23.839 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_38,Motor Current L3 % RLA Starter 2B
-2016-04-28 17:39:23.839 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_39,Motor Current L1 Starter 2B
-2016-04-28 17:39:23.839 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_40,Motor Current L2 Starter 2B
-2016-04-28 17:39:23.840 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_41,Motor Current L3 Starter 2B
-2016-04-28 17:39:23.840 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_42,Motor Voltage AB Starter 2B
-2016-04-28 17:39:23.840 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_43,Motor Voltage BC Starter 2B
-2016-04-28 17:39:23.841 INFO  - com.trane.display.utils.CSVutils: Motor,item_available_44,Motor Voltage CA Starter 2B
-2016-04-28 17:39:23.943 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:23.944 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:23.944 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:23.944 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:23.944 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:25.083 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:25.110 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:25.111 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:25.142 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:25.142 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:26.266 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:26.294 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:26.310 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:26.325 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:26.325 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:27.442 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:27.458 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:27.458 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:27.490 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:27.490 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:28.611 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:28.651 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:28.651 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:28.735 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:28.746 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:29.951 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:29.970 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:29.970 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:29.976 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:29.976 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:31.103 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:31.120 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:31.120 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:31.128 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:31.129 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:32.276 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:32.303 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:32.318 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:32.335 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:32.335 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:33.469 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:33.508 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:33.508 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:33.514 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:33.514 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:34.646 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:34.844 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:34.844 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:34.845 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:34.845 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:35.998 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:36.048 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:36.048 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:36.049 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:36.049 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:37.217 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:37.225 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:37.226 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:37.261 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:37.261 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:38.415 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:38.426 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:38.427 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:38.485 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:38.485 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:39.628 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:39.669 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:39.669 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:39.670 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:39.670 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:40.816 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:40.834 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:40.834 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:40.852 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:40.852 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:41.997 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:42.017 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:42.018 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:42.035 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:42.035 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:43.173 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:43.204 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:43.204 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:43.221 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:43.222 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:44.362 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:44.387 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:44.387 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:44.387 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:44.387 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:45.539 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:45.583 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:45.583 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:45.584 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:45.584 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:46.761 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:46.787 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:46.788 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:46.796 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:46.797 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:47.942 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:47.963 DEBUG - com.trane.display.utils.BaseActions: Click down button to get the next two items.
-2016-04-28 17:39:47.964 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:48.001 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_report_entries_available_down
-2016-04-28 17:39:48.001 INFO  - com.trane.display.utils.BaseActions: click btn_report_entries_available_down
-2016-04-28 17:39:49.112 INFO  - com.trane.display.utils.BaseActions: find element By id:report_entries_available_down
-2016-04-28 17:39:49.118 INFO  - com.trane.display.utils.TestNGListener: d_verifyCustomReportData--Test method success
-
-2016-04-28 17:39:49.125 INFO  - com.trane.display.utils.TestNGListener: Test Finish
+2016-04-29 09:38:58.046 INFO  - com.trane.display.utils.TestNGListener: Test Finish
 

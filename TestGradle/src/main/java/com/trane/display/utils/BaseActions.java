@@ -337,6 +337,7 @@ public class BaseActions
 
     public void openHomePage() throws Exception 
     {
+    	initLocatorMap();
     	driver.get("http://192.168.1.3/FS/root/UI_Medium/index.html");  
     	WebDriverWait wait = new WebDriverWait(driver,20); 
     	wait.until(ExpectedConditions.

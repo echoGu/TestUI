@@ -22,7 +22,6 @@ public class TestBaseConfig_4comps extends BaseActions
 	public void configure() throws Exception 
 	{
 //		configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
-		initLocatorMap();
 		openHomePage();
 	}
 	
