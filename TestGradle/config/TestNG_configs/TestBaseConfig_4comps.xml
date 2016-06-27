@@ -6,12 +6,6 @@
 				<methods>
 					<include name="a_navigateToServiceSettingsPage" />
 					<include name="b_verifyServiceSettingsData" />
-					<include name="c_navigateToEditCustomReportPage" />
-					<include name="d_verifyCustomReportData" />
-					<include name="e_navigateToLogSheetPage" />
-					<include name="f_verifyLogSheetData" />
-					<include name="g_navigateToEvapCkt1Page" />
-					<include name="h_verifyEvapCkt1Data" />
 				</methods>
 			</class>
 		</classes>

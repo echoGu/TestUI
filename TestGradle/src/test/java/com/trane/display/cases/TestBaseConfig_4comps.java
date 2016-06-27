@@ -13,49 +13,51 @@ import com.trane.display.utils.TestNGListener;
 @Listeners({TestNGListener.class })
 public class TestBaseConfig_4comps extends BaseActions
 {
-	private String localRequiredDevices = "UC800 - RTAF - Comp4 - BASE - RequiredDevices";
-	private String localConfigurationRecord = "UC800 - RTAF - Comp4 - BASE - ConfigurationRecord";
-	private String localNameplateRecord = "UC800 - RTAF - Comp4 - BASE - NameplateRecord";
-	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
+//	private String localRequiredDevices = "UC800 - RTAF - Comp4 - BASE - RequiredDevices";
+//	private String localConfigurationRecord = "UC800 - RTAF - Comp4 - BASE - ConfigurationRecord";
+//	private String localNameplateRecord = "UC800 - RTAF - Comp4 - BASE - NameplateRecord";
+//	private String localQuestionRecord = "UC800 - RTAF - Comp4 - BASE - QuestionRecord";
 	
-	@BeforeClass
-	public void configure() throws Exception 
-	{
+//	@BeforeClass
+//	public void configure() throws Exception 
+//	{
 //		configFTPfiles(localRequiredDevices, localConfigurationRecord, localNameplateRecord, localQuestionRecord);
+//		openHomePage();
+//	}
+	
+	@Test(description = "Navigate to Service Settings page")
+	public void a_navigateToServiceSettingsPage() throws Exception 
+	{
+//		configFTPfiles("localRequiredDevices", "localConfigurationRecord", "localNameplateRecord", "localQuestionRecord");
 		openHomePage();
+		clickVisibleDiv("Settings");
+		clickVisibleDiv("Chiller Settings");
+		clickVisibleDiv("Service Settings");
+		clickVisibleDiv("OK");
+		verifyText("Title", "Service Settings");
 	}
 	
-//	@Test(description = "Navigate to Service Settings page")
-//	public void a_navigateToServiceSettingsPage() throws Exception 
-//	{
-//		clickVisibleDiv("Settings");
-//		clickVisibleDiv("Chiller Settings");
-//		clickVisibleDiv("Service Settings");
-//		clickVisibleDiv("OK");
-//		verifyText("Title", "Service Settings");
-//	}
-//	
-//	@Test(description = "Verify Service Settings Data")
-//	public void b_verifyServiceSettingsData() throws Exception 
-//	{
-//		verifyAllData("BaseConfigServiceSettings");
-//	}
-//	
-	@Test(description = "Navigate to Edit Custom Report page")
-	public void c_navigateToEditCustomReportPage() throws Exception 
+	@Test(description = "Verify Service Settings Data")
+	public void b_verifyServiceSettingsData() throws Exception 
 	{
-		clickVisibleDiv("Reports");
-		clickVisibleDiv("Custom Report 1");
-		clickVisibleDiv("Edit");
-		verifyText("Title", "Edit Custom Report");
-		verifyText("SubTitle", "Custom Report 1");
+		verifyAllData("RTAFComp4GlycolServiceSettings");
 	}
 	
-	@Test(description = "Verify Custom Report Data")
-	public void d_verifyCustomReportData() throws Exception 
-	{
-		verifyAllCustomReportData("BaseConfigCustomReport");
-	}
+//	@Test(description = "Navigate to Edit Custom Report page")
+//	public void c_navigateToEditCustomReportPage() throws Exception 
+//	{
+//		clickVisibleDiv("Reports");
+//		clickVisibleDiv("Custom Report 1");
+//		clickVisibleDiv("Edit");
+//		verifyText("Title", "Edit Custom Report");
+//		verifyText("SubTitle", "Custom Report 1");
+//	}
+//	
+//	@Test(description = "Verify Custom Report Data")
+//	public void d_verifyCustomReportData() throws Exception 
+//	{
+//		verifyAllCustomReportData("BaseConfigCustomReport");
+//	}
 	
 //	@Test(description = "Navigate to Log Sheet page")
 //	public void e_navigateToLogSheetPage() throws Exception 

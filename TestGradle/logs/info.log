@@ -1,100 +1,244 @@
-2016-04-29 09:38:28.957 INFO  - com.trane.display.utils.TestNGListener: Test Start
+2016-06-13 11:07:18.986 INFO  - com.trane.display.utils.TestNGListener: Test Start
 
-2016-04-29 09:38:28.976 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
-2016-04-29 09:38:29.004 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.005 INFO  - com.trane.display.utils.XMLutils: get locator value: moveDown
-2016-04-29 09:38:29.005 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Down
-2016-04-29 09:38:29.005 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator value: moveUp
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Up
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_down
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_up
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
-2016-04-29 09:38:29.006 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: get locator value: group_name
-2016-04-29 09:38:29.007 INFO  - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'Title')]
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: locator Name is: Title
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'ubTitle')]
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: locator Name is: SubTitle
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'PageNum')]
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: locator Name is: PageNum
-2016-04-29 09:38:29.008 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
-2016-04-29 09:38:29.009 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'TotalPageNum')]
-2016-04-29 09:38:29.009 INFO  - com.trane.display.utils.XMLutils: locator Name is: TotalPageNum
-2016-04-29 09:38:35.974 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'Title')]
-2016-04-29 09:38:41.920 INFO  - com.trane.display.utils.BaseActions: Home Page is loaded successfully
-2016-04-29 09:38:55.244 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
-2016-04-29 09:38:55.278 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
-2016-04-29 09:38:55.299 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'TotalPageNum')]
-2016-04-29 09:38:55.313 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: TotalPageNum
-2016-04-29 09:38:55.324 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'TotalPageNum')]
-2016-04-29 09:38:55.337 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: TotalPageNum
-2016-04-29 09:38:55.350 INFO  - com.trane.display.utils.BaseActions: ready to verify 3 pages data. Please make sure your CSV file has the necessary data.
-2016-04-29 09:38:55.350 INFO  - com.trane.display.utils.BaseActions: ready to verify page 1.
-2016-04-29 09:38:55.350 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
-2016-04-29 09:38:55.357 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 1
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.BaseActions: on the expected page. Do noting.
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigEvap_Ckt1.csv
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R1C1,Active Chilled Water Setpoint
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R1C2,Evaporator Entering Water Temperature
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R1C3,Evaporator Leaving Water Temperature
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R2C1,Evaporator Water Pump Override
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R2C2,Evaporator Water Flow Status
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R2C3,Evaporator Approach Temperature Ckt1
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R3C1,Evaporator Refrigerant Pool Temp Ckt1
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R3C2,Evaporator Refrigerant Pressure Ckt1
-2016-04-29 09:38:55.392 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgSubcomponentReport_R3C3,Evaporator Saturated Rfgt Temp Ckt1
-2016-04-29 09:38:55.530 INFO  - com.trane.display.utils.BaseActions: ready to verify page 2.
-2016-04-29 09:38:55.530 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
-2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
-2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 1
-2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
-2016-04-29 09:38:55.531 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-29 09:38:55.534 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
-2016-04-29 09:38:55.535 INFO  - com.trane.display.utils.BaseActions: click btn_Down
-2016-04-29 09:38:56.594 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigEvap_Ckt1.csv
-2016-04-29 09:38:56.596 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R1C1,Oil Return Solenoid Valve Cprsr1A
-2016-04-29 09:38:56.597 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R1C2,Oil Return Solenoid Valve Cprsr1B
-2016-04-29 09:38:56.597 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R1C3,Blank
-2016-04-29 09:38:56.598 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R2C1,EXV Percent Open Ckt1
-2016-04-29 09:38:56.598 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R2C2,Blank
-2016-04-29 09:38:56.599 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R2C3,Blank
-2016-04-29 09:38:56.599 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R3C1,Evaporator Water Pump Running Time Pump 1
-2016-04-29 09:38:56.600 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R3C2,Evaporator Water Pump Running Time Pump 2
-2016-04-29 09:38:56.600 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgSubcomponentReport_R3C3,Blank
-2016-04-29 09:38:56.804 INFO  - com.trane.display.utils.BaseActions: ready to verify page 3.
-2016-04-29 09:38:56.804 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
-2016-04-29 09:38:56.804 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
-2016-04-29 09:38:56.805 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 2
-2016-04-29 09:38:56.805 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
-2016-04-29 09:38:56.805 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
-2016-04-29 09:38:56.806 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
-2016-04-29 09:38:56.806 INFO  - com.trane.display.utils.BaseActions: click btn_Down
-2016-04-29 09:38:57.869 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\BaseConfigEvap_Ckt1.csv
-2016-04-29 09:38:57.872 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R1C1,Free Cooling Capacity
-2016-04-29 09:38:57.873 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R1C2,Free Cooling Valve Percent Open
-2016-04-29 09:38:57.873 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R1C3,Free Cooling Bypass Valve Percent Open
-2016-04-29 09:38:57.873 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R2C1,Free Cooling Entering Water Temperature
-2016-04-29 09:38:57.874 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R2C2,Blank
-2016-04-29 09:38:57.875 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R2C3,Blank
-2016-04-29 09:38:57.875 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R3C1,Blank
-2016-04-29 09:38:57.875 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R3C2,Blank
-2016-04-29 09:38:57.876 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgSubcomponentReport_R3C3,Blank
-2016-04-29 09:38:58.044 INFO  - com.trane.display.utils.TestNGListener: f--Test method success
+2016-06-13 11:07:19.002 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\main\resources\com\trane\display\UIMaps\UIMap.xml
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: moveDown
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Down
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: moveUp
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_Up
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_down
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Down
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: report_group_up
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_group_Up
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_down
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_down
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: report_entries_available_up
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: btn_report_entries_available_up
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Id
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: group_name
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: txt_group_name
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'Title')]
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: Title
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: //div[contains(@id,'ubTitle')]
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: SubTitle
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'PageNum')]
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: PageNum
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator type: Xpath
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: get locator value: //span[contains(@id,'TotalPageNum')]
+2016-06-13 11:07:19.033 INFO  - com.trane.display.utils.XMLutils: locator Name is: TotalPageNum
+2016-06-13 11:07:26.625 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'Title')]
+2016-06-13 11:07:32.241 INFO  - com.trane.display.utils.BaseActions: Home Page is loaded successfully
+2016-06-13 11:07:47.763 INFO  - com.trane.display.utils.BaseActions: find element By xpath://div[contains(@id,'Title')]
+2016-06-13 11:07:47.779 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: Title
+2016-06-13 11:07:47.810 INFO  - com.trane.display.utils.TestNGListener: a_navigateToServiceSettingsPage--Test method success
 
-2016-04-29 09:38:58.046 INFO  - com.trane.display.utils.TestNGListener: Test Finish
+2016-06-13 11:07:47.810 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'TotalPageNum')]
+2016-06-13 11:07:47.826 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: TotalPageNum
+2016-06-13 11:07:47.841 INFO  - com.trane.display.utils.BaseActions: ready to verify 11 pages data. Please make sure your CSV file has the necessary data.
+2016-06-13 11:07:47.841 INFO  - com.trane.display.utils.BaseActions: ready to verify page 1.
+2016-06-13 11:07:47.841 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:47.857 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:47.873 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 1
+2016-06-13 11:07:47.873 INFO  - com.trane.display.utils.BaseActions: on the expected page. Do noting.
+2016-06-13 11:07:47.873 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R1C1,Chilled Water Control Feedforward Gain
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R1C2,Modulation Proportional Gain
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R1C3,Modulation Integral Time
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R2C1,Control Staging Time
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R2C2,Stage On Control Level
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R2C3,Stage Off Control Level
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R3C1,Demand Limit Startup Target
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R3C2,Demand Limit Softload Time
+2016-06-13 11:07:47.888 INFO  - com.trane.display.utils.CSVutils: 1,idLbl_pgStandardReport_R3C3,Capacity Control Softload Time
+2016-06-13 11:07:48.091 INFO  - com.trane.display.utils.BaseActions: ready to verify page 2.
+2016-06-13 11:07:48.091 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:48.091 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:48.107 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 1
+2016-06-13 11:07:48.107 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:48.107 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:48.122 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:48.122 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R1C1,Cooling Design Delta Temp (Waterside)
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R1C2,Limit Relay Filter Time
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R1C3,Head Relief Relay Filter Time
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R2C1,Chiller Service Enable
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R2C2,Compressor Service Enable
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R2C3,Evap Water Pump Service Enable
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R3C1,Service Recommended Messages
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R3C2,Operational Pumpdown Enable
+2016-06-13 11:07:49.214 INFO  - com.trane.display.utils.CSVutils: 2,idLbl_pgStandardReport_R3C3,Blank
+2016-06-13 11:07:49.386 INFO  - com.trane.display.utils.BaseActions: ready to verify page 3.
+2016-06-13 11:07:49.386 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:49.401 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:49.417 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 2
+2016-06-13 11:07:49.417 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:49.417 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:49.433 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:49.433 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R1C1,Local Atmospheric Pressure
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R1C2,Condenser Rfgt Tank Valve Open Delay
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R1C3,Blank
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R2C1,User Cmd Min Capacity Cprsr1A
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R2C2,User Cmd Min Capacity Delay Time Cprsr1A
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R2C3,Blank
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R3C1,User Cmd Min Capacity Cprsr1B
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R3C2,User Cmd Min Capacity Delay Time Cprsr1B
+2016-06-13 11:07:50.525 INFO  - com.trane.display.utils.CSVutils: 3,idLbl_pgStandardReport_R3C3,Blank
+2016-06-13 11:07:50.743 INFO  - com.trane.display.utils.BaseActions: ready to verify page 4.
+2016-06-13 11:07:50.743 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:50.759 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:50.774 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 3
+2016-06-13 11:07:50.774 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:50.774 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:50.774 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:50.774 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:51.866 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R1C1,User Cmd Min Capacity Cprsr2A
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R1C2,User Cmd Min Capacity Delay Time Cprsr2A
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R1C3,Blank
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R2C1,User Cmd Min Capacity Cprsr2B
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R2C2,User Cmd Min Capacity Delay Time Cprsr2B
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R2C3,Blank
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R3C1,High Evaporator Water Temp Cutout
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R3C2,Low Evaporator Water Temp Cutout
+2016-06-13 11:07:51.897 INFO  - com.trane.display.utils.CSVutils: 4,idLbl_pgStandardReport_R3C3,Low Refrigerant Temperature Cutout
+2016-06-13 11:07:52.038 INFO  - com.trane.display.utils.BaseActions: ready to verify page 5.
+2016-06-13 11:07:52.038 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:52.053 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:52.069 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 4
+2016-06-13 11:07:52.069 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:52.069 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:52.085 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:52.085 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R1C1,Evap Flow Overdue Wait Time
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R1C2,Evaporator Water Pump Speed Minimum
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R1C3,Evaporator Water Pump Speed Maximum
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R2C1,Evap Min Speed Water Pressure Gain
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R2C2,Evap Min Speed Water Pressure Reset Time
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R2C3,Evap Min Speed Water Pressure Deadband
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R3C1,Low Rfgt Temp Limit Proportional Gain
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R3C2,Low Rfgt Temp Limit Integral Time
+2016-06-13 11:07:53.177 INFO  - com.trane.display.utils.CSVutils: 5,idLbl_pgStandardReport_R3C3,Blank
+2016-06-13 11:07:53.395 INFO  - com.trane.display.utils.BaseActions: ready to verify page 6.
+2016-06-13 11:07:53.395 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:53.411 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:53.411 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 5
+2016-06-13 11:07:53.411 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:53.411 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:53.426 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:53.426 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R1C1,Variable Evap Water Flow Compensation
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R1C2,Blank
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R1C3,Blank
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R2C1,Evaporator Diff Water Pressure Offset
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R2C2,Hot Start Threshold Temperature
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R2C3,Blank
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R3C1,Water System Diff Water Pressure Gain
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R3C2,Water System Diff Water Press Reset Time
+2016-06-13 11:07:54.518 INFO  - com.trane.display.utils.CSVutils: 6,idLbl_pgStandardReport_R3C3,Blank
+2016-06-13 11:07:54.690 INFO  - com.trane.display.utils.BaseActions: ready to verify page 7.
+2016-06-13 11:07:54.690 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:54.690 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:54.721 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 6
+2016-06-13 11:07:54.721 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:54.721 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:54.737 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:54.737 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:55.813 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:55.907 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R1C1,Water System Diff Water Pressure Deadband
+2016-06-13 11:07:55.907 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R1C2,Water System Diff Water Pressure Offset
+2016-06-13 11:07:55.907 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R1C3,Blank
+2016-06-13 11:07:55.907 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R2C1,Free Cooling Rated Capacity
+2016-06-13 11:07:55.907 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R2C2,Free Cooling Valve Control Fan Speed
+2016-06-13 11:07:55.907 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R2C3,Blank
+2016-06-13 11:07:55.922 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R3C1,Low Glycol Temperature Cutout
+2016-06-13 11:07:55.922 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R3C2,Low Glycol Temp Limit Fan Prop Gain
+2016-06-13 11:07:55.922 INFO  - com.trane.display.utils.CSVutils: 7,idLbl_pgStandardReport_R3C3,Low Glycol Temp Limit Fan Reset Time
+2016-06-13 11:07:56.125 INFO  - com.trane.display.utils.BaseActions: ready to verify page 8.
+2016-06-13 11:07:56.125 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:56.141 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:56.141 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 7
+2016-06-13 11:07:56.141 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:56.141 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:56.156 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:56.156 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R1C1,Free Cooling Bypass Vlv Prestart Min Pos
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R1C2,Low Glycol Temp Limit Valve Prop Gain
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R1C3,Low Glycol Temp Limit Valve Reset Time
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R2C1,Air Coil Correction
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R2C2,Fan Control Feed Forward Gain
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R2C3,Damping Coefficient
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R3C1,Condenser Subcooling Integral Time
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R3C2,Condenser Subcooling Tracking Time
+2016-06-13 11:07:57.233 INFO  - com.trane.display.utils.CSVutils: 8,idLbl_pgStandardReport_R3C3,Condenser Subcooling Proportional Gain
+2016-06-13 11:07:57.406 INFO  - com.trane.display.utils.BaseActions: ready to verify page 9.
+2016-06-13 11:07:57.406 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:57.422 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:57.438 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 8
+2016-06-13 11:07:57.438 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:57.438 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:57.453 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:57.453 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R1C1,Condenser Pressure Limit Setpoint
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R1C2,HPC Limit Proportional Gain
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R1C3,HPC Limit Integral Time
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R2C1,Under/Over Voltage Protection Enable
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R2C2,Current Limit Ti
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R2C3,Current Limit Kp
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R3C1,Restart Inhibit Diagnostic
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R3C2,Restart Inhibit Free Starts
+2016-06-13 11:07:58.545 INFO  - com.trane.display.utils.CSVutils: 9,idLbl_pgStandardReport_R3C3,Restart Inhibit Start To Start Time
+2016-06-13 11:07:58.842 INFO  - com.trane.display.utils.BaseActions: ready to verify page 10.
+2016-06-13 11:07:58.842 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:07:58.842 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:07:58.857 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 9
+2016-06-13 11:07:58.857 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:07:58.857 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:07:58.873 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:07:58.873 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R1C1,Oil Return Limit Enable
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R1C2,Oil Return Valve Minimum On/Off Time
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R1C3,Blank
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R2C1,Economizer Superheat Setpoint
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R2C2,Economizer Superheat Proportional Gain
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R2C3,Economizer Superheat Reset Time
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R3C1,Low Disch Superheat Trip Setpt Cprsr1A
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R3C2,Low Disch Superheat Trip Setpt Cprsr1B
+2016-06-13 11:07:59.965 INFO  - com.trane.display.utils.CSVutils: 10,idLbl_pgStandardReport_R3C3,Blank
+2016-06-13 11:08:00.136 INFO  - com.trane.display.utils.BaseActions: ready to verify page 11.
+2016-06-13 11:08:00.136 INFO  - com.trane.display.utils.BaseActions: find element By xpath://span[contains(@id,'PageNum')]
+2016-06-13 11:08:00.152 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: PageNum
+2016-06-13 11:08:00.168 INFO  - com.trane.display.utils.BaseActions: currentPageNum: 10
+2016-06-13 11:08:00.168 INFO  - com.trane.display.utils.BaseActions: need click movedown button 1 times to get the expected page.
+2016-06-13 11:08:00.168 INFO  - com.trane.display.utils.BaseActions: find element By id:moveDown
+2016-06-13 11:08:00.183 INFO  - com.trane.display.utils.BaseActions: getElement method - get the WebElement by locatorName: btn_Down
+2016-06-13 11:08:00.183 INFO  - com.trane.display.utils.BaseActions: click btn_Down
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.BaseActions: D:\Git\TestGradle\src\test\resources\com\trane\display\cases\data\RTAFComp4GlycolServiceSettings.csv
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R1C1,Low Disch Superheat Trip Setpt Cprsr2A
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R1C2,Low Disch Superheat Trip Setpt Cprsr2B
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R1C3,Blank
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R2C1,Blank
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R2C2,Blank
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R2C3,Blank
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R3C1,Blank
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R3C2,Blank
+2016-06-13 11:08:01.275 INFO  - com.trane.display.utils.CSVutils: 11,idLbl_pgStandardReport_R3C3,Blank
+2016-06-13 11:08:01.447 INFO  - com.trane.display.utils.TestNGListener: b_verifyServiceSettingsData--Test method success
+
+2016-06-13 11:08:01.462 INFO  - com.trane.display.utils.TestNGListener: Test Finish
 
